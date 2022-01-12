@@ -3,9 +3,13 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14.x]
     steps:
       - uses: actions/checkout@v2
       - name: Install modules
-        run: yarn
+        run: |
+          npm install
       - name: Run ESLint
         run: eslint ./app --ext .js,.jsx,.ts,.tsx
