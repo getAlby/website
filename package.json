@@ -8,6 +8,7 @@
     "build:css": "tailwindcss -o ./app/tailwind.css",
     "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
     "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
+    "lint": "eslint ./app --ext .js,.jsx,.ts,.tsx",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
