@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   functions = "netlify/functions"
-  publish = "build"
+  publish = "public"
 
 [dev]
   command = "remix watch"
