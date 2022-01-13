@@ -1,10 +1,10 @@
 [build]
   functions = "netlify/functions"
-  publish = "public"
+  publish = "build"
 
 [dev]
   functions = "netlify/functions"
-  publish = "public"
+  publish = "build"
   port = 3000
 
 [[redirects]]
