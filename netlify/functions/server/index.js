@@ -1,5 +1,5 @@
-import { createRequestHandler } from "@remix-run/netlify";
+const { createRequestHandler } = require("@remix-run/netlify");
 
 exports.handler = createRequestHandler({
-	build: import("./build")
+	build: require("./build")
 });
