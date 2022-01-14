@@ -1,10 +1,10 @@
 import Lines from "../../public/images/lines.png";
-import Wallet from "../../public/images/wallet.png"
-import Waves from "../../public/images/waves.png"
-import Puzzle from "../../public/images/puzzle.png"
+import Wallet from "../../public/images/wallet.png";
+import Waves from "../../public/images/waves.png";
+import Puzzle from "../../public/images/puzzle.png";
 
 export default function Services() {
-
+    
     return(
         <div className="w-full bg-yellow-50 px-37 pt-41 pb-38">
             <div className="flex justify-center items-center space-x-21">
@@ -37,5 +37,5 @@ export default function Services() {
                 </div>
             </div>
         </div>    
-    )
+    );
 }
