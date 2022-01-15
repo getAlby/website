@@ -413,7 +413,8 @@ module.exports = {
 				"\"Courier New\"",
 				"monospace",
 			],
-			primary: ["\"Inter\"","sans-serif"]
+			primary: ["\"Inter\"", "sans-serif"],
+			secondary: ["\"Catamaran\"", "sans-serif"],
 		},
 		fontSize: {
 			xs: ["0.75rem", { lineHeight: "1rem" }],
