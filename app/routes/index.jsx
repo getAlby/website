@@ -1,5 +1,5 @@
 import Header from "~/components/Header";
-import Service from "~/components/Services"
+import Service from "~/components/Services";
 
 export default function Index() {
 	return (
