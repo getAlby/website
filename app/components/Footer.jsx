@@ -1,7 +1,6 @@
 import RightBee from "../../public/images/right-bee.svg";
 import LeftBee from "../../public/images/left-bee.svg";
 import ArrowIcon from "../../public/images/arrow-icon.svg";
-import DiamondFooter from "../../public/images/diamond-footer.svg";
 import TelegramLogo from "../../public/images/telegram.png";
 import TwitterLogo from "../../public/images/twitter.png";
 import GitHubLogo from "../../public/images/github.png";
@@ -9,10 +8,7 @@ import GitHubLogo from "../../public/images/github.png";
 function Footer() {
 	return (
 		<div className="bg-white z-10 pb-72 hover:cursor-pointer">
-			<div className="grid place-items-center mt-24 py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] relative bg-albyYellow-300 w-[85.76%] mx-auto">
-				<div className=" z-0 absolute max-h-[31.25rem] max-w-max w-full">
-					<img src={DiamondFooter} alt="Diamond Footer" className="w-full h-full" />
-				</div>
+			<div className="grid place-items-center mt-24 py-[8.75rem] bg-diamondFooter bg-repeat text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-300 w-[85.76%] mx-auto">
 				<div className="z-10">
 					<h2 className="w-[78%] mx-auto  font-primary text-3xl md:text-6xl md:leading-[4.6875rem] font-black relative">
           You don’t have a Lightning Address yet?

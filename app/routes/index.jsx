@@ -2,6 +2,7 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Service from "~/components/Services";
 import Payment from "~/components/Payment";
+import Wallet from "~/components/Wallet";
 
 export default function Index() {
 	return (
@@ -9,7 +10,8 @@ export default function Index() {
 			<Header />
 			<Service />
 			<Payment />
-			<Footer />
+			<Wallet />
+			<Footer />	
 		</div>
 	);
 }
