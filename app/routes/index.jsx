@@ -1,7 +1,11 @@
-import Services from "../components/Services"
+import Header from "~/components/Header";
+import Service from "~/components/Services"
 
 export default function Index() {
 	return (
-		<Services />
+		<div>
+			<Header />
+			<Service />
+		</div>
 	);
 }
