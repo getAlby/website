@@ -408,7 +408,7 @@ init_react();
 var import_remix2 = __toModule(require_remix());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-S6JNH2CM.css";
+var tailwind_default = "/build/_assets/tailwind-WKLCCJOS.css";
 
 // route-module:/home/ktscates/Desktop/Alby Project/website/app/root.jsx
 function links() {
