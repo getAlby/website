@@ -1,5 +1,5 @@
 {
-  "version": "2cbb690b",
+  "version": "ff446f45",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-GO54TKJF.js",
+      "module": "/build/routes/index-WCBQEKVI.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-2CBB690B.js"
+  "url": "/build/manifest-FF446F45.js"
 }
