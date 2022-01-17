@@ -10,7 +10,20 @@ import styles from "./tailwind.css";
 import extendStyles from "./styles/tailwind.css";
 
 export function links() {
-	return [{ rel: "stylesheet", href: styles }, { rel: "stylesheet", href: extendStyles }];
+	return [ {
+		rel: "preload",
+		href: "/images/diamond-wallet-layer.svg",
+		as: "image",
+		type: "image/svg+xml"
+	},
+	{
+		rel: "preload",
+		href: "/images/diamond-footer.svg",
+		as: "image",
+		type: "image/svg+xml"
+	},
+	{ rel: "stylesheet", href: styles },
+	{ rel: "stylesheet", href: extendStyles }];
 }
 
 export function meta() {

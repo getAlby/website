@@ -1,7 +1,7 @@
-import Code from "../../public/images/code.png";
-import Twitter from "../../public/images/twitter-illustration.png";
-import Youtube from "../../public/images/youtube-illustration.png";
-import Bitcoin from "../../public/images/bitcoin-illustration.png";
+import Code from "../../public/images/code.svg";
+import Twitter from "../../public/images/twitter-illustration.svg";
+import Youtube from "../../public/images/youtube-illustration.svg";
+import Bitcoin from "../../public/images/bitcoin-illustration.svg";
 
 export default function Payment() {
 	return (
@@ -40,7 +40,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className="xl:pt-20">
+				<div className="xl:pt-20 image-shadow">
 					<img src={Code} alt="code" />
 				</div>
 			</div>
@@ -64,7 +64,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="image-shadow">
 					<img className="" src={Twitter} alt="code" />
 				</div>
 			</div>
@@ -88,7 +88,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="image-shadow">
 					<img src={Youtube} alt="code" />
 				</div>
 			</div>
@@ -112,7 +112,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className="image-shadow">
 					<img src={Bitcoin} alt="code" />
 				</div>
 			</div>
