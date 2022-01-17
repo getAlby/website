@@ -12,7 +12,7 @@ export default function Services() {
                     <div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto">
                         <img className="absolute top-2.5 xl:w-13" src={Lines} alt="lines" />
                     </div>
-                    <p className="xl:text-2xl text-center">Use existing<br/> platforms</p>
+                    <p className="xl:text-2xl text-center">Use existing<br /> platforms</p>
                 </div>
                
                 <div className="space-y-2 block">
