@@ -18,14 +18,20 @@ export default function Payment() {
                             <div className="xl:text-3xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
                                 <p className="flex justify-center mt-2 xl:mt-0">1</p>
                             </div>
-                            <p className="xl:text-2xl xl:leading-8 font-normal">Add this in the HTML header section of your website: <b>&lt;meta name="lightning" content="you@lightning.address"&gt;</b>
-                            </p>
+                            <div className="xl:text-2xl xl:leading-8 font-normal">
+                                <p>Add this in the HTML header section of your website: 
+                                <br/><b>&lt;meta name="lightning" content="you@lightning.address"/&gt;</b>
+                                </p>
+                            </div>
                         </div>
                         <div className="flex gap-6">
                             <div className="xl:text-3xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-10 h-8 p-5">
                                 <p className="flex justify-center -mt-3 xl:mt-0">2</p>
                             </div>
-                            <p className="xl:text-2xl xl:leading-8 font-normal">Make sure to have an og:image meta tag: <b>&lt;meta property="og:image" content="https://www.youre.blog/YOUR_IMAGE"&gt;</b></p>
+                            <div className="xl:text-2xl xl:leading-8 font-normal">
+                                <p>Make sure to have an og:image meta tag:<br/><b>&lt;meta property="og:image" content="https://www.youre.blog/<br/>YOUR_IMAGE" /&gt;</b>
+                                </p>
+                            </div>
                         </div>
                         <div className="flex gap-6">
                             <div className="xl:text-3xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">

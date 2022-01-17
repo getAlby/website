@@ -1,5 +1,5 @@
 {
-  "version": "0f50003c",
+  "version": "cc5d1503",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-E5CWAMWK.js",
+      "module": "/build/routes/index-Z436XVQ3.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-0F50003C.js"
+  "url": "/build/manifest-CC5D1503.js"
 }
