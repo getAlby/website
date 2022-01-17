@@ -1,5 +1,5 @@
 {
-  "version": "ff446f45",
+  "version": "0f50003c",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-WCBQEKVI.js",
+      "module": "/build/routes/index-E5CWAMWK.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-FF446F45.js"
+  "url": "/build/manifest-0F50003C.js"
 }
