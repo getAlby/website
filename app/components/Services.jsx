@@ -19,7 +19,7 @@ export default function Services() {
                     <div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto">
                         <img className="absolute top-1.5 xl:w-12" src={Wallet} alt="wallet" />
                     </div>
-                    <p className="xl:text-2xl text-center">Receive payments<br/> directly</p>
+                    <p className="xl:text-2xl text-center">Receive payments<br /> directly</p>
                 </div>
 
                 <div className="space-y-2 block">
