@@ -9,8 +9,8 @@ export default function Index() {
 		<div>
 			<Header />
 			<Service />
-			<Wallet />
 			<Payment />
+			<Wallet />
 			<Footer />	
 		</div>
 	);
