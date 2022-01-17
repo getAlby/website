@@ -468,149 +468,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.grid {
+  display: grid;
 }
 
-.relative {
-  position: relative;
+.h-screen {
+  height: 100vh;
 }
 
-.top-2\.5 {
-  top: 0.625rem;
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-1\.5 {
-  top: 0.375rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.-top-2 {
-  top: -0.5rem;
-}
-
-.-top-10 {
-  top: -2.5rem;
-}
-
-.-mb-5 {
-  margin-bottom: -1.25rem;
-}
-
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-12\.5 {
-  height: 3.125rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-13\.5 {
-  height: 3.442rem;
-}
-
-.h-13 {
-  height: 3.328rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-12\.5 {
-  width: 3.125rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-13 {
-  width: 3.328rem;
-}
-
-.w-14\.5 {
-  width: 3.513rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-13\.5 {
-  width: 3.442rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.bg-yellow-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.p-24 {
-  padding: 6rem;
+.place-items-center {
+  place-items: center;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
