@@ -7,13 +7,14 @@ import {
 	ScrollRestoration
 } from "remix";
 import styles from "./tailwind.css";
+import extendStyles from "./styles/tailwind.css";
 
 export function links() {
-	return [{ rel: "stylesheet", href: styles }];
+	return [{ rel: "stylesheet", href: styles }, { rel: "stylesheet", href: extendStyles }];
 }
 
 export function meta() {
-	return { title: "New Remix App" };
+	return { title: "Get Alby" };
 }
 
 export default function App() {
