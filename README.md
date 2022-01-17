@@ -5,10 +5,18 @@
 ## Development
 
 From your terminal:
+```sh
+npm install
+```
+
+```sh
+npm install netlify-cli
+```
 
 ```sh
 npm run dev
 ```
+Port 3000 needs to be available.
 
 This starts your app in development mode, rebuilding assets on file changes.
 
