@@ -28,9 +28,9 @@ function Footer() {
           Alby is open-source and currently in alpha stage. Our goal is to create the best online experience to consume and reward content and services online.
 					</p>
 					<div className="flex items-end gap-5 justify-center pt-10">
-						<img src={TelegramLogo} alt="Telegram Logo" className=" lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem] mb-4" />
-						<img src={TwitterLogo} alt="Twitter Logo" className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4" />
-						<img src={GitHubLogo} alt="GitHub Logo" className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4" />
+						<img src={TwitterLogo} alt="Twitter Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
+						<img src={TelegramLogo} alt="Telegram Logo" className=" w-[1.875rem] h-[1.875rem] mb-4" />
+						<img src={GitHubLogo} alt="GitHub Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
 					</div>
 				</div>
 			</div>
