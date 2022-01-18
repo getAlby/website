@@ -14,9 +14,9 @@ function Header() {
 						<img src={Logo} alt="Logo" className="w-auto lg:h-[3.75rem] h-[2.75rem]" />
 					</div>
 					<div className="flex items-end gap-5 justify-between">
-						<img src={TelegramLogo} alt="Telegram Logo" className=" lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem] mb-4" />
-						<img src={TwitterLogo} alt="Twitter Logo" className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4" />
-						<img src={GitHubLogo} alt="GitHub Logo" className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4" />
+						<img src={TwitterLogo} alt="Twitter Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
+						<img src={TelegramLogo} alt="Telegram Logo" className=" w-[1.875rem] h-[1.875rem] mb-4" />
+						<img src={GitHubLogo} alt="GitHub Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
 						<button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary hidden lg:inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
 							Add To Chrome
 						</button>
