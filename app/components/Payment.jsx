@@ -19,7 +19,7 @@ export default function Payment() {
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
 								<p>Add this in the HTML header section of your website: 
-									<b> &lt;meta name=&quot;lightning&quot; content=&quot;you@lightning.address&quot;/&gt;</b>
+									<br/><b className="break-all"> &lt;meta name=&quot;lightning&quot; content=&quot;you@lightning.address&quot;/&gt;</b>
 								</p>
 							</div>
 						</div>
@@ -28,7 +28,7 @@ export default function Payment() {
 								<p className="flex justify-center -mt-3 xl:mt-0">2</p>
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
-								<p>Make sure to have an og:image meta tag:<br/><b>&lt;meta property=&quot;og:image&quot; content=&quot;https://www.youre.blog/YOUR_IMAGE&quot; /&gt;</b>
+								<p>Make sure to have an og:image meta tag: <br/><b className="break-all">&lt;meta property=&quot;og:image&quot; content=&quot;https://www.youre.blog/YOUR_IMAGE&quot; /&gt;</b>
 								</p>
 							</div>
 						</div>
@@ -99,7 +99,7 @@ export default function Payment() {
 				</div>
 			</div>
 
-			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5">
+			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 pb-10">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Bitcoin TV</h3>
 					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on BitcoinTV</p>

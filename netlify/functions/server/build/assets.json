@@ -1,5 +1,5 @@
 {
-  "version": "bdd90b3c",
+  "version": "a2b8d87c",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-QFACEM5E.js",
+      "module": "/build/routes/index-2NHHTCMO.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-BDD90B3C.js"
+  "url": "/build/manifest-A2B8D87C.js"
 }
