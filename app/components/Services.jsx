@@ -7,7 +7,7 @@ export default function Services() {
     
 	return(
 		<div className="xl:w-full py-12 bg-albyWarmGray-50 xl:px-37 xl:pt-41 xl:pb-38">
-			<div className="xl:flex xl:justify-center xl:items-center xl:space-x-21 space-y-5 xl:space-y-0 mx-auto">
+			<div className="xl:flex xl:justify-center xl:items-center xl:space-x-21 space-y-10 xl:space-y-0 mx-auto">
 				<div className="xl:flex xl:space-x-21 grid grid-cols-2">
 					<div className="space-y-2 block">
 						<div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto">
