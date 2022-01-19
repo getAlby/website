@@ -6,7 +6,7 @@ import Bitcoin from "../../public/images/bitcoin-illustration.svg";
 export default function Payment() {
 	return (
 		<div className="xl:pt-40.5 pt-20 xl:px-17">
-			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiveing payments on<br /> existing platforms</h1>
+			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiving payments<br /> made simple</h1>
 
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
