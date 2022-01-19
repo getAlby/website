@@ -1,5 +1,5 @@
 {
-  "version": "366f521b",
+  "version": "956c6443",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-OHZNT3DN.js",
+      "module": "/build/routes/index-D5D7XV6T.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-366F521B.js"
+  "url": "/build/manifest-956C6443.js"
 }
