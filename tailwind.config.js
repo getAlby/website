@@ -48,7 +48,8 @@ module.exports = {
 				200: "#E2E3E4",
 				100: "#F1F1F1",
 				50: "#F9F9F9",
-				25: "#FDFDFD"
+				25: "#FDFDFD",
+				20: "#707070"
 			},
 			albyWarmGray: {
 				800: "#2A2A2A",

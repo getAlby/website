@@ -28,7 +28,7 @@ export default function Payment() {
 								<p className="flex justify-center -mt-3 xl:mt-0">2</p>
 							</div>
 							<div className="xl:text-2xl xl:leading-8 font-normal">
-								<p>Make sure to have an og:image meta tag:<br/><b>&lt;meta property=&quot;og:image&quot; content=&quot;https://www.youre.blog/<br/>YOUR_IMAGE&quot; /&gt;</b>
+								<p>Make sure to have an og:image meta tag:<br/><b>&lt;meta property=&quot;og:image&quot; content=&quot;https://www.youre.blog/YOUR_IMAGE&quot; /&gt;</b>
 								</p>
 							</div>
 						</div>
