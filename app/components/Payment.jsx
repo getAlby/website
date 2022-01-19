@@ -10,8 +10,8 @@ export default function Payment() {
 
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Your own Website</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">Receive payments by adding a meta tag to your website</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Own Website</h3>
+					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
@@ -48,7 +48,7 @@ export default function Payment() {
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Twitter</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on Twitter</p>
+					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
