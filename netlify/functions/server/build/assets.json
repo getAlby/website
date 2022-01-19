@@ -1,5 +1,5 @@
 {
-  "version": "7c57223b",
+  "version": "5c8b99e7",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-WOJU4BKL.js",
+      "module": "/build/routes/index-NXH4BIDH.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-7C57223B.js"
+  "url": "/build/manifest-5C8B99E7.js"
 }
