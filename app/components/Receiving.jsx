@@ -5,7 +5,7 @@ import Youtube from "../../public/images/youtube.svg";
 export default function Receiving() {
 	return (
 		<div className="xl:pt-40.5 pt-20 xl:px-17">
-			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiveing payments on<br /> existing platforms</h1>
+			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiving payments on<br /> existing platforms</h1>
 
 			<div className="xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
 				<div className="2xl:ml-14 xl:ml-14 space-y-3 xl:space-y-3">

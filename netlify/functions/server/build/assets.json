@@ -1,5 +1,5 @@
 {
-  "version": "aa763999",
+  "version": "7095d2e3",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-7URE6RZM.js",
+      "module": "/build/routes/index-IT7ASDFE.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-AA763999.js"
+  "url": "/build/manifest-7095D2E3.js"
 }
