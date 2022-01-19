@@ -7,39 +7,39 @@ export default function Receiving() {
 		<div className="xl:pt-40.5 pt-20 xl:px-17">
 			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiveing payments on<br /> existing platforms</h1>
 
-			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
-				<div className="xl:ml-17 space-y-3">
+			<div className="xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
+				<div className="2xl:ml-14 xl:ml-14 space-y-3 xl:space-y-3">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black text-2xl">Your own Website</h3>
 					<p className="2xl:text-2xl font-normal text-lg text-albyColdGray-20">Receive payments by adding a meta tag to your website</p>
 					<button className="text-albyColdGray-800 2xl:text-2xl font-bold rounded-full">Try it now ›
 					</button>
 				</div>
 				<div className="image-shadow">
-					<img src={Code} className="" alt="code" />
+					<img src={Code} alt="code" />
 				</div>
 			</div>
 
-			<div className="xl:px-17 xl:grid xl:grid-cols-2 px-5 place-items-center">
-				<div className="xl:ml-17 space-y-3">
+			<div className=" xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
+				<div className="2xl:ml-32 xl:ml-17 space-y-3 xl:space-y-3">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black text-2xl">Twitter</h3>
 					<p className="2xl:text-2xl font-normal text-lg text-albyColdGray-20">Receive tips on Twitter by adding a Lightning address to your profile</p>
 					<button className="text-albyColdGray-800 2xl:text-2xl font-bold rounded-full">Try it now ›
 					</button>
 				</div>
 				<div className="image-shadow">
-					<img src={Twitter} className="" alt="code" />
+					<img src={Twitter} alt="code" />
 				</div>
 			</div>
 
-			<div className="xl:px-17 xl:grid xl:grid-cols-2 px-5 place-items-center">
-				<div className="xl:ml-17 space-y-3">
+			<div className="xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
+				<div className="2xl:ml-32 xl:ml-17 space-y-3 xl:space-y-3">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black text-2xl">Youtube and BitcoinTV</h3>
 					<p className="2xl:text-2xl font-normal text-lg text-albyColdGray-20">Receive contributions on video platforms such as YouTube or Bitcoin TV </p>
 					<button className="text-albyColdGray-800 2xl:text-2xl font-bold rounded-full">Try it now ›
 					</button>
 				</div>
 				<div className="image-shadow">
-					<img src={Youtube} className="" alt="code" />
+					<img src={Youtube} alt="code" />
 				</div>
 			</div>
 			
