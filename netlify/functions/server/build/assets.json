@@ -1,5 +1,5 @@
 {
-  "version": "e2c11dad",
+  "version": "85d2afe5",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-OMGZ3DWL.js",
+      "module": "/build/routes/index-2LF5BIKO.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E2C11DAD.js"
+  "url": "/build/manifest-85D2AFE5.js"
 }
