@@ -10,8 +10,8 @@ export default function Payment() {
 
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Own Website</h3>
-					<p className="2xl:text-2xl font-semibold text-xl">How to receive contributions on your website</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Your own Website</h3>
+					<p className="2xl:text-2xl font-semibold text-xl">Receive payments by adding a meta tag to your website</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
@@ -48,7 +48,7 @@ export default function Payment() {
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Twitter</h3>
-					<p className="2xl:text-2xl font-semibold text-xl">How to receive contributions on your website</p>
+					<p className="2xl:text-2xl font-semibold text-xl">Receive tips on Twitter by adding a Lightning address to your profile</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
@@ -75,7 +75,7 @@ export default function Payment() {
 			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">YouTube</h3>
-					<p className="2xl:text-2xl font-semibold text-xl">How to receive contributions on YouTube</p>
+					<p className="2xl:text-2xl font-semibold text-xl">Receive contributions on YouTube by adding a Lightning address to your video description</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
@@ -99,10 +99,10 @@ export default function Payment() {
 				</div>
 			</div>
 
-			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 pb-10">
+			<div className="xl:px-17 xl:grid xl:grid-cols-2 pt-10 px-5 pb-20">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
 					<h3 className="2xl:text-4xl xl:leading-10 font-black xl:pt-42 text-2xl">Bitcoin TV</h3>
-					<p className="2xl:text-2xl font-semibold text-xl">How to receive contributions on BitcoinTV</p>
+					<p className="2xl:text-2xl font-semibold text-xl">Receive tips on Bitcoin TV by adding a Lightning address to your video description</p>
 					<div className="flex flex-col space-y-9">
 						<div className="flex gap-6">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
