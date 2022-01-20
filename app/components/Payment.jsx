@@ -40,7 +40,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className="2xl:pt-20 xl:pt-20 image-shadow">
+				<div className="2xl:pt-40 xl:pt-28 image-shadow">
 					<img src={Code} className="" alt="code" />
 				</div>
 			</div>
