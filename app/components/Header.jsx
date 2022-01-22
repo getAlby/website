@@ -1,9 +1,6 @@
-import Logo from "../../public/images/logo.png";
+import Logo from "../../public/images/Logo.svg";
 import HeaderIllustration from "../../public/images/header-illustration.svg";
-import TelegramLogo from "../../public/images/telegram.png";
-import TwitterLogo from "../../public/images/twitter.png";
-import GitHubLogo from "../../public/images/github.png";
-import CallToActionLogo from "../../public/images/call-to-action.svg";
+
 
 function Header() {
 	return (
@@ -14,11 +11,8 @@ function Header() {
 						<img src={Logo} alt="Logo" className="w-auto lg:h-[3.75rem] h-[2.75rem]" />
 					</div>
 					<div className="flex items-end gap-5 justify-between">
-						<img src={TwitterLogo} alt="Twitter Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
-						<img src={TelegramLogo} alt="Telegram Logo" className=" w-[1.875rem] h-[1.875rem] mb-4" />
-						<img src={GitHubLogo} alt="GitHub Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
-						<button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary hidden lg:inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
-							Add To Chrome
+						<button className="bg-transparent text-albyWarmGray-800 border-2 border-solid border-albyWarmGray-800 font-primary  lg:inline-block text-lg lg:leading-[1.75rem] font-semibold py-2 px-5 rounded-[30px]">
+							Add to Chrome
 						</button>
 
 					</div>
@@ -31,7 +25,6 @@ function Header() {
 						<p className="lg:text-2xl text-xl font-normal pt-9">
               Use a Lightning Address to receive value for value payments in Bitcoin from your audience 
 						</p>
-						<img src={CallToActionLogo} alt="Call to Action" className=" pt-9 hidden lg:block" />
 					</div>
 					<div className="pt-10 lg:pt-40 ">
 						<img src={HeaderIllustration} alt="Header Illustration" className="w-[42vw] mx-auto min-w-[19rem] h-auto" />
