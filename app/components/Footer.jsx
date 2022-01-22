@@ -1,37 +1,41 @@
 import RightBee from "../../public/images/right-bee.svg";
 import LeftBee from "../../public/images/left-bee.svg";
-import ArrowIcon from "../../public/images/arrow-icon.svg";
-import TelegramLogo from "../../public/images/telegram.png";
-import TwitterLogo from "../../public/images/twitter.png";
-import GitHubLogo from "../../public/images/github.png";
+import ArrowIcon from "../../public/images/pointer.svg";
+import TelegramLogo from "../../public/images/Telegram.svg";
+import TwitterLogo from "../../public/images/Twitter.svg";
+import GitHubLogo from "../../public/images/GitHub.svg";
 
 function Footer() {
 	return (
-		<div className="bg-white z-10 pb-72 hover:cursor-pointer">
-			<div className="grid place-items-center mt-24 py-[8.75rem] bg-diamondFooter bg-repeat text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-300 w-[85.76%] mx-auto">
+		<div className="bg-white z-10 ">
+			<div className="grid place-items-center hover:cursor-pointer mt-24 py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-50 w-[85.76%] mx-auto">
 				<div className="z-10">
 					<h2 className="w-[78%] mx-auto  font-primary text-3xl md:text-6xl md:leading-[4.6875rem] font-black relative">
           You don’t have a Lightning Address yet?
-						<span className="absolute top-1/2 md:top-3/4 right-0 lg:right-1/4"> <img src={ArrowIcon} /></span>
+						<span className="absolute top-1/2 md:top-[82%] right-0 lg:right-1/4"> <img src={ArrowIcon} /></span>
 					</h2>
-					<p className=" pt-10 font-primary text-xl md:text-2xl md:leading-[1.875rem] font-medium relative">Find more information here</p>
+					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-4 px-16 rounded-[1.875rem] mt-4">
+          Label
+					</button>
 					<img src={RightBee} alt="Right Bee" className="w-auto mx-auto absolute bottom-[8%] left-[70%] md:left-[85%]" />
 					<img src={LeftBee} alt="Left Bee" className="w-auto mx-auto absolute bottom-[14%] left-[82%] md:left-[92%]" />
 				</div>
 			</div>
-			<div className="grid place-items-end pt-48">
+			<div className="grid place-items-end bg-albyYellow-300 py-32 mt-32">
 				<h3 className="w-11/12 text-center md:w-full font-primary font-bold text-2xl md:text-5xl mx-auto">
           Do you have feedback or need help?
 				</h3>
 				<div className="md:w-[52.84%] w-11/12 mx-auto pt-8 text-center">
-					<p className=" font-primary font-normal text-lg md:text-2xl leading-[2.25rem] text-[#707070]">
+					<p className=" font-primary font-normal text-lg md:text-2xl leading-[2.25rem] text-albyColdGray-800">
           Alby is open-source and currently in alpha stage. Our goal is to create the best online experience to consume and reward content and services online.
+We love to hear from you. File a <span className="underline"> Github issue </span> or join the <span className="underline"> Telegram channel</span>.
 					</p>
 					<div className="flex items-end gap-5 justify-center pt-10">
-						<img src={TwitterLogo} alt="Twitter Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
-						<img src={TelegramLogo} alt="Telegram Logo" className=" w-[1.875rem] h-[1.875rem] mb-4" />
-						<img src={GitHubLogo} alt="GitHub Logo" className="w-[1.875rem] h-[1.875rem]  mb-4" />
+						<img src={TwitterLogo} alt="Twitter Logo" className="  mb-4" />
+						<img src={TelegramLogo} alt="Telegram Logo" className="  mb-4" />
+						<img src={GitHubLogo} alt="GitHub Logo" className="  mb-4" />
 					</div>
+					<p className="text-center text-2xl font-primary underline pt-5">Privacy Policy</p>
 				</div>
 			</div>
 		</div>
