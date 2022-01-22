@@ -1,40 +1,40 @@
-import Lines from "../../public/images/lines.png";
-import Wallet from "../../public/images/wallet.png";
-import Waves from "../../public/images/waves.png";
-import Puzzle from "../../public/images/puzzle.png";
+import Lines from "../../public/images/lines.svg";
+import Wallet from "../../public/images/wallet.svg";
+import Waves from "../../public/images/waves.svg";
+import Puzzle from "../../public/images/puzzle.svg";
 
 export default function Services() {
     
 	return(
-		<div className="xl:w-full py-12 bg-albyWarmGray-50 xl:px-37 xl:pt-41 xl:pb-38">
+		<div className="xl:w-full py-12 bg-albyYellow-50 xl:px-37 xl:pt-41 xl:pb-38">
 			<div className="xl:flex xl:justify-center xl:items-center xl:space-x-21 space-y-10 xl:space-y-0 mx-auto">
 				<div className="xl:flex xl:space-x-21 grid grid-cols-2">
-					<div className="space-y-2 block">
-						<div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto">
-							<img className="absolute top-2.5 xl:w-13" src={Lines} alt="lines" />
+					<div className="space-y-2 grid place-items-center">
+						<div className="">
+							<img className="" src={Lines} alt="lines" />
 						</div>
 						<p className="xl:text-2xl text-center">Use existing <br/>platforms</p>
 					</div>
                
-					<div className="space-y-2 block">
-						<div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto">
-							<img className="absolute top-1.5 xl:w-12" src={Wallet} alt="wallet" />
+					<div className="space-y-2 grid place-items-center">
+						<div className="">
+							<img className="" src={Wallet} alt="wallet" />
 						</div>
 						<p className="xl:text-2xl text-center">Receive payments<br/> directly</p>
 					</div>
 				</div>
 
 				<div className="xl:flex xl:space-x-21 grid grid-cols-2">
-					<div className="space-y-2 block">
-						<div className="relative bg-albyYellow-200 rounded-full w-13.5 h-12.5 mx-auto xl:mt-8">
-							<img className="absolute top-1.5 xl:w-14.5" src={Waves} alt="waves" />
+					<div className="space-y-2 grid place-items-center">
+						<div className=" xl:mt-8">
+							<img className="" src={Waves} alt="waves" />
 						</div>
 						<p className="xl:text-2xl text-center">Non-intrusive and<br/> frictionless for your<br/> audience</p>
 					</div>
 
-					<div className="space-y-2 block mr-2.5">
-						<div className="relative bg-albyYellow-200 rounded-full w-12.5 h-12.5 mx-auto xl:mt-8">
-							<img className="absolute -mt-1.5 ml-1 xl:w-11" src={Puzzle} alt="puzzle" />
+					<div className="space-y-2 grid place-items-center mr-2.5">
+						<div className=" xl:mt-8">
+							<img className="" src={Puzzle} alt="puzzle" />
 						</div>
 						<p className="xl:text-2xl text-center">Simple integration;<br/> no coding skills<br/> needed</p>
 					</div>
