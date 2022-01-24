@@ -15,7 +15,7 @@ function Footer() {
 						<span className="absolute top-1/2 md:top-[82%] right-0 lg:right-1/4"> <img src={ArrowIcon} /></span>
 					</h2>
 					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-4 px-16 rounded-[1.875rem] mt-4">
-          Label
+          Learn more
 					</button>
 					<img src={RightBee} alt="Right Bee" className="w-auto mx-auto absolute bottom-[8%] left-[70%] md:left-[85%]" />
 					<img src={LeftBee} alt="Left Bee" className="w-auto mx-auto absolute bottom-[14%] left-[82%] md:left-[92%]" />

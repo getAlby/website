@@ -18,7 +18,7 @@ export default function Payment() {
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
-								<p>Add this in the HTML header section of your website: 
+								<p>Add this in the HTML header section of your website:
 									<br/><b className="break-all"> &lt;meta name=&quot;lightning&quot; content=&quot;you@lightning.address&quot;/&gt;</b>
 								</p>
 							</div>
@@ -55,7 +55,7 @@ export default function Payment() {
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
-								<p>Add this in the description of your Twtter profile : <b>⚡you@lightning.address</b>
+								<p>Add this in the description of your Twtter profile: <b>⚡you@lightning.address</b>
 								</p>
 							</div>
 						</div>
@@ -82,7 +82,7 @@ export default function Payment() {
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
-								<p>Add this in the description of a video in your YouTube channel : <b>⚡you@lightning.address</b>
+								<p>Add this in the description of a video in your YouTube channel: <b>⚡you@lightning.address</b>
 								</p>
 							</div>
 						</div>
@@ -109,7 +109,7 @@ export default function Payment() {
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
 							<div className="2xl:text-2xl 2xl:leading-8 font-normal xl:text-md">
-								<p>Add this in the description of a video in your BitcoinTV channel : <b>⚡you@lightning.address</b>
+								<p>Add this in the description of a video in your BitcoinTV channel: <b>⚡you@lightning.address</b>
 								</p>
 							</div>
 						</div>
