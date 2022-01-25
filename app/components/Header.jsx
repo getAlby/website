@@ -1,5 +1,8 @@
 import Logo from "../../public/images/Logo.svg";
 import HeaderIllustration from "../../public/images/header-illustration.svg";
+import BelowButtonIllustration from "../../public/images/button-below.svg";
+import BelowHeaderIllustration from "../../public/images/header-below.svg";
+import GroupDiamond from "../../public/images/group-diamond.svg";
 
 
 function Header() {
@@ -10,11 +13,11 @@ function Header() {
 					<div>
 						<img src={Logo} alt="Logo" className="w-auto lg:h-[3.75rem] h-[2.75rem]" />
 					</div>
-					<div className="flex items-end gap-5 justify-between">
+					<div className="flex items-end gap-5 justify-between relative">
 						<button className="bg-transparent text-albyWarmGray-800 border-2 border-solid border-albyWarmGray-800 font-primary  lg:inline-block text-sm md:text-lg lg:leading-[1.75rem] font-semibold py-2 lg:py-4 px-3 lg:px-6 rounded-[30px]">
 							Install Alby
 						</button>
-
+						<img src={BelowButtonIllustration} alt="Below Button Illustration" className="absolute w-auto hidden lg:inline-block left-[80%] top-[67%]" />
 					</div>
 				</div>
 				<div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-primary pt-[6.5rem] lg:pt-0">
@@ -26,11 +29,13 @@ function Header() {
               Use a Lightning Address to receive value for value payments in Bitcoin from your audience 
 						</p>
 					</div>
-					<div className="pt-10 lg:pt-40 ">
-						<img src={HeaderIllustration} alt="Header Illustration" className="w-[42vw] mx-auto min-w-[19rem] h-auto" />
+					<div className="pt-10 lg:pt-40">
+						<img src={HeaderIllustration} alt="Header Illustration" className="w-[42vw] mx-auto min-w-[19rem] h-auto z-10 relative" />
+						<img src={BelowHeaderIllustration} alt="Below Header Illustration" className="absolute w-auto hidden lg:inline-block left-[88%] top-[72%] z-0" />
 					</div>
 				</div>
 			</div>
+			<img src={GroupDiamond} alt="Group Diamond" className="absolute w-auto  left-0 bottom-0 z-0 hidden lg:inline-block" />
 		</div>
 	);
 }
