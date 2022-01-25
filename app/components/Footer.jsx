@@ -8,31 +8,31 @@ import GitHubLogo from "../../public/images/GitHub.svg";
 function Footer() {
 	return (
 		<div className="bg-white z-10 ">
-			<div className="grid place-items-center hover:cursor-pointer mt-24 py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-50 w-[85.76%] mx-auto">
+			<div className="grid place-items-center hover:cursor-pointer mt-4 lg:mt-24 py-8 lg:py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-50 w-[91.46%] lg:w-[85.76%] mx-auto">
 				<div className="z-10">
 					<h2 className="w-[78%] mx-auto  font-primary text-3xl md:text-6xl md:leading-[4.6875rem] font-black relative">
             You don’t have a Lightning Address yet?
-						<span className="absolute top-1/2 md:top-[82%] right-0 lg:right-1/4">
+						<span className="absolute top-1/2 md:top-[82%] right-0 lg:right-[27.5%] hidden lg:inline-block">
 							{" "}
 							<img src={ArrowIcon} />
 						</span>
 					</h2>
-					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-4 px-16 rounded-[1.875rem] mt-4">
+					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
             Learn more
 					</button>
 					<img
 						src={RightBee}
 						alt="Right Bee"
-						className="w-auto mx-auto absolute bottom-[8%] left-[70%] md:left-[85%]"
+						className="w-auto mx-auto absolute bottom-[8%] left-[70%] md:left-[85%] hidden md:block"
 					/>
 					<img
 						src={LeftBee}
 						alt="Left Bee"
-						className="w-auto mx-auto absolute bottom-[14%] left-[82%] md:left-[92%]"
+						className="w-auto mx-auto absolute bottom-[14%] left-[82%] md:left-[91%] hidden md:block"
 					/>
 				</div>
 			</div>
-			<div className="grid place-items-end bg-albyYellow-300 py-32 mt-32">
+			<div className="grid place-items-end bg-albyYellow-300 py-14 lg:py-32 mt-4 lg:mt-32">
 				<h3 className="w-11/12 text-center md:w-full font-primary font-bold text-2xl md:text-5xl mx-auto">
           Do you have feedback or need help?
 				</h3>
@@ -59,22 +59,22 @@ function Footer() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={TwitterLogo} alt="Twitter Logo" className="mb-4" />
+							<img src={TwitterLogo} alt="Twitter Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
 						</a>
 						<a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
-							<img src={TelegramLogo} alt="Telegram Logo" className="mb-4" />
+							<img src={TelegramLogo} alt="Telegram Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
 						</a>
 						<a
 							href="https://github.com/getAlby"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={GitHubLogo} alt="GitHub Logo" className="mb-4" />
+							<img src={GitHubLogo} alt="GitHub Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
 						</a>
 					</div>
 					<a
 						href="https://getalby.com/privacy-policy"
-						className="text-center text-2xl font-primary underline pt-5"
+						className="text-center lg:text-2xl text-base font-primary underline pt-5"
 					>
             Privacy Policy
 					</a>
