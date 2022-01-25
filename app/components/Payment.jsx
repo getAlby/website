@@ -1,19 +1,23 @@
 import Code from "../../public/images/code.svg";
+import CodeMobile from "../../public/images/code-mobile.svg";
 import Twitter from "../../public/images/twitter-illustration.svg";
+import TwitterMobile from "../../public/images/twitter-mobile.svg";
 import Youtube from "../../public/images/youtube-illustration.svg";
+import YoutubeMobile from "../../public/images/youtube-mobile.svg";
 import Bitcoin from "../../public/images/bitcoin-illustration.svg";
+import BitcoinMobile from "../../public/images/bitcoin-mobile.svg";
 
 export default function Payment() {
 	return (
-		<div className="xl:pt-40.5 pt-20 w-[93.3%] mx-auto">
-			<h1 className="xl:text-5xxl text-center font-black text-3xl">Receiving payments<br /> made simple</h1>
+		<div className="xl:pt-40.5 pt-20 lg:w-[93.3%] w-[91.46%] mx-auto">
+			<h1 className="xl:text-5xxl lg:text-center font-black lg:text-3xl text-2xl">Receiving payments on<br />  existing platforms</h1>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black text-2xl">Own Website</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on your website</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Your own Website</h3>
+					<p className="2xl:text-3xl font-bold text-lg">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
@@ -23,7 +27,7 @@ export default function Payment() {
 								</p>
 							</div>
 						</div>
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-10 h-8 p-5">
 								<p className="flex justify-center -mt-3 xl:mt-0">2</p>
 							</div>
@@ -32,7 +36,7 @@ export default function Payment() {
 								</p>
 							</div>
 						</div>
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
 								<p className="flex justify-center mt-2 xl:mt-0">3</p>
 							</div>
@@ -41,16 +45,17 @@ export default function Payment() {
 					</div>
 				</div>
 				<div className=" image-shadow">
-					<img src={Code} className="" alt="code" />
+					<img src={Code} className="hidden lg:inline-block" alt="code" />
+					<img src={CodeMobile} className="block lg:hidden mt-4" alt="code" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black  text-2xl">Twitter</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on your website</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black  lg:text-2xl text-xl">Twitter</h3>
+					<p className="2xl:text-3xl font-semibold lg:text-xl text-lg">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
@@ -59,7 +64,7 @@ export default function Payment() {
 								</p>
 							</div>
 						</div>
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
 								<p className="flex justify-center mt-2 xl:mt-0">2</p>
 							</div>
@@ -68,16 +73,17 @@ export default function Payment() {
 					</div>
 				</div>
 				<div className=" image-shadow">
-					<img src={Twitter} alt="code" />
+					<img src={Twitter} alt="code" className="hidden lg:inline-block" />
+					<img src={TwitterMobile} alt="code" className="block lg:hidden mt-4" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black  text-2xl">YouTube</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on YouTube</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">YouTube</h3>
+					<p className="2xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on YouTube</p>
 					<div className="flex flex-col space-y-9">
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
@@ -86,7 +92,7 @@ export default function Payment() {
 								</p>
 							</div>
 						</div>
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
 								<p className="flex justify-center mt-2 xl:mt-0">2</p>
 							</div>
@@ -95,16 +101,17 @@ export default function Payment() {
 					</div>
 				</div>
 				<div className=" image-shadow">
-					<img src={Youtube} alt="code" />
+					<img src={Youtube} alt="code" className="hidden lg:inline-block" />
+					<img src={YoutubeMobile} alt="code" className="block lg:hidden mt-4" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10 pb-10">
 				<div className="2xl:space-y-6 space-y-5 xl:ml-17 order-last">
-					<h3 className="2xl:text-4xl xl:leading-10 font-black  text-2xl">Bitcoin TV</h3>
-					<p className="2xl:text-3xl font-semibold text-xl">How to receive contributions on BitcoinTV</p>
+					<h3 className="2xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Bitcoin TV</h3>
+					<p className="2xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on BitcoinTV</p>
 					<div className="flex flex-col space-y-9">
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
 								<p className="flex justify-center mt-2 xl:mt-0">1</p>
 							</div>
@@ -113,7 +120,7 @@ export default function Payment() {
 								</p>
 							</div>
 						</div>
-						<div className="flex gap-6">
+						<div className="flex gap-6 items-center">
 							<div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
 								<p className="flex justify-center mt-2 xl:mt-0">2</p>
 							</div>
@@ -122,7 +129,8 @@ export default function Payment() {
 					</div>
 				</div>
 				<div className=" image-shadow">
-					<img src={Bitcoin} alt="code" />
+					<img src={Bitcoin} alt="code" className="hidden lg:inline-block" />
+					<img src={BitcoinMobile} alt="code" className="block lg:hidden mt-4" />
 				</div>
 			</div>
 		</div>
