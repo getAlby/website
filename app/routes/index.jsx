@@ -9,7 +9,7 @@ export default function Index() {
 		<div>
 			<Header />
 			<Service />
-			{/* <Payment /> */}
+			<Payment />
 			<Wallet />
 			<Footer />	
 		</div>
