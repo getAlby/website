@@ -408,7 +408,7 @@ init_react();
 var import_remix2 = __toModule(require_remix());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-LR4HQQ6R.css";
+var tailwind_default = "/build/_assets/tailwind-VXSBZ4DG.css";
 
 // app/styles/tailwind.css
 var tailwind_default2 = "/build/_assets/tailwind-5HVOVQJU.css";
@@ -637,16 +637,16 @@ function Services() {
 init_react();
 
 // public/images/code.svg
-var code_default = "/build/_assets/code-CIQ54P7C.svg";
+var code_default = "/build/_assets/code-YNBT4BTR.svg";
 
 // public/images/twitter-illustration.svg
 var twitter_illustration_default = "/build/_assets/twitter-illustration-2J2CAHLE.svg";
 
 // public/images/youtube-illustration.svg
-var youtube_illustration_default = "/build/_assets/youtube-illustration-CTG7AL37.svg";
+var youtube_illustration_default = "/build/_assets/youtube-illustration-OKNC53QD.svg";
 
 // public/images/bitcoin-illustration.svg
-var bitcoin_illustration_default = "/build/_assets/bitcoin-illustration-WLSP4IQ5.svg";
+var bitcoin_illustration_default = "/build/_assets/bitcoin-illustration-3CRJYH7S.svg";
 
 // app/components/Payment.jsx
 function Payment() {
