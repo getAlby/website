@@ -8,7 +8,7 @@ import GitHubLogo from "../../public/images/GitHub.svg";
 function Footer() {
 	return (
 		<div className="bg-white z-10 ">
-			<div className="grid place-items-center hover:cursor-pointer mt-4 lg:mt-24 py-8 lg:py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-50 w-[91.46%] lg:w-[85.76%] mx-auto">
+			<div className="grid place-items-center hover:cursor-pointer mt-16 lg:mt-24 py-8 lg:py-[8.75rem] text-center rounded-[2.75rem] max-h-[31.25rem] max-w-[77.1875rem] relative bg-albyYellow-50 w-[91.46%] lg:w-[85.76%] mx-auto">
 				<div className="z-10">
 					<h2 className="w-[78%] mx-auto  font-primary text-3xl md:text-6xl md:leading-[4.6875rem] font-black relative">
             You don’t have a Lightning Address yet?
@@ -32,7 +32,7 @@ function Footer() {
 					/>
 				</div>
 			</div>
-			<div className="grid place-items-end bg-albyYellow-300 py-14 lg:py-32 mt-4 lg:mt-32">
+			<div className="grid place-items-end bg-albyYellow-300 py-14 lg:py-32 mt-16 lg:mt-32">
 				<h3 className="w-11/12 text-center md:w-full font-primary font-bold text-2xl md:text-5xl mx-auto">
           Do you have feedback or need help?
 				</h3>
