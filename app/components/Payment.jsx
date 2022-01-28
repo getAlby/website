@@ -13,7 +13,7 @@ export default function Payment() {
 			<h1 className="xl:text-5xxl lg:text-center font-black lg:text-3xl text-2xl">Receiving payments on<br />  existing platforms</h1>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
-				<div className="2xl:space-y-6 space-y-1 xl:ml-17">
+				<div className="2xl:space-y-6 space-y-2 xl:ml-17">
 					<h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Your own Website</h3>
 					<p className="xl:text-3xl font-semibold text-lg">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
@@ -45,14 +45,14 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className=" image-shadow">
+				<div className="">
 					<img src={Code} className="hidden lg:inline-block" alt="code" />
-					<img src={CodeMobile} className="block lg:hidden mt-4" alt="code" />
+					<img src={CodeMobile} className="shadow-lg  block lg:hidden mt-4" alt="code" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
-				<div className="2xl:space-y-6 space-y-1 xl:ml-17 order-last">
+				<div className="2xl:space-y-6 space-y-2 xl:ml-17 order-last">
 					<h3 className="xl:text-4xl xl:leading-10 font-black  lg:text-2xl text-xl">Twitter</h3>
 					<p className="xl:text-3xl font-semibold lg:text-xl text-lg">How to receive contributions on your website</p>
 					<div className="flex flex-col space-y-9">
@@ -73,14 +73,14 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className=" image-shadow">
+				<div className="">
 					<img src={Twitter} alt="code" className="hidden lg:inline-block" />
-					<img src={TwitterMobile} alt="code" className="block lg:hidden mt-4" />
+					<img src={TwitterMobile} alt="code" className="shadow-lg  block lg:hidden mt-4" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
-				<div className="2xl:space-y-6 space-y-1 xl:ml-17">
+				<div className="2xl:space-y-6 space-y-2 xl:ml-17">
 					<h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">YouTube</h3>
 					<p className="xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on YouTube</p>
 					<div className="flex flex-col space-y-9">
@@ -102,14 +102,14 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className=" image-shadow">
+				<div className="">
 					<img src={Youtube} alt="code" className="hidden lg:inline-block" />
-					<img src={YoutubeMobile} alt="code" className="block lg:hidden mt-4" />
+					<img src={YoutubeMobile} alt="code" className="shadow-lg  block lg:hidden mt-4" />
 				</div>
 			</div>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10 pb-10">
-				<div className="2xl:space-y-6 space-y-1 xl:ml-17 order-last">
+				<div className="2xl:space-y-6 space-y-2 xl:ml-17 order-last">
 					<h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Bitcoin TV</h3>
 					<p className="xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on BitcoinTV</p>
 					<div className="flex flex-col space-y-9">
@@ -131,7 +131,7 @@ export default function Payment() {
 						</div>
 					</div>
 				</div>
-				<div className=" image-shadow">
+				<div className="">
 					<img src={Bitcoin} alt="code" className="hidden lg:inline-block" />
 					<img src={BitcoinMobile} alt="code" className="block lg:hidden mt-4" />
 				</div>

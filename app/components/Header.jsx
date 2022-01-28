@@ -29,9 +29,9 @@ function Header() {
               Use a Lightning Address to receive value for value payments in Bitcoin from your audience 
 						</p>
 					</div>
-					<div className="pt-10 lg:pt-40">
-						<img src={HeaderIllustration} alt="Header Illustration" className="w-[42vw] mx-auto min-w-[19rem] h-auto z-10 relative" />
-						<img src={BelowHeaderIllustration} alt="Below Header Illustration" className="absolute w-auto hidden lg:inline-block left-[88%] top-[72%] z-0" />
+					<div className="pt-10 lg:pt-24">
+						<img src={HeaderIllustration} alt="Header Illustration" className="mx-auto min-w-[17rem] h-auto z-10 relative" />
+						<img src={BelowHeaderIllustration} alt="Below Header Illustration" className="absolute w-auto hidden lg:inline-block left-[88%] top-[74.5%] z-0" />
 					</div>
 				</div>
 			</div>
