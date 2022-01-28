@@ -47,7 +47,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Code} className="hidden lg:inline-block" alt="code" />
-					<img src={CodeMobile} className="shadow-2xl  block lg:hidden mt-4" alt="code" />
+					<img src={CodeMobile} className="shadow-lg  block lg:hidden mt-4" alt="code" />
 				</div>
 			</div>
 
@@ -75,7 +75,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Twitter} alt="code" className="hidden lg:inline-block" />
-					<img src={TwitterMobile} alt="code" className="shadow-2xl  block lg:hidden mt-4" />
+					<img src={TwitterMobile} alt="code" className="shadow-lg  block lg:hidden mt-4" />
 				</div>
 			</div>
 
@@ -104,7 +104,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Youtube} alt="code" className="hidden lg:inline-block" />
-					<img src={YoutubeMobile} alt="code" className="shadow-2xl  block lg:hidden mt-4" />
+					<img src={YoutubeMobile} alt="code" className="shadow-lg  block lg:hidden mt-4" />
 				</div>
 			</div>
 
@@ -133,7 +133,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Bitcoin} alt="code" className="hidden lg:inline-block" />
-					<img src={BitcoinMobile} alt="code" className="shadow-2xl  block lg:hidden mt-4" />
+					<img src={BitcoinMobile} alt="code" className="block lg:hidden mt-4" />
 				</div>
 			</div>
 		</div>
