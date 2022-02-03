@@ -27,7 +27,7 @@ export default function index() {
                 <img
                   src={TelegramLogo}
                   alt="Telegram Logo"
-                  className=" lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem] mb-4"
+                  className="w-[1.875rem] h-[1.875rem] mb-4"
                 />
               </a>
               <a
@@ -38,7 +38,7 @@ export default function index() {
                 <img
                   src={TwitterLogo}
                   alt="Twitter Logo"
-                  className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4"
+                  className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
               <a
@@ -49,7 +49,7 @@ export default function index() {
                 <img
                   src={GitHubLogo}
                   alt="GitHub Logo"
-                  className="lg:w-[1.875rem] w-[1rem] lg:h-[1.875rem] h-[1rem]  mb-4"
+                  className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
               <button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary hidden lg:inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
@@ -57,9 +57,9 @@ export default function index() {
               </button>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary">
+          <div className="mt-20 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary">
             <div className="xl:max-w-[39rem] lg:w-1/2 text-albyColdGray-800 text-center lg:text-left lg:pt-40">
-              <h1 className="xl:text-[4rem] xl:leading-[110%] text-white md:text-4xl text-3xl font-black">
+              <h1 className="mb-4 lg:mb-0 xl:text-[4rem] xl:leading-[110%] text-white md:text-4xl text-3xl font-black">
                 Lightning buzz for your Browser
               </h1>
               <p className="lg:text-2xl text-xl font-normal">
@@ -96,7 +96,7 @@ export default function index() {
               <img
                 src={BannerIllustration}
                 alt="Header Illustration"
-                className="pt-[17%] aspect-[auto_710/760] mx-auto min-w-[19rem] max-w-full"
+                className="pt-0 lg:pt-[17%] aspect-[auto_710/760] mx-auto min-w-[19rem] max-w-full"
               />
             </div>
           </div>
