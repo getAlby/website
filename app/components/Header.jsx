@@ -1,4 +1,4 @@
-import Logo from "../../public/images/Logo.svg";
+import Logo from "../../public/images/logo.svg";
 import HeaderIllustration from "../../public/images/header-illustration.svg";
 import BelowButtonIllustration from "../../public/images/button-below.svg";
 import BelowHeaderIllustration from "../../public/images/header-below.svg";
@@ -10,8 +10,8 @@ function Header() {
 		<div className=" bg-albyYellow-300 lg:min-h-screen grid place-items-center relative">
 			<div className="lg:w-[93.194%] w-[91.46%] mx-auto ">
 				<div className="flex top-0 pt-5 items-center absolute lg:w-[93.194%] w-[91.46%] justify-between max-h-[6.25rem]">
-					<div>
-						<img src={Logo} alt="Logo" className="w-auto lg:h-[3.75rem] h-[2.75rem]" />
+					<div><a href="/">
+						<img src={Logo} alt="Logo" className="w-auto lg:h-[3.75rem] h-[2.75rem]" /></a>
 					</div>
 					<div className="flex items-end gap-5 justify-between relative">
 						<button className="bg-transparent text-albyWarmGray-800 border-2 border-solid border-albyWarmGray-800 font-primary  lg:inline-block text-sm md:text-lg lg:leading-[1.75rem] font-semibold py-2 lg:py-4 px-3 lg:px-6 rounded-[30px]">
@@ -26,7 +26,7 @@ function Header() {
               Direct contributions from your audience
 						</h1>
 						<p className="lg:text-2xl text-base font-normal pt-9">
-              Use a Lightning Address to receive value for value payments in Bitcoin from your audience 
+              Use a Lightning Address to receive value for value payments in Bitcoin from your audience
 						</p>
 					</div>
 					<div className="pt-10 lg:pt-24">

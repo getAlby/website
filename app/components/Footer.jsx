@@ -2,7 +2,7 @@ import RightBee from "../../public/images/right-bee.svg";
 import LeftBee from "../../public/images/left-bee.svg";
 import ArrowIcon from "../../public/images/pointer.svg";
 import TelegramLogo from "../../public/images/Telegram.svg";
-import TwitterLogo from "../../public/images/Twitter.svg";
+import TwitterLogo from "../../public/images/twitter-logo.svg";
 import GitHubLogo from "../../public/images/GitHub.svg";
 
 function Footer() {
@@ -16,10 +16,10 @@ function Footer() {
 							{" "}
 							<img src={ArrowIcon} />
 						</span>
-					</h2>
+					</h2><a href="/lightning-address">
 					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
             Learn more
-					</button>
+					</button></a>
 					<img
 						src={RightBee}
 						alt="Right Bee"

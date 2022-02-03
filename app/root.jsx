@@ -27,7 +27,7 @@ export function links() {
 }
 
 export function meta() {
-	return { title: "Get Alby" };
+	return { title: "Alby - Bitcoin Lightning Wallet for your browser" };
 }
 
 export default function App() {

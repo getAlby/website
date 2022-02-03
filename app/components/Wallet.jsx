@@ -7,10 +7,10 @@ function Wallet() {
 				</h1>
 				<p className="md:text-2xl text-base font-normal text-albyColdGray-25 pt-4">
           Alby is a browser extension for the Bitcoin Lightning Network. You can connect your own Lightning wallet or use Alby’s wallet and start transacting in Bitcoin with ease.
-				</p>
+				</p><a href="/">
 				<button className="bg-albyYellow-300 text-albyColdGray-800 text-base lg:text-lg font-medium py-3 lg:py-4 px-4 lg:px-8 rounded-[1.875rem] mt-4">
           Try it now
-				</button>
+				</button></a>
 			</div>
 		</div>
 	);
