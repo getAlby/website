@@ -2,7 +2,7 @@ import RightBee from "../../public/images/right-bee.svg";
 import LeftBee from "../../public/images/left-bee.svg";
 import ArrowIcon from "../../public/images/pointer.svg";
 import TelegramLogo from "../../public/images/Telegram.svg";
-import TwitterLogo from "../../public/images/Twitter.svg";
+import TwitterLogo from "../../public/images/twitter-logo.svg";
 import GitHubLogo from "../../public/images/GitHub.svg";
 
 function Footer() {
@@ -17,9 +17,11 @@ function Footer() {
 							<img src={ArrowIcon} />
 						</span>
 					</h2>
-					<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
-            Learn more
-					</button>
+					<a href="/lightning-address">
+						<button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
+              Learn more
+						</button>
+					</a>
 					<img
 						src={RightBee}
 						alt="Right Bee"
@@ -59,17 +61,29 @@ function Footer() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={TwitterLogo} alt="Twitter Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
+							<img
+								src={TwitterLogo}
+								alt="Twitter Logo"
+								className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+							/>
 						</a>
 						<a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
-							<img src={TelegramLogo} alt="Telegram Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
+							<img
+								src={TelegramLogo}
+								alt="Telegram Logo"
+								className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+							/>
 						</a>
 						<a
 							href="https://github.com/getAlby"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<img src={GitHubLogo} alt="GitHub Logo" className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]" />
+							<img
+								src={GitHubLogo}
+								alt="GitHub Logo"
+								className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+							/>
 						</a>
 					</div>
 					<a

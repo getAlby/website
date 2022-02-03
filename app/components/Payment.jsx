@@ -5,7 +5,7 @@ import TwitterMobile from "../../public/images/twitter-mobile.svg";
 import Youtube from "../../public/images/youtube-illustration.svg";
 import YoutubeMobile from "../../public/images/youtube-mobile.svg";
 import Bitcoin from "../../public/images/bitcoin-illustration.svg";
-import BitcoinMobile from "../../public/images/bitcoin-mobile.svg";
+import BitcoinMobile from "../../public/images/bitcoin-illustration.svg";
 
 export default function Payment() {
 	return (

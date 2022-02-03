@@ -19,3 +19,12 @@ html {
     @apply ...;
   }
 }
+
+ul.bullet-lists li::before {
+  content: '\2022';
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
