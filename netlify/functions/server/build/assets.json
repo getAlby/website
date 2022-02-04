@@ -1,5 +1,5 @@
 {
-  "version": "a03a055f",
+  "version": "c29ba70e",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-7JZJMK2R.js",
+      "module": "/build/root-XSFPOCRC.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -21,9 +21,9 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-PIWT5QCR.js",
+      "module": "/build/routes/index-PVRNTP5T.js",
       "imports": [
-        "/build/_shared/chunk-FMS72Q2A.js"
+        "/build/_shared/chunk-KGFBUVJJ.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -34,9 +34,9 @@
       "id": "routes/value4value",
       "parentId": "root",
       "path": "value4value",
-      "module": "/build/routes/value4value-ER4QVLPA.js",
+      "module": "/build/routes/value4value-NQTOVQQO.js",
       "imports": [
-        "/build/_shared/chunk-FMS72Q2A.js"
+        "/build/_shared/chunk-KGFBUVJJ.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -44,5 +44,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-A03A055F.js"
+  "url": "/build/manifest-C29BA70E.js"
 }
