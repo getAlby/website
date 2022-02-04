@@ -6,6 +6,7 @@ import Payment from "~/components/Payment";
 import Wallet from "~/components/Wallet";
 
 export default function Index() {
+	
 	return (
 		<div>
 			<Header />
