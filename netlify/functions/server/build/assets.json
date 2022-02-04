@@ -1,5 +1,5 @@
 {
-  "version": "3e4756ba",
+  "version": "a03a055f",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-VYIJW7AZ.js",
+      "module": "/build/root-7JZJMK2R.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -34,7 +34,7 @@
       "id": "routes/value4value",
       "parentId": "root",
       "path": "value4value",
-      "module": "/build/routes/value4value-SUI56LPN.js",
+      "module": "/build/routes/value4value-ER4QVLPA.js",
       "imports": [
         "/build/_shared/chunk-FMS72Q2A.js"
       ],
@@ -44,5 +44,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-3E4756BA.js"
+  "url": "/build/manifest-A03A055F.js"
 }
