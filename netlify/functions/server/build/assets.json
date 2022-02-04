@@ -1,5 +1,5 @@
 {
-  "version": "e980d5a8",
+  "version": "3e4756ba",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -34,7 +34,7 @@
       "id": "routes/value4value",
       "parentId": "root",
       "path": "value4value",
-      "module": "/build/routes/value4value-3XPTO47H.js",
+      "module": "/build/routes/value4value-SUI56LPN.js",
       "imports": [
         "/build/_shared/chunk-FMS72Q2A.js"
       ],
@@ -44,5 +44,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E980D5A8.js"
+  "url": "/build/manifest-3E4756BA.js"
 }
