@@ -5,11 +5,11 @@ import TwitterMobile from "../../public/images/twitter-mobile.svg";
 import Youtube from "../../public/images/youtube-illustration.svg";
 import YoutubeMobile from "../../public/images/youtube-mobile.svg";
 import Bitcoin from "../../public/images/bitcoin-illustration.svg";
-import BitcoinMobile from "../../public/images/bitcoin-mobile.svg";
+import BitcoinMobile from "../../public/images/bitcoin-illustration.svg";
 
 export default function Payment() {
 	return (
-		<div className="xl:pt-40.5 pt-20 lg:w-[93.3%] w-[91.46%] mx-auto">
+		<div className="xl:pt-40.5 pt-20 lg:w-[93.3%] w-[91.46%] mx-auto bg-white">
 			<h1 className="xl:text-5xxl lg:text-center font-black lg:text-3xl text-2xl">Receiving payments on<br />  existing platforms</h1>
 
 			<div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
@@ -47,7 +47,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Code} className="hidden lg:inline-block" alt="code" />
-					<img src={CodeMobile} className="shadow-lg mx-auto block lg:hidden mt-4" alt="code" />
+					<img src={CodeMobile} className="image-drop-shadow mx-auto block lg:hidden mt-4" alt="code" />
 				</div>
 			</div>
 
@@ -75,7 +75,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Twitter} alt="code" className="hidden lg:inline-block" />
-					<img src={TwitterMobile} alt="code" className="shadow-lg mx-auto block lg:hidden mt-4" />
+					<img src={TwitterMobile} alt="code" className="image-drop-shadow mx-auto block lg:hidden mt-4" />
 				</div>
 			</div>
 
@@ -104,7 +104,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Youtube} alt="code" className="hidden lg:inline-block" />
-					<img src={YoutubeMobile} alt="code" className="shadow-lg mx-auto block lg:hidden mt-4" />
+					<img src={YoutubeMobile} alt="code" className="image-drop-shadow mx-auto block lg:hidden mt-4" />
 				</div>
 			</div>
 
@@ -133,7 +133,7 @@ export default function Payment() {
 				</div>
 				<div className="">
 					<img src={Bitcoin} alt="code" className="hidden lg:inline-block" />
-					<img src={BitcoinMobile} alt="code" className="shadow-lg mx-auto block lg:hidden mt-4" />
+					<img src={BitcoinMobile} alt="code" className="image-drop-shadow mx-auto block lg:hidden mt-4" />
 				</div>
 			</div>
 		</div>

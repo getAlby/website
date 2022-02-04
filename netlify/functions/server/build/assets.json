@@ -1,5 +1,5 @@
 {
-  "version": "4df9accb",
+  "version": "bc83b317",
   "entry": {
     "module": "/build/entry.client-ICIHE5CF.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-DBQQOSPW.js",
+      "module": "/build/root-FMRSRZFJ.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -21,9 +21,9 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-JLARBSHW.js",
+      "module": "/build/routes/index-HUBT3J54.js",
       "imports": [
-        "/build/_shared/chunk-JMHBIYDU.js"
+        "/build/_shared/chunk-VDSKQ3S7.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -34,9 +34,9 @@
       "id": "routes/value4value",
       "parentId": "root",
       "path": "value4value",
-      "module": "/build/routes/value4value-2EDEN5Q2.js",
+      "module": "/build/routes/value4value-PBDQSFLV.js",
       "imports": [
-        "/build/_shared/chunk-JMHBIYDU.js"
+        "/build/_shared/chunk-VDSKQ3S7.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -44,5 +44,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-4DF9ACCB.js"
+  "url": "/build/manifest-BC83B317.js"
 }
