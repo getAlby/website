@@ -20,7 +20,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "remix": "^1.1.1"
+    "remix": "^1.1.1",
+    "remix-utils": "^2.4.0",
+    "ua-parser-js": "^1.0.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.1.1",

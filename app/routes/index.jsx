@@ -3,8 +3,8 @@ import BannerIllustration from "../../public/images/banner-illustration.png";
 import TelegramLogo from "../../public/images/telegram.png";
 import TwitterLogo from "../../public/images/twitter.png";
 import GitHubLogo from "../../public/images/github.png";
-import CallToActionLogo from "../../public/images/call-to-action.svg";
 import DoItHint from "../../public/images/do-it-hint.png";
+import InstallExtensionButton from "../components/InstallExtensionButton";
 
 export default function index() {
   return (
@@ -51,9 +51,7 @@ export default function index() {
                   className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
-              <button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
-                Add To Chrome
-              </button>
+              <InstallExtensionButton />
             </div>
           </div>
           <div className="xl:mt-20 mt-22 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary">
@@ -78,11 +76,9 @@ export default function index() {
                   worry about third party trackers
                 </li>
               </ul>
-              <img
-                src={CallToActionLogo}
-                alt="Call to Action"
-                className=" pt-5 block mx-auto lg:mx-0"
-              />
+
+              <InstallExtensionButton />
+
               <div className=" mt-6">
                 <img
                   src={DoItHint}
@@ -154,7 +150,7 @@ export default function index() {
               />
             </a>
           </div>
-          
+
           <a
             href="https://getalby.com/privacy-policy"
             className="text-center lg:text-2xl text-base underline pt-5"
