@@ -24,12 +24,12 @@ function Footer() {
           </a>
           <img
             src={RightBee}
-            alt="Right Bee"
+            alt=""
             className="w-auto mx-auto absolute bottom-[8%] left-[70%] md:left-[85%] hidden md:block"
           />
           <img
             src={LeftBee}
-            alt="Left Bee"
+            alt=""
             className="w-auto mx-auto absolute bottom-[14%] left-[82%] md:left-[91%] hidden md:block"
           />
         </div>
@@ -63,14 +63,14 @@ function Footer() {
             >
               <img
                 src={TwitterLogo}
-                alt="Twitter Logo"
+                alt="Twitter"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
             <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
               <img
                 src={TelegramLogo}
-                alt="Telegram Logo"
+                alt="Telegram"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
@@ -81,13 +81,13 @@ function Footer() {
             >
               <img
                 src={GitHubLogo}
-                alt="GitHub Logo"
+                alt="GitHub"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
           </div>
           <a
-            href="https://getalby.com/privacy-policy"
+            href="/privacy-policy"
             className="text-center lg:text-2xl text-base font-primary underline pt-5"
           >
             Privacy Policy

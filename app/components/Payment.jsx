@@ -132,8 +132,8 @@ export default function Payment() {
           </div>
         </div>
         <div className="">
-          <img src={Bitcoin} alt="code" className="hidden lg:inline-block" />
-          <img src={BitcoinMobile} alt="code" className="image-drop-shadow mx-auto block lg:hidden mt-4" />
+          <img src={Bitcoin} alt="" className="hidden lg:inline-block" />
+          <img src={BitcoinMobile} alt="" className="image-drop-shadow mx-auto block lg:hidden mt-4" />
         </div>
       </div>
     </div>
