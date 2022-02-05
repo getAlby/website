@@ -17,18 +17,6 @@ export function links() {
       href: AlbyHeadIcon,
       type: "image/png"
     },
-    {
-      rel: "preload",
-      href: "/images/diamond-wallet-layer.svg",
-      as: "image",
-      type: "image/svg+xml",
-    },
-    {
-      rel: "preload",
-      href: "/images/diamond-footer.svg",
-      as: "image",
-      type: "image/svg+xml",
-    },
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: extendStyles },
   ];
