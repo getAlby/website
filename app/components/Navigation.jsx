@@ -1,9 +1,7 @@
 import Logo from "../../public/images/logo.svg";
-import BannerIllustration from "../../public/images/banner-illustration.png";
 import TelegramLogo from "../../public/images/telegram.png";
 import TwitterLogo from "../../public/images/twitter.png";
 import GitHubLogo from "../../public/images/github.png";
-import DoItHint from "../../public/images/do-it-hint.png";
 import InstallExtensionButton from "./InstallExtensionButton";
 
 
@@ -52,7 +50,7 @@ function Navigation() {
         <InstallExtensionButton />
       </div>
     </div>
-    );
-  }
+  );
+}
 
-  export default Navigation;
+export default Navigation;

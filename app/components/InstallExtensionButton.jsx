@@ -17,7 +17,7 @@ const BrowserIcons = {
   "Firefox": FirefoxIcon,
   "Chrome": ChromeIcon,
   "Chromium": ChromeIcon
-}
+};
 const DefaultLink = "https://github.com/getAlby/lightning-browser-extension";
 
 function Install() {
@@ -39,7 +39,7 @@ function Install() {
     );
   } else {
     return (
-      <a href={DefaultLink} onClick={() => {alert(`We currently do not yet support ${browser.name}. But maybe you can install it from source.`)}} className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full mt-6">
+      <a href={DefaultLink} onClick={() => {alert(`We currently do not yet support ${browser.name}. But maybe you can install it from source.`);}} className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full mt-6">
         Available for Firefox, Chrome, Opera and others
       </a>
     );
@@ -52,7 +52,7 @@ function InstallExtensionButton() {
     <ClientOnly>
       <Install />
     </ClientOnly>
-  )
+  );
 }
 
 export default InstallExtensionButton;
