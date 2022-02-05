@@ -3,6 +3,7 @@ import HeaderIllustration from "../../public/images/header-illustration.svg";
 import BelowButtonIllustration from "../../public/images/button-below.svg";
 import BelowHeaderIllustration from "../../public/images/header-below.svg";
 import GroupDiamond from "../../public/images/group-diamond.svg";
+import InstallExtensionButton from "../components/InstallExtensionButton";
 
 function Header() {
   return (
@@ -13,18 +14,16 @@ function Header() {
             <a href="/">
               <img
                 src={Logo}
-                alt="Logo"
+                alt="Alby"
                 className="w-auto lg:h-[3.75rem] h-[2.75rem]"
               />
             </a>
           </div>
           <div className="flex items-end gap-5 justify-between relative">
-            <button className="bg-transparent text-albyWarmGray-800 border-2 border-solid border-albyWarmGray-800 font-primary  lg:inline-block text-sm md:text-lg lg:leading-[1.75rem] font-semibold py-2 lg:py-4 px-3 lg:px-6 rounded-[30px]">
-              Install Alby
-            </button>
+            <InstallExtensionButton />
             <img
               src={BelowButtonIllustration}
-              alt="Below Button Illustration"
+              alt=""
               className="absolute w-auto hidden lg:inline-block left-[80%] top-[67%]"
             />
           </div>
@@ -42,12 +41,12 @@ function Header() {
           <div className="pt-10 lg:pt-24">
             <img
               src={HeaderIllustration}
-              alt="Header Illustration"
+              alt="Alby screenshot"
               className="mx-auto min-w-[17rem] h-auto z-10 relative"
             />
             <img
               src={BelowHeaderIllustration}
-              alt="Below Header Illustration"
+              alt=""
               className="absolute w-auto hidden lg:inline-block left-[88%] top-[74.5%] z-0"
             />
           </div>
@@ -55,7 +54,7 @@ function Header() {
       </div>
       <img
         src={GroupDiamond}
-        alt="Group Diamond"
+        alt=""
         className="absolute w-auto  left-0 bottom-0 z-0 hidden lg:inline-block"
       />
     </div>

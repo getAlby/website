@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "remix";
+import AlbyHeadIcon from "../public/images/alby_icon_head_icon.png";
 import styles from "./tailwind.css";
 import extendStyles from "./styles/tailwind.css";
 
@@ -13,7 +14,7 @@ export function links() {
   return [
     {
       rel: "icon",
-      href: "/favicon.png",
+      href: AlbyHeadIcon,
       type: "image/png"
     },
     {
@@ -31,10 +32,6 @@ export function links() {
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: extendStyles },
   ];
-}
-
-export function meta() {
-  return { title: "Alby - Bitcoin Lightning Wallet for your browser" };
 }
 
 export default function App() {

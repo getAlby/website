@@ -15,7 +15,7 @@ export default function Receiving() {
           </button>
         </div>
         <div className="image-shadow">
-          <img src={Code} alt="code" />
+          <img src={Code} alt="" />
         </div>
       </div>
 
@@ -27,7 +27,7 @@ export default function Receiving() {
           </button>
         </div>
         <div className="image-shadow">
-          <img src={Twitter} alt="code" />
+          <img src={Twitter} alt="" />
         </div>
       </div>
 
@@ -39,10 +39,10 @@ export default function Receiving() {
           </button>
         </div>
         <div className="image-shadow">
-          <img src={Youtube} alt="code" />
+          <img src={Youtube} alt="" />
         </div>
       </div>
-			
+
     </div>
   );
 }
