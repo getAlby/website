@@ -6,6 +6,19 @@ import GitHubLogo from "../../public/images/github.png";
 import DoItHint from "../../public/images/do-it-hint.png";
 import InstallExtensionButton from "../components/InstallExtensionButton";
 
+export const meta = () => {
+  return {
+    title: "Alby — Lightning buzz for your Browser!",
+    description: "Alby brings Bitcoin to the web with in-browser payments and identity",
+    "og:url": "https://getalby.com",
+    "og:title": "Alby",
+    "og:site_name": "Alby",
+    "og:image": Logo,
+    "twitter:site": "@getalby",
+    "twitter:creator": "@getalby",
+  };
+};
+
 export default function index() {
   return (
     <>
@@ -16,7 +29,7 @@ export default function index() {
               <a href="/">
                 <img
                   src={Logo}
-                  alt="Logo"
+                  alt="Alby"
                   className="w-[12.5rem] text-black lg:w-auto lg:h-[3.75rem] h-24"
                 />
               </a>
@@ -25,7 +38,7 @@ export default function index() {
               <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
                 <img
                   src={TelegramLogo}
-                  alt="Telegram Logo"
+                  alt="Telegram"
                   className="w-[1.875rem] h-[1.875rem] mb-4"
                 />
               </a>
@@ -36,7 +49,7 @@ export default function index() {
               >
                 <img
                   src={TwitterLogo}
-                  alt="Twitter Logo"
+                  alt="Twitter"
                   className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
@@ -47,7 +60,7 @@ export default function index() {
               >
                 <img
                   src={GitHubLogo}
-                  alt="GitHub Logo"
+                  alt="GitHub"
                   className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
@@ -82,7 +95,7 @@ export default function index() {
               <div className=" mt-6">
                 <img
                   src={DoItHint}
-                  alt="Do It Hint"
+                  alt=""
                   className="block relative mx-auto lg:mx-0 left-[17%]"
                 />
               </div>
@@ -90,7 +103,7 @@ export default function index() {
             <div className="pt-10 lg:pt-0 basis-1/2">
               <img
                 src={BannerIllustration}
-                alt="Header Illustration"
+                alt="Alby screenshot"
                 className="pt-0 lg:pt-[17%] aspect-[auto_710/760] mx-auto min-w-[19rem] max-w-full"
               />
             </div>
@@ -127,14 +140,14 @@ export default function index() {
             >
               <img
                 src={TwitterLogo}
-                alt="Twitter Logo"
+                alt="Twitter"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
             <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
               <img
                 src={TelegramLogo}
-                alt="Telegram Logo"
+                alt="Telegram"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
@@ -145,7 +158,7 @@ export default function index() {
             >
               <img
                 src={GitHubLogo}
-                alt="GitHub Logo"
+                alt="GitHub"
                 className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
               />
             </a>
