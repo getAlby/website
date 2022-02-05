@@ -1,5 +1,4 @@
-import Footer from "~/components/Footer";
-import Logo from "../../public/images/logo.png";
+import Logo from "../../public/images/logo.svg";
 import BannerIllustration from "../../public/images/banner-illustration.png";
 import TelegramLogo from "../../public/images/telegram.png";
 import TwitterLogo from "../../public/images/twitter.png";
@@ -12,17 +11,17 @@ export default function index() {
     <>
       <div className=" bg-albyYellow-300 min-h-screen grid place-items-center relative">
         <div className="w-[93.194%] mx-auto ">
-          <div className="flex top-0 pt-5 items-center absolute w-[93.194%] justify-between max-h-[6.25rem]">
+          <div className="flex top-0 pt-5 pb-8 lg:pb-0 items-center absolute w-[93.194%] justify-center lg:justify-between max-h-[6.25rem]">
             <div>
               <a href="/">
                 <img
                   src={Logo}
                   alt="Logo"
-                  className="w-auto lg:h-[3.75rem] h-[2.75rem]"
+                  className="w-[12.5rem] text-black lg:w-auto lg:h-[3.75rem] h-24"
                 />
               </a>
             </div>
-            <div className="flex items-end gap-5 justify-between xl:pt-0 pt-3">
+            <div className="hidden lg:flex items-end gap-5 justify-between xl:pt-0 pt-3">
               <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
                 <img
                   src={TelegramLogo}
@@ -52,14 +51,14 @@ export default function index() {
                   className="w-[1.875rem] h-[1.875rem]  mb-4"
                 />
               </a>
-              <button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary hidden lg:inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
+              <button className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full">
                 Add To Chrome
               </button>
             </div>
           </div>
           <div className="xl:mt-20 mt-22 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary">
             <div className="xl:max-w-[39rem] lg:w-1/2 text-albyColdGray-800 text-center lg:text-left lg:pt-40">
-              <h1 className="mb-4 lg:mb-0 xl:text-[4rem] xl:leading-[110%] text-white md:text-4xl text-3xl font-black">
+              <h1 className="mb-4 lg:mb-0 xl:text-[4rem] xl:leading-[110%] text-black md:text-4xl text-3xl font-black">
                 Lightning buzz for your Browser
               </h1>
               <p className="lg:text-2xl text-xl font-normal">
@@ -82,13 +81,13 @@ export default function index() {
               <img
                 src={CallToActionLogo}
                 alt="Call to Action"
-                className=" pt-5 hidden lg:block"
+                className=" pt-5 block mx-auto lg:mx-0"
               />
               <div className=" mt-6">
                 <img
                   src={DoItHint}
                   alt="Do It Hint"
-                  className="hidden lg:block relative left-[17%]"
+                  className="block relative mx-auto lg:mx-0 left-[17%]"
                 />
               </div>
             </div>
@@ -102,7 +101,68 @@ export default function index() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="grid place-items-end bg-albyYellow-300 py-14 lg:py-32 font-secondary">
+        <h3 className="w-11/12 text-center md:w-full font-bold text-2xl md:text-5xl mx-auto">
+          Do you have feedback or need help?
+        </h3>
+        <div className="md:w-[52.84%] w-11/12 mx-auto pt-8 text-center">
+          <p className=" font-normal text-lg md:text-2xl leading-[2.25rem] text-albyColdGray-800">
+            Alby is open-source and currently in alpha stage. Our goal is to
+            create the best online experience to consume and reward content and
+            services online. We love to hear from you. File a{" "}
+            <a
+              href="https://github.com/getAlby/lightning-browser-extension/issues"
+              className="underline"
+            >
+              Github issue
+            </a>{" "}
+            or join the{" "}
+            <a href="https://t.me/getAlby" className="underline">
+              Telegram channel
+            </a>
+            .
+          </p>
+          <iframe src="https://getalby.substack.com/embed" width="100%" height="320" className="" frameBorder="0" scrolling="no"></iframe>
+          <div className="flex items-end gap-5 justify-center pt-10">
+            <a
+              href="https://twitter.com/getalby"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={TwitterLogo}
+                alt="Twitter Logo"
+                className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+              />
+            </a>
+            <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
+              <img
+                src={TelegramLogo}
+                alt="Telegram Logo"
+                className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+              />
+            </a>
+            <a
+              href="https://github.com/getAlby"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={GitHubLogo}
+                alt="GitHub Logo"
+                className="mb-4 w-[39px] h-[35px] lg:w-[52.67px] lg:h-[48px]"
+              />
+            </a>
+          </div>
+          
+          <a
+            href="https://getalby.com/privacy-policy"
+            className="text-center lg:text-2xl text-base underline pt-5"
+          >
+            Privacy Policy
+          </a>
+        </div>
+      </div>
     </>
   );
 }

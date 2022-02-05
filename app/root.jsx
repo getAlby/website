@@ -12,6 +12,11 @@ import extendStyles from "./styles/tailwind.css";
 export function links() {
   return [
     {
+      rel: "icon",
+      href: "/favicon.png",
+      type: "image/png"
+    },
+    {
       rel: "preload",
       href: "/images/diamond-wallet-layer.svg",
       as: "image",
