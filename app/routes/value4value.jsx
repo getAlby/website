@@ -7,13 +7,13 @@ import Wallet from "~/components/Wallet";
 
 export default function Index() {
 	
-	return (
-		<div>
-			<Header />
-			<Service />
-			<Payment />
-			<Wallet />
-			<Footer />
-		</div>
-	);
+  return (
+    <div>
+      <Header />
+      <Service />
+      <Payment />
+      <Wallet />
+      <Footer />
+    </div>
+  );
 }
