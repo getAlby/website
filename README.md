@@ -10,10 +10,6 @@ npm install
 ```
 
 ```sh
-npm install netlify-cli
-```
-
-```sh
 npm run dev
 ```
 Port 3000 needs to be available.
@@ -43,7 +39,7 @@ If you're familiar with deploying node applications, the built-in Remix app serv
 Make sure to deploy the output of `remix build`
 
 - `build/`
-- `public/build/`
+- `public/website/`
 
 ### Using a Template
 
