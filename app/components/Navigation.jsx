@@ -19,16 +19,16 @@ function Navigation() {
         </div>
         <div className="flex items-end gap-5 justify-center md:justify-between xl:pt-0 pt-3">
           <a
+            href="/value4value"
+            class="border border-black rounded-full w-32 text-center py-2"
+          >
+            Learn more
+          </a>
+          <a
             href="/login"
             class="border border-black rounded-full w-32 text-center py-2"
           >
             Login
-          </a>
-          <a
-            href="/value4value"
-            class="border border-black rounded-full w-32 text-center py-2"
-          >
-            Learn More
           </a>
           <div class="hidden lg:flex items-end gap-5 justify-between">
             <a href="https://t.me/getAlby" target="_blank" rel="noreferrer">
