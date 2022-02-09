@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-import Logo from "../../public/images/logo.svg";
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";

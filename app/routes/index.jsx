@@ -1,4 +1,3 @@
-import Logo from "../../public/images/logo.svg";
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
 import BannerIllustration from "../../public/images/banner-illustration.png";
 import TelegramLogo from "../../public/images/telegram.png";
