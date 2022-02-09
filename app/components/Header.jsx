@@ -20,7 +20,7 @@ function Header() {
             </a>
           </div>
           <div className="flex items-end gap-5 justify-between relative">
-            <div class="mr-10">
+            <div className="mr-10">
               <InstallExtensionButton />
             </div>
             <img
