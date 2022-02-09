@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import Logo from "../../public/images/logo.svg";
+import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Service from "~/components/Services";
@@ -14,9 +15,10 @@ export const meta = () => {
     "og:url": "https://getalby.com",
     "og:title": "Alby",
     "og:site_name": "Alby",
-    "og:image": Logo,
+    "og:image": HeadLogo,
     "twitter:site": "@getalby",
     "twitter:creator": "@getalby",
+    "lightning": "lnurlp:hello@getalby.com",
   };
 };
 
