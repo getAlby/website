@@ -20,17 +20,18 @@ function Navigation() {
         <div className="flex flex-wrap items-end gap-5 justify-center md:justify-between xl:pt-0 pt-3">
           <a
             href="/value4value"
-            class="border border-black rounded-full w-32 text-center py-2"
+            class="w-32 text-center py-2"
           >
             Value4Value
           </a>
+  <InstallExtensionButtonPlain />
           <a
             href="/login"
             class="bg-[#272828] text-white rounded-full w-32 text-center py-2"
           >
             Login
           </a>
-          <InstallExtensionButtonPlain />
+
         </div>
       </div>
     </div>

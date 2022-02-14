@@ -27,7 +27,7 @@ function Install() {
     return (
       <a
         href={link}
-        className="border border-black rounded-full text-center py-2 px-10"
+        className="border border-black rounded-full w-32 text-center py-2"
       >
         Install Alby
       </a>
@@ -41,7 +41,7 @@ function Install() {
             `We currently do not yet support ${browser.name}. But maybe you can install it from source.`
           );
         }}
-        className="border border-black rounded-full text-center py-2 px-10"
+        className="border border-black rounded-full text-center py-2"
       >
         Available for Firefox, Chrome, Opera and others
       </a>
