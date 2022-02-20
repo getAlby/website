@@ -1,7 +1,4 @@
 import Logo from "../../public/images/logo.svg";
-import TelegramLogo from "../../public/images/telegram.png";
-import TwitterLogo from "../../public/images/twitter.png";
-import GitHubLogo from "../../public/images/github.png";
 import InstallExtensionButtonPlain from "./InstallExtensionButtonPlain";
 
 function Navigation() {
@@ -18,20 +15,16 @@ function Navigation() {
           </a>
         </div>
         <div className="flex flex-wrap items-end gap-5 justify-center md:justify-between xl:pt-0 pt-3">
-          <a
-            href="/value4value"
-            class="w-32 text-center py-2"
-          >
+          <a href="/value4value" className="w-32 text-center py-2">
             Value4Value
           </a>
-  <InstallExtensionButtonPlain />
+          <InstallExtensionButtonPlain />
           <a
             href="/login"
-            class="bg-[#272828] text-white rounded-full w-32 text-center py-2"
+            className="bg-[#272828] text-white rounded-full w-32 text-center py-2"
           >
             Login
           </a>
-
         </div>
       </div>
     </div>
