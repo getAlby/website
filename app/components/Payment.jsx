@@ -54,7 +54,7 @@ export default function Payment() {
       <div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
         <div className="2xl:space-y-6 space-y-2 xl:ml-17 order-last">
           <h3 className="xl:text-4xl xl:leading-10 font-black  lg:text-2xl text-xl">Twitter</h3>
-          <p className="xl:text-3xl font-semibold lg:text-xl text-lg">How to receive contributions on your website</p>
+          <p className="xl:text-3xl font-semibold lg:text-xl text-lg">How to receive contributions on Twitter</p>
           <div className="flex flex-col space-y-9">
             <div className="flex gap-6 items-center">
               <div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-4">
