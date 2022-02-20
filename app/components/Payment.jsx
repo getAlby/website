@@ -9,7 +9,7 @@ import BitcoinMobile from "../../public/images/bitcoin-illustration.svg";
 
 export default function Payment() {
   return (
-    <div className="xl:pt-40.5 pt-20 lg:w-[93.3%] w-[91.46%] mx-auto bg-white">
+    <div className="xl:py-40.5 pt-20 lg:w-[93.3%] w-[91.46%] mx-auto bg-white">
       <h1 className="xl:text-5xxl lg:text-center font-black lg:text-3xl text-2xl">Receiving payments on<br />  existing platforms</h1>
 
       <div className=" xl:grid xl:grid-cols-2 place-items-center pt-10">
