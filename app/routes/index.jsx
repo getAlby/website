@@ -1,5 +1,5 @@
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
-import BannerIllustration from "../../public/images/banner-illustration.png";
+import BannerIllustration from "../../public/images/banner-illustration.svg";
 import TelegramLogo from "../../public/images/telegram.png";
 import TwitterLogo from "../../public/images/twitter.png";
 import GitHubLogo from "../../public/images/github.png";
