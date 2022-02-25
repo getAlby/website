@@ -64,7 +64,7 @@ export default function index() {
               <img
                 src={BannerIllustration}
                 alt="Alby screenshot"
-                className="pt-0 lg:pt-[17%] aspect-[auto_710/760] mx-auto min-w-[19rem] max-w-2xl"
+                className="pt-0 lg:pt-[17%] aspect-[auto_710/760] mx-auto min-w-[19rem] 2xl:max-w-2xl"
               />
             </div>
           </div>
