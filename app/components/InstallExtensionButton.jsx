@@ -28,6 +28,13 @@ const DefaultLink = "https://github.com/getAlby/lightning-browser-extension";
 function Install({ style }) {
   var parser = new UAParser();
   const browser = parser.getBrowser();
+  function renderIcon() {
+    if (Object.keys(BrowserIcons).includes(browser.name)) {
+      return (
+        <img src={BrowserIcons[browser.name]} className="inline pr-3 max-h-8" />
+      );
+    }
+  }
   if (style === "plain") {
     if (Object.keys(InstallLinks).includes(browser.name)) {
       const link = InstallLinks[browser.name];
@@ -56,16 +63,6 @@ function Install({ style }) {
       );
     }
   } else {
-    function renderIcon() {
-      if (Object.keys(BrowserIcons).includes(browser.name)) {
-        return (
-          <img
-            src={BrowserIcons[browser.name]}
-            className="inline pr-3 max-h-8"
-          />
-        );
-      }
-    }
     if (Object.keys(InstallLinks).includes(browser.name)) {
       const link = InstallLinks[browser.name];
 
