@@ -56,7 +56,7 @@ function Install({ style }) {
               `We currently do not yet support ${browser.name}. But maybe you can install it from source.`
             );
           }}
-          className="border border-black rounded-full text-center py-2"
+          className="border border-black rounded-full text-center p-2"
         >
           Available for Firefox, Chrome, Opera and others
         </a>
