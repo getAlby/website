@@ -1,6 +1,6 @@
 import { ClientOnly } from "remix-utils";
 import UAParser from "ua-parser-js";
-
+import PropTypes from 'prop-types';
 import ChromeIcon from "../../public/images/chrome-icon.png";
 import FirefoxIcon from "../../public/images/firefox-icon.png";
 
@@ -99,6 +99,10 @@ function InstallExtensionButton({ style }) {
       <Install style={style} />
     </ClientOnly>
   );
+}
+
+InstallExtensionButton.propTypes = {
+  style: PropTypes.string
 }
 
 export default InstallExtensionButton;
