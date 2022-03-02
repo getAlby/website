@@ -27,7 +27,7 @@ export default function index() {
       <div className=" bg-albyYellow-300 min-h-screen grid place-items-center relative">
         <div className="w-[93.194%] mx-auto ">
           <Navigation />
-          <div className="xl:mt-20 mt-42 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary 2xl:justify-center 2xl:gap-20">
+          <div className="xl:mt-20 mt-56 md:mt-42 lg:mt-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary 2xl:justify-center 2xl:gap-20">
             <div className="xl:max-w-[39rem] lg:w-1/2 text-albyColdGray-800 text-center lg:text-left">
               <h1 className="mb-4 lg:mb-0 xl:text-[4rem] xl:leading-[110%] text-black md:text-4xl text-3xl font-black">
                 Lightning buzz for your Browser
