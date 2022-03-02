@@ -4,7 +4,7 @@ import InstallExtensionButton from "./InstallExtensionButton";
 function Navigation() {
   return (
     <div className="flex justify-center">
-      <div className="block md:flex top-0 pt-5 pb-8 lg:pb-0 items-center static md:absolute w-[93.194%] justify-center lg:justify-between max-h-[6.25rem]">
+      <div className="block md:flex top-0 pt-5 pb-8 lg:pb-0 items-center static md:absolute w-[93.194%] justify-center lg:justify-between">
         <div>
           <a href="/">
             <img
