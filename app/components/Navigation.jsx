@@ -1,5 +1,5 @@
 import Logo from "../../public/images/logo.svg";
-import InstallExtensionButtonPlain from "./InstallExtensionButtonPlain";
+import InstallExtensionButton from "./InstallExtensionButton";
 
 function Navigation() {
   return (
@@ -18,7 +18,7 @@ function Navigation() {
           <a href="/value4value" className="w-32 text-center py-2">
             Value4Value
           </a>
-          <InstallExtensionButtonPlain />
+          <InstallExtensionButton style="plain" />
           <a
             href="/login"
             className="bg-[#272828] text-white rounded-full w-32 text-center py-2"
