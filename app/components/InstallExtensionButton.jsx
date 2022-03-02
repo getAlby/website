@@ -26,6 +26,11 @@ const BrowserIcons = {
 const DefaultLink = "https://github.com/getAlby/lightning-browser-extension";
 
 function Install({ style }) {
+
+  function trackDownload() {
+    plausible('Download');
+  }
+
   var parser = new UAParser();
   const browser = parser.getBrowser();
   function renderIcon() {
@@ -43,6 +48,7 @@ function Install({ style }) {
         <a
           href={link}
           className="border border-black rounded-full w-32 text-center py-2"
+          onClick={trackDownload}
         >
           Install Alby
         </a>
@@ -69,6 +75,7 @@ function Install({ style }) {
       return (
         <a
           href={link}
+          onClick={trackDownload}
           className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full mt-6"
         >
           {renderIcon()}
@@ -80,6 +87,7 @@ function Install({ style }) {
         <a
           href={DefaultLink}
           onClick={() => {
+            trackDownload();
             alert(
               `We currently do not yet support ${browser.name}. But maybe you can install it from source.`
             );
