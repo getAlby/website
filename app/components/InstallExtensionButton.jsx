@@ -105,4 +105,8 @@ InstallExtensionButton.propTypes = {
   style: PropTypes.string,
 };
 
+Install.propTypes = {
+  style: PropTypes.string,
+};
+
 export default InstallExtensionButton;
