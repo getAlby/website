@@ -29,6 +29,7 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
+        <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
         <Meta />
         <Links />
       </head>
