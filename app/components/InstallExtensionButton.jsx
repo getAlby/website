@@ -69,7 +69,7 @@ function Install({ style }) {
       return (
         <a
           href={link}
-          className="bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full mt-6"
+          className="mx-auto bg-white text-black border-[3px] border-solid border-[#333333] font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-2 px-5 rounded-full mt-6"
         >
           {renderIcon()}
           Add To {browser.name}
