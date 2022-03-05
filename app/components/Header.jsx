@@ -9,18 +9,18 @@ function Header() {
   return (
     <div className=" bg-albyYellow-300 lg:min-h-screen grid place-items-center relative">
       <div className="lg:w-[93.194%] w-[91.46%] mx-auto ">
-        <div className="flex top-0 pt-5 items-center absolute lg:w-[93.194%] w-[91.46%] justify-between max-h-[6.25rem]">
+        <div className="mx-auto block md:flex items-center w-full justify-between">
           <div>
             <a href="/">
               <img
                 src={Logo}
                 alt="Alby"
-                className="w-auto lg:h-[3.75rem] h-[2.75rem]"
+                className="mx-auto w-auto lg:h-[3.75rem] h-[2.75rem]"
               />
             </a>
           </div>
           <div className="flex items-end gap-5 justify-between relative">
-            <div className="mr-10">
+            <div className="mx-auto md:mr-10">
               <InstallExtensionButton />
             </div>
             <img
@@ -30,7 +30,7 @@ function Header() {
             />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-primary pt-[6.5rem] lg:pt-0">
+        <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-primary pt-[1rem] lg:pt-0">
           <div className="xl:max-w-[39.75rem] lg:w-1/2 text-albyColdGray-800 text-left">
             <h1 className="xl:text-6xl md:text-4xl text-3xl font-black">
               Direct contributions from your audience
