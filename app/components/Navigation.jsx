@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Logo from "../../public/images/logo.svg";
 import InstallExtensionButton from "./InstallExtensionButton";
 import Menu from "../../public/images/menu.svg";
