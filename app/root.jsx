@@ -32,7 +32,7 @@ export default function App() {
 				<meta name="title" content="Alby — Lightning buzz for your Browser!"/>
 				<meta name="description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
 				<meta property="og:type" content="website"/>
-				<meta property="og:url" content="https://getalby.com/">
+				<meta property="og:url" content="https://getalby.com/"/>
 				<meta property="og:title" content="Alby — Lightning buzz for your Browser!"/>
 				<meta property="og:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
 				<meta property="og:image" content="/public/images/alby_icon_head_icon.png"/>
