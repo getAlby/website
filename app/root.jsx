@@ -29,18 +29,18 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
-				<meta name="title" content="Alby — Lightning buzz for your Browser!">
-				<meta name="description" content="Alby brings Bitcoin to the web with in-browser payments and identity.">
-				<meta property="og:type" content="website">
+				<meta name="title" content="Alby — Lightning buzz for your Browser!"/>
+				<meta name="description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
+				<meta property="og:type" content="website"/>
 				<meta property="og:url" content="https://getalby.com/">
-				<meta property="og:title" content="Alby — Lightning buzz for your Browser!">
-				<meta property="og:description" content="Alby brings Bitcoin to the web with in-browser payments and identity.">
-				<meta property="og:image" content="/public/images/alby_icon_head_icon.png">
-				<meta property="twitter:card" content="summary_large_image">
-				<meta property="twitter:url" content="https://getalby.com/">
-				<meta property="twitter:title" content="Alby — Lightning buzz for your Browser!">
-				<meta property="twitter:description" content="Alby brings Bitcoin to the web with in-browser payments and identity.">
-				<meta property="twitter:image" content="/public/images/alby_icon_head_icon.png">
+				<meta property="og:title" content="Alby — Lightning buzz for your Browser!"/>
+				<meta property="og:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
+				<meta property="og:image" content="/public/images/alby_icon_head_icon.png"/>
+				<meta property="twitter:card" content="summary_large_image"/>
+				<meta property="twitter:url" content="https://getalby.com/"/>
+				<meta property="twitter:title" content="Alby — Lightning buzz for your Browser!"/>
+				<meta property="twitter:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
+				<meta property="twitter:image" content="/public/images/alby_icon_head_icon.png"/>
         <Meta />
         <Links />
       </head>
