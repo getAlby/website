@@ -180,23 +180,23 @@ export default function index() {
           Other Features
         </h2>
         <div className="block md:flex justify-center items-center space-y-4 md:space-y-0 md:space-x-4 px-4 md:px-20">
-      <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
-				<img src={Shield} alt="" />
-				<h3 className="text-white text-2xl font-extrabold">
-					No Tracking Software
-				</h3>
-				<p className="text-xl text-albyColdGray-300">
-					No stats, analytics, or other trackers come with the extension.
-				</p>
-			</div>
+          <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
+            <img src={Shield} alt="" />
+            <h3 className="text-white text-2xl font-extrabold">
+              No Tracking Software
+            </h3>
+            <p className="text-xl text-albyColdGray-300">
+              No stats, analytics, or other trackers come with the extension.
+            </p>
+          </div>
 
-       <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
-				 <img src={Bolt} alt="" />
-				 <h3 className="text-white text-2xl font-extrabold">Open Source</h3>
-				 <p className="text-xl text-albyColdGray-300">
-					 Completely open code that can be audited and extended by anyone.
-				 </p>
-			 </div>
+          <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
+            <img src={Bolt} alt="" />
+            <h3 className="text-white text-2xl font-extrabold">Open Source</h3>
+            <p className="text-xl text-albyColdGray-300">
+              Completely open code that can be audited and extended by anyone.
+            </p>
+          </div>
           <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
             <img src={Arrows} alt="" />
             <h3 className="text-white text-2xl font-extrabold">
@@ -207,10 +207,6 @@ export default function index() {
               (soon).
             </p>
           </div>
-
-
-
-
         </div>
       </div>
 
