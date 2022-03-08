@@ -62,6 +62,33 @@ function Install({ style }) {
         </a>
       );
     }
+  } else if (style === "main") {
+    if (Object.keys(InstallLinks).includes(browser.name)) {
+      const link = InstallLinks[browser.name];
+
+      return (
+        <a
+          href={link}
+          className="bg-[#272828] text-white rounded-full px-16 text-center py-3 inline-block mt-6"
+        >
+          Install Alby
+        </a>
+      );
+    } else {
+      return (
+        <a
+          href={DefaultLink}
+          onClick={() => {
+            alert(
+              `We currently do not yet support ${browser.name}. But maybe you can install it from source.`
+            );
+          }}
+          className="bg-[#272828] text-white rounded-full px-2 text-center py-3 inline-block mt-6"
+        >
+          Available for Firefox, Chrome, Opera and others
+        </a>
+      );
+    }
   } else if (style === "mobile") {
     if (Object.keys(InstallLinks).includes(browser.name)) {
       const link = InstallLinks[browser.name];

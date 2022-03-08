@@ -4,7 +4,7 @@ import DoItHint from "../../public/images/do-it-hint.png";
 import Landing1 from "../../public/images/landing1.svg";
 import Landing2 from "../../public/images/landing2.svg";
 import Landing3 from "../../public/images/landing3.svg";
-import Landing4 from "../../public/images/landing4.svg";
+import Landing4 from "../../public/images/landing4.png";
 import ChevronRight from "../../public/images/chevron-right.svg";
 import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
@@ -44,33 +44,20 @@ export default function index() {
           <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary 2xl:justify-center 2xl:gap-20">
             <div className="px-6 md:px-0 xl:max-w-[39rem] lg:w-1/2 text-albyColdGray-800 text-center lg:text-left">
               <h1 className="mb-4 lg:mb-0 xl:leading-[110%] text-black text-4xl md:text-5xl lg:text-6xl font-black">
-                Lightning buzz for your Browser
+                The Bitcoin Lightning App for your Browser
               </h1>
               <p className="lg:text-2xl text-xl font-normal">
-                Alby brings Bitcoin to the web with in-browser payments and
-                identity, no account required.
+                Alby brings Bitcoin payments to the web with in-browser payments
+                and identity, all with your own wallet.
               </p>
-              <ul className="bullet-lists pt-4 text-xl text-left">
-                <li className="nav-item pl-4">
-                  Instant payments to your favourite publishers and service
-                  providers
-                </li>
-                <li className="nav-item pl-4">
-                  No need to remember a username or password for these websites
-                </li>
-                <li className="nav-item pl-4">
-                  Direct interactions between you and the receiver, no need to
-                  worry about third party trackers
-                </li>
-              </ul>
 
-              <InstallExtensionButton />
+              <InstallExtensionButton style="main" />
 
               <div className=" mt-6">
                 <img
                   src={DoItHint}
                   alt=""
-                  className="block relative mx-auto lg:mx-0 left-[17%]"
+                  className="block relative mx-auto lg:mx-0 left-[13%]"
                 />
               </div>
             </div>
@@ -92,7 +79,7 @@ export default function index() {
           </h2>
           <p className="text-xl text-center text-albyColdGray-600">
             Just connect your existing Bitcoin Lightning wallet or create a new
-            wallet with 2 clicks.
+            wallet in a few clicks.
           </p>
           <InstallExtensionButton style="getstarted" />
         </div>
@@ -144,9 +131,7 @@ export default function index() {
         <div className="w-full md:w-1/3 space-y-4">
           <h2 className="text-center text-3xl font-extrabold">Use Cases</h2>
           <div className="text-center space-y-4">
-            <h3 className="text-2xl font-extrabold">
-              Value for Value payments
-            </h3>
+            <h3 className="text-2xl font-extrabold">Content Monetization</h3>
             <p className="text-xl text-albyColdGray-600">
               Send and receive payments on websites, Twitter or YouTube and
               other social media platforms.
@@ -195,6 +180,23 @@ export default function index() {
           Other Features
         </h2>
         <div className="block md:flex justify-center items-center space-y-4 md:space-y-0 md:space-x-4 px-4 md:px-20">
+      <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
+				<img src={Shield} alt="" />
+				<h3 className="text-white text-2xl font-extrabold">
+					No Tracking Software
+				</h3>
+				<p className="text-xl text-albyColdGray-300">
+					No stats, analytics, or other trackers come with the extension.
+				</p>
+			</div>
+
+       <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
+				 <img src={Bolt} alt="" />
+				 <h3 className="text-white text-2xl font-extrabold">Open Source</h3>
+				 <p className="text-xl text-albyColdGray-300">
+					 Completely open code that can be audited and extended by anyone.
+				 </p>
+			 </div>
           <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
             <img src={Arrows} alt="" />
             <h3 className="text-white text-2xl font-extrabold">
@@ -206,23 +208,9 @@ export default function index() {
             </p>
           </div>
 
-          <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
-            <img src={Bolt} alt="" />
-            <h3 className="text-white text-2xl font-extrabold">Open Source</h3>
-            <p className="text-xl text-albyColdGray-300">
-              Completely open code that can be audited and extended by anyone.
-            </p>
-          </div>
 
-          <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
-            <img src={Shield} alt="" />
-            <h3 className="text-white text-2xl font-extrabold">
-              No Tracking Software
-            </h3>
-            <p className="text-xl text-albyColdGray-300">
-              No stats, analytics, or other trackers come with the extension.
-            </p>
-          </div>
+
+
         </div>
       </div>
 
