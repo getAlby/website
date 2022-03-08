@@ -28,7 +28,6 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
         <meta name="title" content="Alby — Lightning buzz for your Browser!"/>
         <meta name="description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
         <meta property="og:type" content="website"/>
@@ -41,6 +40,9 @@ export default function App() {
         <meta property="twitter:title" content="Alby — Lightning buzz for your Browser!"/>
         <meta property="twitter:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
         <meta property="twitter:image" content="/public/images/alby_icon_head_icon.png"/>
+
+				<script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
+
         <Meta />
         <Links />
       </head>
