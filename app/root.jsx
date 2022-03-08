@@ -41,7 +41,7 @@ export default function App() {
         <meta property="twitter:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
         <meta property="twitter:image" content="/public/images/alby_icon_head_icon.png"/>
 
-				<script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
+        <script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
 
         <Meta />
         <Links />
