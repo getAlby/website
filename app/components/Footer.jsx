@@ -39,7 +39,7 @@ function Footer() {
                 The Bitcoin Lightning App for your Browser
               </h3>
               <InstallExtensionButton style="main" />
-              <img src={DoItHint} alt="" className="block mt-2 ml-7" />
+              <img src={DoItHint} alt="" className="block my-2 ml-7" />
             </div>
             <div className="flex lg:hidden space-x-10">
               <div className="space-y-2">
