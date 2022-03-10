@@ -36,9 +36,9 @@ function Footer() {
           <div className="pt-10 pb-20 block lg:flex justify-center lg:space-x-10 xl:space-x-20">
             <div>
               <h3 className="text-2xl font-extrabold w-2/3">
-                Lightning buzz for your Browser
+                The Bitcoin Lightning App for your Browser
               </h3>
-              <InstallExtensionButton />
+              <InstallExtensionButton style="main" />
               <img src={DoItHint} alt="" className="block mt-2 ml-7" />
             </div>
             <div className="flex lg:hidden space-x-10">
