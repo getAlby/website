@@ -128,9 +128,9 @@ export default function index() {
         <div className="hidden md:block w-2/3">
           <img src={Landing4} alt="" />
         </div>
-        <div className="w-full md:w-1/3 space-y-4">
+        <div className="w-full md:w-1/3 space-y-10">
           <h2 className="text-center text-3xl font-extrabold">Use Cases</h2>
-          <div className="text-center space-y-4">
+          <div className="space-y-4">
             <h3 className="text-2xl font-extrabold">Content Monetization</h3>
             <p className="text-xl text-albyColdGray-600">
               Send and receive payments on websites, Twitter or YouTube and
@@ -140,7 +140,7 @@ export default function index() {
               Learn more <img src={ChevronRight} alt="" className="inline" />
             </a>
           </div>
-          <div className="text-center space-y-4">
+          <div className="space-y-4">
             <h3 className="text-2xl font-extrabold">Passwordless logins</h3>
             <p className="text-xl text-albyColdGray-600">
               Authenticate with a Bitcoin Lightning wallet. No need to remember
