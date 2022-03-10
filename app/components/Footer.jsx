@@ -8,7 +8,7 @@ import InstallExtensionButton from "../components/InstallExtensionButton";
 function Footer() {
   return (
     <>
-      <div className="bg-albyYellow-300 py-14 lg:py-32 px-4 md:px-10">
+      <div className="bg-albyYellow-300 pb-14 lg:pb-32 px-4 md:px-10">
         <h3 className="w-11/12 text-center md:w-full font-primary font-bold text-4xl mx-auto">
           Do you have feedback or need help?
         </h3>
