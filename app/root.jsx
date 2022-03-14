@@ -7,7 +7,7 @@ import {
   ScrollRestoration,
 } from "remix";
 import AlbyHeadIcon from "../public/images/alby_icon_head_icon.png";
-import OGImage from "../public/images/og_image.svg";
+import OGImage from "../public/images/og_image.png";
 import styles from "./tailwind.css";
 import extendStyles from "./styles/tailwind.css";
 
