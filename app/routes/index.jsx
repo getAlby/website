@@ -4,7 +4,7 @@ import DoItHint from "../../public/images/do-it-hint.png";
 import Landing1 from "../../public/images/landing1.svg";
 import Landing2 from "../../public/images/landing2.svg";
 import Landing3 from "../../public/images/landing3.svg";
-import Landing4 from "../../public/images/landing4.png";
+import Landing4 from "../../public/images/landing4.svg";
 import ChevronRight from "../../public/images/chevron-right.svg";
 import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
