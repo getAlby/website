@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from "remix";
 import AlbyHeadIcon from "../public/images/alby_icon_head_icon.png";
+import OGImage from "../public/images/og_image.png";
 import styles from "./tailwind.css";
 import extendStyles from "./styles/tailwind.css";
 
@@ -43,10 +44,7 @@ export default function App() {
           property="og:description"
           content="Alby brings Bitcoin to the web with in-browser payments and identity."
         />
-        <meta
-          property="og:image"
-          content={`https://getalby.com${AlbyHeadIcon}`}
-        />
+        <meta property="og:image" content={`https://getalby.com${OGImage}`} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://getalby.com/" />
         <meta
@@ -59,7 +57,7 @@ export default function App() {
         />
         <meta
           property="twitter:image"
-          content={`https://getalby.com${AlbyHeadIcon}`}
+          content={`https://getalby.com${OGImage}`}
         />
         <meta name="twitter:site" content="@getalby" />
 
