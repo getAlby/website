@@ -261,7 +261,7 @@ export default function index() {
         </div>
       )}
 
-      <div className="bg-albyYellow-300 relative py-32">
+      <div className="bg-albyYellow-300 relative pt-32">
         <h2 className="text-4xl font-extrabold text-center mb-4">
           Stay up to date
         </h2>
