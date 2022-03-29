@@ -1,11 +1,11 @@
 import { useState } from "react";
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
-import BannerIllustration from "../../public/images/banner-illustration.png";
+import BannerIllustration from "../../public/images/banner-illustration.webp";
 import DoItHint from "../../public/images/do-it-hint.png";
-import Landing1 from "../../public/images/landing1.png";
-import Landing2 from "../../public/images/landing2.png";
-import Landing3 from "../../public/images/landing3.png";
-import Landing4 from "../../public/images/landing4.png";
+import Landing1 from "../../public/images/landing1.webp";
+import Landing2 from "../../public/images/landing2.webp";
+import Landing3 from "../../public/images/landing3.webp";
+import Landing4 from "../../public/images/landing4.webp";
 import ChevronRight from "../../public/images/chevron-right.svg";
 import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
