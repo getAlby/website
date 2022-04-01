@@ -41,19 +41,20 @@ function Footer() {
               <InstallExtensionButton style="main" />
               <img src={DoItHint} alt="" className="block my-2 ml-20" />
             </div>
-            <div className="flex lg:hidden space-x-10">
+
+            <div className="flex gap-10 xl:gap-20">
               <div className="space-y-2">
                 <p className="text-xl font-bold">Alby</p>
-                <a href="" className="block">
+                <a href="https://getalby.substack.com/" className="block">
                   Blog
                 </a>
-                <a href="" className="block">
+                <a href="https://github.com/getAlby/media" className="block">
                   Media
                 </a>
-                <a href="" className="block">
+                <a href="mailto:support@getalby.com" className="block">
                   Support
                 </a>
-                <a href="" className="block">
+                <a href="/terms-of-service" className="block">
                   Terms of Service
                 </a>
                 <a href="/privacy-policy" className="block">
@@ -63,57 +64,25 @@ function Footer() {
 
               <div className="space-y-2">
                 <p className="text-xl font-bold">Developers</p>
-                <a href="" className="block">
+                <a
+                  href="https://github.com/getAlby/lightning-browser-extension#lightning-web-extension"
+                  className="block"
+                >
                   Documentation
                 </a>
-                <a href="" className="block">
+                <a
+                  href="https://github.com/getAlby/lightning-browser-extension/issues"
+                  className="block"
+                >
                   Open Issues
                 </a>
-                <a href="" className="block">
+                <a
+                  href="https://github.com/getAlby/lightning-browser-extension/wiki/Bounties"
+                  className="block"
+                >
                   Open Bounties
                 </a>
               </div>
-            </div>
-
-            <div className="hidden lg:block space-y-2">
-              <p className="text-xl font-bold">Alby</p>
-              <a href="https://getalby.substack.com/" className="block">
-                Blog
-              </a>
-              <a href="https://github.com/getAlby/media" className="block">
-                Media
-              </a>
-              <a href="mailto:support@getalby.com" className="block">
-                Support
-              </a>
-              <a href="/terms-of-service" className="block">
-                Terms of Service
-              </a>
-              <a href="/privacy-policy" className="block">
-                Privacy Policy
-              </a>
-            </div>
-
-            <div className="hidden lg:block space-y-2">
-              <p className="text-xl font-bold">Developers</p>
-              <a
-                href="https://github.com/getAlby/lightning-browser-extension#lightning-web-extension"
-                className="block"
-              >
-                Documentation
-              </a>
-              <a
-                href="https://github.com/getAlby/lightning-browser-extension/issues"
-                className="block"
-              >
-                Open Issues
-              </a>
-              <a
-                href="https://github.com/getAlby/lightning-browser-extension/wiki/Bounties"
-                className="block"
-              >
-                Open Bounties
-              </a>
             </div>
 
             <div>
