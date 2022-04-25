@@ -22,8 +22,12 @@ function Footer() {
               className="underline"
             >
               Github issue
+            </a>
+            , use the{" "}
+            <a href="https://feedback.getalby.com/" className="underline">
+              Feedback board
             </a>{" "}
-            or join the{" "}
+            for feature requests or join the{" "}
             <a href="https://t.me/getAlby" className="underline">
               Telegram channel
             </a>
