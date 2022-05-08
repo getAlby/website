@@ -12,10 +12,10 @@ export default function handleRequest(
   );
 
   responseHeaders.set("Content-Type", "text/html");
-  responseHeaders.set(
-    "Cache-Control",
-    "public, max-age=21600, stale-if-error=86400"
-  );
+  //responseHeaders.set(
+  //  "Cache-Control",
+  //  "public, max-age=21600, stale-if-error=86400"
+  //);
 
   return new Response("<!DOCTYPE html>" + markup, {
     status: responseStatusCode,
