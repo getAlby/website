@@ -13,10 +13,10 @@ import Bees from "../../public/images/bees.svg";
 import Arrows from "../../public/images/arrows.svg";
 import Bolt from "../../public/images/bolt.svg";
 import Shield from "../../public/images/shield.svg";
-import InstallExtensionButton from "../components/InstallExtensionButton";
 import Navigation from "../components/Navigation";
 import { Tweet } from "react-twitter-widgets";
 import Footer from "~/components/Footer";
+import useInstallExtension from "~/hooks/useInstallExtension";
 
 export const meta = () => {
   return {
@@ -35,6 +35,29 @@ export const meta = () => {
 
 export default function index() {
   const [renderError, setRenderError] = useState(false);
+  const installExtension = useInstallExtension();
+  const getStartedNode =
+    installExtension.loading || installExtension.link ? (
+      <a
+        href={installExtension.link || installExtension.defaultLink}
+        className="flex justify-center bg-albyYellow-300 text-albyColdGray-800 text-base lg:text-lg font-medium py-3 px-8 rounded-full mt-4 w-48 mx-auto"
+      >
+        Get started
+      </a>
+    ) : (
+      <a
+        href={installExtension.defaultLink}
+        onClick={() => {
+          alert(
+            `We currently do not yet support ${installExtension.browser}. But maybe you can install it from source.`
+          );
+        }}
+        className="flex justify-center bg-albyYellow-300 text-albyColdGray-800 text-base lg:text-lg font-medium py-3 px-8 rounded-full mt-4"
+      >
+        Available for Firefox, Chrome, Opera and others
+      </a>
+    );
+
   return (
     <>
       <div
@@ -53,7 +76,26 @@ export default function index() {
                 and identity, all with your own wallet.
               </p>
 
-              <InstallExtensionButton style="main" />
+              {installExtension.loading || installExtension.link ? (
+                <a
+                  href={installExtension.link || installExtension.defaultLink}
+                  className="bg-[#272828] text-white rounded-full px-16 text-center py-3 inline-block mt-6"
+                >
+                  Install Alby
+                </a>
+              ) : (
+                <a
+                  href={installExtension.defaultLink}
+                  onClick={() => {
+                    alert(
+                      `We currently do not yet support ${installExtension.browser}. But maybe you can install it from source.`
+                    );
+                  }}
+                  className="bg-[#272828] text-white rounded-full px-2 text-center py-3 inline-block mt-6"
+                >
+                  Available for Firefox, Chrome, Opera and others
+                </a>
+              )}
 
               <div className=" mt-6">
                 <img
@@ -83,7 +125,7 @@ export default function index() {
             Just connect your existing Bitcoin Lightning wallet or create a new
             wallet in a few clicks.
           </p>
-          <InstallExtensionButton style="getstarted" />
+          {getStartedNode}
         </div>
         <div className="mt-4 md:mt-0 w-full md:w-2/3 flex justify-end">
           <img src={Landing1} alt="" />
@@ -103,7 +145,7 @@ export default function index() {
             confirmation. No need searching for your credit card, no QR-Code
             scanning or app-switching.
           </p>
-          <InstallExtensionButton style="getstarted" />
+          {getStartedNode}
         </div>
         <div className="flex justify-center md:hidden w-full">
           <img src={Landing2} alt="" />
@@ -119,7 +161,7 @@ export default function index() {
             Set your budget and manage your allowances for each website to
             automate the payment process.
           </p>
-          <InstallExtensionButton style="getstarted" />
+          {getStartedNode}
         </div>
         <div className="w-full md:w-2/3 flex justify-center md:justify-end">
           <img src={Landing3} alt="" />

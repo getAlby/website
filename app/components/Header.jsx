@@ -3,9 +3,11 @@ import HeaderIllustration from "../../public/images/header-illustration.svg";
 import BelowButtonIllustration from "../../public/images/button-below.svg";
 import BelowHeaderIllustration from "../../public/images/header-below.svg";
 import GroupDiamond from "../../public/images/group-diamond.svg";
-import InstallExtensionButton from "../components/InstallExtensionButton";
+import useInstallExtension from "~/hooks/useInstallExtension";
 
 function Header() {
+  const installExtension = useInstallExtension();
+
   return (
     <div className=" bg-albyYellow-300 lg:min-h-screen grid place-items-center relative">
       <div className="lg:w-[93.194%] w-[91.46%] mx-auto ">
@@ -21,7 +23,32 @@ function Header() {
           </div>
           <div className="flex items-end gap-5 justify-between relative">
             <div className="mx-auto md:mr-10">
-              <InstallExtensionButton />
+              {installExtension.loading ? null : installExtension.link ? (
+                <a
+                  href={installExtension.link || installExtension.defaultLink}
+                  className="mx-auto bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full mt-6"
+                >
+                  {installExtension.browser && (
+                    <img
+                      src={installExtension.icon}
+                      className="inline pr-3 max-h-8"
+                    />
+                  )}
+                  Add To {installExtension.browser}
+                </a>
+              ) : (
+                <a
+                  href={installExtension.defaultLink}
+                  onClick={() => {
+                    alert(
+                      `We currently do not yet support ${installExtension.browser}. But maybe you can install it from source.`
+                    );
+                  }}
+                  className="bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full mt-6"
+                >
+                  Available for Firefox, Chrome, Opera and others
+                </a>
+              )}
             </div>
             <img
               src={BelowButtonIllustration}
