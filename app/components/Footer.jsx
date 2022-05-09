@@ -3,9 +3,11 @@ import TwitterLogo from "../../public/images/twitter-logo.svg";
 import GitHubLogo from "../../public/images/GitHub.svg";
 import YouTubeLogo from "../../public/images/youtube-icon.svg";
 import DoItHint from "../../public/images/do-it-hint.png";
-import InstallExtensionButton from "../components/InstallExtensionButton";
+import useInstallExtension from "~/hooks/useInstallExtension";
 
 function Footer() {
+  const installExtension = useInstallExtension();
+
   return (
     <>
       <div className="bg-albyYellow-300 py-32 px-4 md:px-10">
@@ -42,7 +44,26 @@ function Footer() {
               <h3 className="text-2xl font-extrabold w-2/3">
                 The Bitcoin Lightning App for your Browser
               </h3>
-              <InstallExtensionButton style="main" />
+              {installExtension.loading || installExtension.link ? (
+                <a
+                  href={installExtension.link || installExtension.defaultLink}
+                  className="bg-[#272828] text-white rounded-full px-16 text-center py-3 inline-block mt-6"
+                >
+                  Install Alby
+                </a>
+              ) : (
+                <a
+                  href={installExtension.defaultLink}
+                  onClick={() => {
+                    alert(
+                      `We currently do not yet support ${installExtension.browser}. But maybe you can install it from source.`
+                    );
+                  }}
+                  className="bg-[#272828] text-white rounded-full px-2 text-center py-3 inline-block mt-6"
+                >
+                  Available for Firefox, Chrome, Opera and others
+                </a>
+              )}
               <img src={DoItHint} alt="" className="block my-2 ml-20" />
             </div>
 
