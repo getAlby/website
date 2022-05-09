@@ -172,11 +172,7 @@ function Install({ style }) {
 }
 
 function InstallExtensionButton({ style }) {
-  return (
-    <ClientOnly>
-      <Install style={style} />
-    </ClientOnly>
-  );
+  return <ClientOnly>{() => <Install style={style} />}</ClientOnly>;
 }
 
 InstallExtensionButton.propTypes = {
