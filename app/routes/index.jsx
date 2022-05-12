@@ -318,7 +318,7 @@ export default function index() {
           frameBorder="0"
           scrolling="no"
         ></iframe>
-        <img src={Bees} alt="" className="absolute bottom-5 right-10" />
+        <img src={Bees} alt="" className="absolute md:bottom-5 right-10" />
       </div>
 
       <Footer />
