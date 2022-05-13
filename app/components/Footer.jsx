@@ -49,7 +49,7 @@ function Footer() {
             <div className="flex gap-10 xl:gap-20">
               <div className="space-y-2">
                 <p className="text-xl font-bold">Alby</p>
-                <a href="https://getalby.substack.com/" className="block">
+                <a href="https://blog.getalby.com/" className="block">
                   Blog
                 </a>
                 <a href="https://github.com/getAlby/media" className="block">

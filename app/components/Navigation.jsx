@@ -19,7 +19,7 @@ const MobileMenu = () => {
           Value4Value
         </a>
         <a
-          href="https://getalby.substack.com/"
+          href="https://blog.getalby.com/"
           target="_blank"
           rel="noreferrer"
           className="block w-1/3 mx-auto"
@@ -60,7 +60,7 @@ function Navigation() {
           Value4Value
         </a>
         <a
-          href="https://getalby.substack.com/"
+          href="https://blog.getalby.com/"
           target="_blank"
           rel="noreferrer"
           className="text-center py-2"
