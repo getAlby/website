@@ -31,7 +31,7 @@ const MobileMenu = () => {
         {installExtension.loading || installExtension.link ? (
           <a
             href={installExtension.link || installExtension.defaultLink}
-            className="block mx-auto rounded-full w-32 text-center py-2"
+            className="block mx-auto rounded-full w-32 text-center"
           >
             Install Alby
           </a>
