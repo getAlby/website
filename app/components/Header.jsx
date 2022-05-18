@@ -17,7 +17,7 @@ function Header() {
               <img
                 src={Logo}
                 alt="Alby"
-                className="mx-auto w-auto lg:h-[3.75rem] h-[2.75rem]"
+                className="mt-4 md:mt-0 mx-auto w-auto lg:h-[3.75rem] h-[2.75rem]"
               />
             </a>
           </div>
@@ -26,7 +26,7 @@ function Header() {
               {installExtension.loading ? null : installExtension.link ? (
                 <a
                   href={installExtension.link || installExtension.defaultLink}
-                  className="mx-auto bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full mt-6"
+                  className="mx-auto bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full lg:mt-0 mt-4"
                 >
                   {installExtension.browser && (
                     <img
@@ -44,7 +44,7 @@ function Header() {
                       `We currently do not yet support ${installExtension.browser}. But maybe you can install it from source.`
                     );
                   }}
-                  className="bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full mt-6"
+                  className="bg-[#272828] text-white font-secondary inline-block text-lg lg:leading-[1.875rem] font-semibold py-3 px-7 rounded-full lg:mt-0 mt-4"
                 >
                   Available for Firefox, Chrome, Opera and others
                 </a>

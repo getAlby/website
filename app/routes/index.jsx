@@ -62,11 +62,11 @@ export default function index() {
     <>
       <div
         id="top"
-        className="md:px-20 px-0 bg-albyYellow-300 min-h-screen grid place-items-center relative"
+        className="bg-albyYellow-300 min-h-screen grid place-items-center relative"
       >
         <div className="w-full mx-auto ">
           <Navigation />
-          <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary 2xl:justify-center 2xl:gap-20">
+          <div className="md:px-20 px-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-secondary 2xl:justify-center 2xl:gap-20">
             <div className="px-6 md:px-0 xl:max-w-[39rem] lg:w-1/2 text-albyColdGray-800 text-center lg:text-left">
               <h1 className="mb-4 lg:mb-0 xl:leading-[110%] text-black text-4xl md:text-5xl lg:text-6xl font-black">
                 The Bitcoin Lightning App for your Browser
