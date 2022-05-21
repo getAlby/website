@@ -22,8 +22,6 @@ const MobileMenu = () => {
         </a>
         <a
           href="https://blog.getalby.com/"
-          target="_blank"
-          rel="noreferrer"
           className="block w-1/3 mx-auto"
         >
           Blog
@@ -82,8 +80,6 @@ function Navigation() {
         </a>
         <a
           href="https://blog.getalby.com/"
-          target="_blank"
-          rel="noreferrer"
           className="text-center py-2"
         >
           Blog
