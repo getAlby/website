@@ -14,7 +14,7 @@ function Header() {
           alt=""
           className="absolute w-auto hidden lg:inline-block top-0 right-0"
         />
-        <div className="flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-primary pt-[1rem] lg:pt-0">
+        <div className="md:px-20 px-0 flex flex-col lg:flex-row items-center lg:items-[inherit] justify-between font-primary pt-[1rem] lg:pt-0">
           <div className="xl:max-w-[39.75rem] lg:w-1/2 text-albyColdGray-800 text-left">
             <h1 className="xl:text-6xl md:text-4xl text-3xl font-black">
               Direct contributions from your audience
