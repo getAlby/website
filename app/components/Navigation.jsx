@@ -10,7 +10,7 @@ const MobileMenu = () => {
 
   if (popup) {
     return (
-      <div className="w-full mx-auto border-b border-black p-10 space-y-4 text-center bg-albyYellow-300 block md:hidden absolute top-0 w-screen">
+      <div className="w-full mx-auto border-b border-black p-10 space-y-4 text-center bg-albyYellow-300 block md:hidden absolute top-0 left-0 w-screen">
         <img
           src={X}
           alt=""
@@ -47,7 +47,7 @@ const MobileMenu = () => {
     );
   } else {
     return (
-      <div className="px-7 block md:hidden">
+      <div className="absolute top-9 right-7 md:hidden">
         <img src={Menu} alt="" onClick={() => setPopup(true)} />
       </div>
     );
