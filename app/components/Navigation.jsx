@@ -20,10 +20,16 @@ const MobileMenu = () => {
         <a href="/value4value" className="block w-1/3 mx-auto">
           Value4Value
         </a>
+        <a
+          href="https://blog.getalby.com/"
+          className="block w-1/3 mx-auto"
+        >
+          Blog
+        </a>
         {installExtension.loading || installExtension.link ? (
           <a
             href={installExtension.link || installExtension.defaultLink}
-            className="block mx-auto rounded-full w-32 text-center py-2"
+            className="block mx-auto rounded-full w-32 text-center"
           >
             Install Alby
           </a>
@@ -69,8 +75,14 @@ function Navigation() {
         </a>
       </div>
       <div className="lg:px-20 px-7 hidden md:flex flex-wrap items-center gap-5 justify-center md:justify-end xl:pt-0 pt-3">
-        <a href="/value4value" className="w-32 text-center py-2">
+        <a href="/value4value" className="text-center py-2">
           Value4Value
+        </a>
+        <a
+          href="https://blog.getalby.com/"
+          className="text-center py-2"
+        >
+          Blog
         </a>
         {installExtension.loading || installExtension.link ? (
           <a
