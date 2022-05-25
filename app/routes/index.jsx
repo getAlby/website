@@ -11,6 +11,7 @@ import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
 import Bees from "../../public/images/bees.svg";
 import Arrows from "../../public/images/arrows.svg";
+import Alby from "../../public/images/alby-bee.svg";
 import Bolt from "../../public/images/bolt.svg";
 import Shield from "../../public/images/shield.svg";
 import Navigation from "../components/Navigation";
@@ -310,14 +311,24 @@ export default function index() {
         <p className="w-2/3 lg::w-1/3 mx-auto text-center text-xl text-albyColdGray-600">
           Sign up to get notified about our upcoming features and announcements.
         </p>
-        <iframe
-          src="https://getalby.substack.com/embed"
-          width="100%"
-          height="320"
-          className=""
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
+        <div className="py-10">
+          <img src={Alby} alt="alby" className="mx-auto w-12" />
+          <h3 className="text-center text-2xl font-bold">Alby Buzz</h3>
+          <p className="text-center w-2/3 lg:w-1/4 mx-auto text-albyColdGray-600">
+            The latest buzz directly from Alby's bee hive: Community news,
+            development updates and fresh honey.
+          </p>
+          <div className="flex justify-center items-center">
+            <a
+              href="https://blog.getalby.com/#/portal/signup"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-[#272828] text-white rounded-full px-16 text-center py-3 inline-block mt-2"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
         <img src={Bees} alt="" className="absolute md:bottom-5 right-10" />
       </div>
 
