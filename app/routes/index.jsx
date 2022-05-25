@@ -315,7 +315,7 @@ export default function index() {
           <img src={Alby} alt="alby" className="mx-auto w-12" />
           <h3 className="text-center text-2xl font-bold">Alby Buzz</h3>
           <p className="text-center w-2/3 lg:w-1/4 mx-auto text-albyColdGray-600">
-            The latest buzz directly from Alby's bee hive: Community news,
+            The latest buzz directly from Alby&apos;s bee hive: Community news,
             development updates and fresh honey.
           </p>
           <div className="flex justify-center items-center">
