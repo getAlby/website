@@ -147,7 +147,7 @@ function Footer() {
                 </a>
               </div>
               <p className="mt-5 text-xl font-bold">
-                {!success ? "Subscribe to newsletter" : `You're signed up!`}
+                {!success ? "Subscribe to newsletter" : "You're signed up!"}
               </p>
               {!success ? (
                 <form
@@ -189,7 +189,7 @@ function Footer() {
                         name="consent"
                         onChange={() => setConsent(!consent)}
                       />
-                      <label for="consent" className="ml-2">
+                      <label htmlFor="consent" className="ml-2">
                         I want to get notified about upcoming features and
                         announcements.
                       </label>
