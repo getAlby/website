@@ -5,6 +5,7 @@ import TwitterLogo from "../../public/images/twitter-logo.svg";
 import GitHubLogo from "../../public/images/GitHub.svg";
 import YouTubeLogo from "../../public/images/youtube-icon.svg";
 import DoItHint from "../../public/images/do-it-hint.png";
+import Bees from "../../public/images/bees.svg";
 import useInstallExtension from "~/hooks/useInstallExtension";
 
 function Footer() {
@@ -14,7 +15,8 @@ function Footer() {
   const [success, setSuccess] = useState(false);
   return (
     <>
-      <div className="bg-albyYellow-300 py-32 px-4 md:px-10">
+      <div className="bg-albyYellow-300 py-32 px-4 md:px-10 relative">
+        <img src={Bees} alt="bees" className="absolute top-0 right-10" />
         <h3 className="w-11/12 text-center md:w-full font-primary font-bold text-4xl mx-auto">
           Do you have feedback or need help?
         </h3>

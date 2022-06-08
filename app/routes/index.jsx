@@ -9,7 +9,6 @@ import Landing4 from "../../public/images/landing4.webp";
 import ChevronRight from "../../public/images/chevron-right.svg";
 import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
-import Bees from "../../public/images/bees.svg";
 import Arrows from "../../public/images/arrows.svg";
 import Bolt from "../../public/images/bolt.svg";
 import Shield from "../../public/images/shield.svg";
@@ -302,24 +301,6 @@ export default function index() {
           </div>
         </div>
       )}
-
-      <div className="bg-albyYellow-300 relative pt-32">
-        <h2 className="text-4xl font-extrabold text-center mb-4">
-          Stay up to date
-        </h2>
-        <p className="w-2/3 lg::w-1/3 mx-auto text-center text-xl text-albyColdGray-600">
-          Sign up to get notified about our upcoming features and announcements.
-        </p>
-        <iframe
-          src="https://getalby.substack.com/embed"
-          width="100%"
-          height="320"
-          className=""
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
-        <img src={Bees} alt="" className="absolute md:bottom-5 right-10" />
-      </div>
 
       <Footer />
     </>
