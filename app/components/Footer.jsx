@@ -152,15 +152,15 @@ function Footer() {
               {!success ? (
                 <form
                   data-members-form="subscribe"
-                  class="w-80"
+                  className="w-80"
                   onSubmit={() => setSuccess(true)}
                 >
-                  <div class="flex mt-2">
+                  <div className="flex mt-2">
                     <input
                       data-members-email
                       type="email"
                       required="true"
-                      class="w-[65%] rounded-l-full border border-white bg-white/25 p-3 placeholder:text-black"
+                      className="w-[65%] rounded-l-full border border-white bg-white/25 p-3 placeholder:text-black"
                       placeholder="Email address..."
                       onChange={(e) => {
                         setEmail(e.target.value);
@@ -172,7 +172,7 @@ function Footer() {
                     <button
                       disabled={(email && !consent) || !email}
                       type="submit"
-                      class={`${
+                      className={`${
                         email && !consent ? "opacity-50" : ""
                       } rounded-r-full bg-[#272828] text-white py-3 px-4`}
                     >
@@ -185,11 +185,11 @@ function Footer() {
                         type="checkbox"
                         checked={consent}
                         required="true"
-                        class="mt-4"
+                        className="mt-4"
                         name="consent"
                         onChange={() => setConsent(!consent)}
                       />
-                      <label for="consent" class="ml-2">
+                      <label for="consent" className="ml-2">
                         I want to get notified about upcoming features and
                         announcements.
                       </label>
