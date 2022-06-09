@@ -82,6 +82,9 @@ function Footer() {
                 <a href="https://github.com/getAlby/media" className="block">
                   Media
                 </a>
+                <a href="https://guides.getalby.com/" className="block">
+                  Guides
+                </a>
                 <a href="mailto:support@getalby.com" className="block">
                   Support
                 </a>
