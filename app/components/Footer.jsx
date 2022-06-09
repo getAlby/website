@@ -1,16 +1,22 @@
+import { useState } from "react";
+
 import TelegramLogo from "../../public/images/Telegram.svg";
 import TwitterLogo from "../../public/images/twitter-logo.svg";
 import GitHubLogo from "../../public/images/GitHub.svg";
 import YouTubeLogo from "../../public/images/youtube-icon.svg";
 import DoItHint from "../../public/images/do-it-hint.png";
+import Bees from "../../public/images/bees.svg";
 import useInstallExtension from "~/hooks/useInstallExtension";
 
 function Footer() {
   const installExtension = useInstallExtension();
-
+  const [email, setEmail] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [success, setSuccess] = useState(false);
   return (
     <>
-      <div className="bg-albyYellow-300 py-32 px-4 md:px-10">
+      <div className="bg-albyYellow-300 py-32 px-4 md:px-10 relative">
+        <img src={Bees} alt="bees" className="absolute top-0 right-10" />
         <h3 className="w-11/12 text-center md:w-full font-primary font-bold text-4xl mx-auto">
           Do you have feedback or need help?
         </h3>
@@ -112,7 +118,7 @@ function Footer() {
 
             <div>
               <p className="mt-10 lg:mt-0 text-xl font-bold">Stay in touch</p>
-              <div className="flex lg:justify-center items-center gap-2">
+              <div className="flex items-center gap-2">
                 <a
                   href="https://twitter.com/getalby"
                   target="_blank"
@@ -142,6 +148,59 @@ function Footer() {
                   <img src={YouTubeLogo} alt="YouTube" className="w-10 h-10" />
                 </a>
               </div>
+              <p className="mt-5 text-xl font-bold">
+                {!success ? "Subscribe to newsletter" : "You're signed up!"}
+              </p>
+              {!success ? (
+                <form
+                  data-members-form="subscribe"
+                  className="w-80"
+                  onSubmit={() => setSuccess(true)}
+                >
+                  <div className="flex mt-2">
+                    <input
+                      data-members-email
+                      type="email"
+                      required="true"
+                      className="w-[65%] rounded-l-full border border-white bg-white/25 p-3 placeholder:text-black"
+                      placeholder="Email address..."
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                        if (email.length === 0) {
+                          setConsent(false);
+                        }
+                      }}
+                    />
+                    <button
+                      disabled={(email && !consent) || !email}
+                      type="submit"
+                      className={`${
+                        email && !consent ? "opacity-50" : ""
+                      } rounded-r-full bg-[#272828] text-white py-3 px-4`}
+                    >
+                      Sign up
+                    </button>
+                  </div>
+                  {email && (
+                    <div>
+                      <input
+                        type="checkbox"
+                        checked={consent}
+                        required="true"
+                        className="mt-4"
+                        name="consent"
+                        onChange={() => setConsent(!consent)}
+                      />
+                      <label htmlFor="consent" className="ml-2">
+                        I want to get notified about upcoming features and
+                        announcements.
+                      </label>
+                    </div>
+                  )}
+                </form>
+              ) : (
+                <p>Check your inbox for a confirmation email.</p>
+              )}
             </div>
           </div>
         </div>
