@@ -152,7 +152,7 @@ function Footer() {
                 </a>
               </div>
               <p className="mt-5 text-xl font-bold">
-                {!success ? "Subscribe to newsletter" : "You're signed up!"}
+                {!success ? "Subscribe to the Alby Buzz" : "You're subscribed!"}
               </p>
               {!success ? (
                 <form
