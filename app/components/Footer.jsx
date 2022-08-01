@@ -76,6 +76,9 @@ function Footer() {
             <div className="flex gap-10 xl:gap-20">
               <div className="space-y-2">
                 <p className="text-xl font-bold">Alby</p>
+                <a href="mailto:hello@getalby.com" className="block">
+                  Contact us
+                </a>
                 <a href="https://blog.getalby.com/" className="block">
                   Blog
                 </a>
