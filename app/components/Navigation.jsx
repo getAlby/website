@@ -75,14 +75,17 @@ function Navigation() {
         </a>
       </div>
       <div className="lg:px-20 px-7 hidden md:flex flex-wrap items-center gap-5 justify-center md:justify-end xl:pt-0 pt-3">
-        <a href="/value4value" className="text-center py-2">
-          Value4Value
-        </a>
         <a
           href="https://blog.getalby.com/"
           className="text-center py-2"
         >
           Blog
+        </a>
+        <a href="/value4value" className="text-center py-2">
+          Value4Value
+        </a>
+        <a href="/podcast-wallet" className="text-center py-2">
+          For Podcasters
         </a>
         {installExtension.loading || installExtension.link ? (
           <a
@@ -105,10 +108,10 @@ function Navigation() {
           </a>
         )}
         <a
-          href="/login"
+          href="/user"
           className="bg-[#272828] text-white rounded-full w-32 text-center py-2"
         >
-          Login
+          Dashboard
         </a>
       </div>
       <MobileMenu />
