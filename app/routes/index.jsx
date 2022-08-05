@@ -9,6 +9,7 @@ import Landing4 from "../../public/images/landing4.webp";
 import ChevronRight from "../../public/images/chevron-right.svg";
 import Bee1 from "../../public/images/bee1.svg";
 import Bee2 from "../../public/images/bee2.svg";
+import Alby from "../../public/images/alby.svg";
 import Arrows from "../../public/images/arrows.svg";
 import Bolt from "../../public/images/bolt.svg";
 import Shield from "../../public/images/shield.svg";
@@ -21,11 +22,12 @@ export const meta = () => {
   return {
     title: "Alby — Lightning buzz for your Browser!",
     description:
-      "Alby brings Bitcoin to the web with in-browser payments and identity",
+    "Alby brings Bitcoin to the web with in-browser payments and identity",
     "og:url": "https://getalby.com",
     "og:title": "Alby",
     "og:site_name": "Alby",
     "og:image": HeadLogo,
+    "alby:image": Alby,
     "twitter:site": "@getalby",
     "twitter:creator": "@getalby",
     lightning: "lnurlp:hello@getalby.com",

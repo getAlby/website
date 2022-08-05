@@ -8,6 +8,7 @@ import {
 } from "remix";
 import AlbyHeadIcon from "../public/images/alby_icon_head_icon.png";
 import OGImage from "../public/images/og_image.png";
+import Alby from "../public/images/alby.svg";
 import styles from "./tailwind.css";
 import extendStyles from "./styles/tailwind.css";
 
@@ -36,6 +37,7 @@ export default function App() {
         <meta property="og:title" content="Alby — Lightning buzz for your Browser!"/>
         <meta property="og:description" content="Alby brings Bitcoin to the web with in-browser payments and identity."/>
         <meta property="og:image" content={`https://getalby.com${OGImage}`}/>
+        <meta property="alby:image" content={`https://getalby.com${Alby}`}/>
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://getalby.com/"/>
         <meta property="twitter:title" content="Alby — Lightning buzz for your Browser!"/>

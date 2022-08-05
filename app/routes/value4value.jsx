@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
+import Alby from "../../public/images/alby.svg";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import Service from "~/components/Services";
@@ -15,6 +16,7 @@ export const meta = () => {
     "og:title": "Alby",
     "og:site_name": "Alby",
     "og:image": HeadLogo,
+    "alby:image": Alby,
     "twitter:site": "@getalby",
     "twitter:creator": "@getalby",
     "lightning": "lnurlp:hello@getalby.com",
