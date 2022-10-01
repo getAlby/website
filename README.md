@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-First, run the development server:
+Make sure to run `npm install` and `npm run prepare` after cloning the repository.
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Please be sure to run `npm run pretty` to run the prettier before committing.
+Please be sure to run `npm run pretty` to run the prettier before committing if husky is not working.
 
 ## Learn More
 
