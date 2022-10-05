@@ -13,11 +13,12 @@ import extendStyles from "./styles/tailwind.css";
 
 export function links() {
   return [
-    {
-      rel: "icon",
-      href: AlbyHeadIcon,
-      type: "image/png"
-    },
+    { rel: "icon", href: AlbyHeadIcon, type: "image/png" },
+    { rel: "preload", href: "/fonts/Inter-roman.var.woff2", as: "font", type: "font/woff2", importance: "high", crossOrigin: "anonymous" },
+    { rel: "preload", href: "/fonts/Inter-Bold.woff2", as: "font", type: "font/woff2", importance: "high", crossOrigin: "anonymous" },
+    { rel: "preload", href: "/fonts/Inter-Regular.woff2", as: "font", type: "font/woff2", importance: "high", crossOrigin: "anonymous" },
+    { rel: "preload", href: "/fonts/Catamaran-Black.woff2", as: "font", type: "font/woff2", importance: "high", crossOrigin: "anonymous" },
+    { rel: "preload", href: "/fonts/Catamaran-Regular.woff2", as: "font", type: "font/woff2", importance: "high", crossOrigin: "anonymous" },
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: extendStyles },
   ];
