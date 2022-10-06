@@ -2,12 +2,12 @@
 
 ## Getting Started
 
-Make sure to run `npm install` and `npm run prepare` after cloning the repository.
+> Make sure to run `yarn install` and `yarn prepare` after cloning the repository.
 
 Run the development server:
 
 ```bash
-npm run dev
+yarn dev
 # or
 yarn dev
 ```
@@ -16,7 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Please be sure to run `npm run pretty` to run the prettier before committing if husky is not working.
+> Please be sure to run `yarn pretty` to run the prettier before committing if husky is not working.
+
+> This project is using yarn. Please avoid using npm for this project as it will result in a conflict in the lock file.
 
 ## Learn More
 
