@@ -10,6 +10,35 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+:root {
+  /* Color styles */
+  --primary: #17a1fa;
+  --secondary: #7a61ff;
+  --tertiary: #ff00ff;
+  --black: #0a2942;
+  --gray---default: #636b78;
+  --gray---light: #a1a6ad;
+  --gray---lighter: #d1d4d6;
+
+  /* Text-size styles */
+  /* base size: body (16px) */
+  --display: 3rem;
+  --headline: 2rem;
+  --title: 1.5rem;
+  --body: 1rem;
+  --small: 0.88rem;
+  --h1: 3.75rem;
+  --h2: 3rem;
+  --h3: 2rem;
+  --h4: 1.5rem;
+  --h5: 1.12rem;
+  --c1: 1rem;
+  --c2: 0.88rem;
+
+  /* Effect styles */
+  --card-website: 5px 5px 30px rgba(217, 217, 217, 1);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -27,4 +56,11 @@ a {
     color: white;
     background: black;
   }
+}
+
+h1 {
+  font-size: var(--h1);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
 }
