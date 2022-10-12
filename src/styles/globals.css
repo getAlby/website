@@ -25,6 +25,8 @@ body {
   --gray---default: #636b78;
   --gray---light: #a1a6ad;
   --gray---lighter: #d1d4d6;
+  --dark-bg: #111827;
+  --cyan---default: #c0e8f6;
 
   /* Text-size styles */
   /* base size: body (16px) */
@@ -40,6 +42,7 @@ body {
   --h5: 1.125rem;
   --c1: 1rem;
   --c2: 0.88rem;
+  --default-nav-height: 4.75rem;
 
   /* Effect styles */
   --card-website: 5px 5px 30px rgba(217, 217, 217, 1);
@@ -62,4 +65,14 @@ a {
     color: white;
     background: black;
   }
+}
+
+/* General Classes */
+
+.heroBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
