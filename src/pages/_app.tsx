@@ -13,6 +13,23 @@ function MyApp({ Component, pageProps }: AppProps) {
           colorScheme: "light",
           fontFamily:
             "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+          colors: {
+            brand: [
+              "#FEF5DE",
+              "#FEE8B4",
+              "#FDDD8D",
+              "#FCD26A",
+              "#FCC94A",
+              "#FBC02D",
+              "#FAB710",
+              "#EBA904",
+              "#D49804",
+              "#BF8904",
+            ],
+          },
+          primaryColor: "brand",
+          primaryShade: 5,
+          defaultRadius: 999, // 999px is a circle
           headings: {
             fontFamily:
               "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
@@ -24,6 +41,13 @@ function MyApp({ Component, pageProps }: AppProps) {
               h5: { fontSize: "var(--h5)", fontWeight: 500, lineHeight: 1.1 },
               h6: { fontSize: "var(--h6)", fontWeight: 500, lineHeight: 1.1 },
             },
+          },
+          fontSizes: {
+            xs: 10,
+            sm: 14,
+            md: 16,
+            lg: 20,
+            xl: 24,
           },
         }}
       >
