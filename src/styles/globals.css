@@ -2,6 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -28,10 +34,10 @@ body {
   --body: 1rem;
   --small: 0.88rem;
   --h1: 3.75rem;
-  --h2: 3rem;
+  --h2: 2.75rem;
   --h3: 2rem;
   --h4: 1.5rem;
-  --h5: 1.12rem;
+  --h5: 1.125rem;
   --c1: 1rem;
   --c2: 0.88rem;
 
@@ -56,11 +62,4 @@ a {
     color: white;
     background: black;
   }
-}
-
-h1 {
-  font-size: var(--h1);
-  font-weight: 700;
-  line-height: 1.2;
-  margin: 0;
 }
