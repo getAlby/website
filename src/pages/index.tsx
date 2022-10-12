@@ -4,6 +4,7 @@ import Head from "next/head";
 
 /* component imports */
 import Hero from "./../components/hero";
+import { Background } from "../components/home";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -27,6 +28,7 @@ const HomePage: NextPage = () => {
           subtitle={PAGE_DATA.hero.subtitle}
           buttonText={PAGE_DATA.hero.button.text}
           buttonLink={PAGE_DATA.hero.button.link}
+          background={Background}
         />
       </main>
     </div>
