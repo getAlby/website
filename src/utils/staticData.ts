@@ -1,5 +1,9 @@
 /* This file contains all static data that is used in the application. */
 
+import coinFLip from "../assets/home/coin-flip.svg";
+import coinFLipV2 from "../assets/home/coin-flip-v2.svg";
+import polygon from "../assets/home/polygon.svg";
+
 export const staticData = {
   pages: {
     index: {
@@ -22,12 +26,30 @@ export const staticData = {
         },
       },
     },
-    components: {
-      home: {
-        // This is an example of data that is used in the home component.
-        // The data can be accessed in the component using the following syntax:
-        // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
-        // const { home: COMPONENT_DATA } = staticData.pages.components;
+  },
+  components: {
+    index: {
+      // This is an example of data that is used in the home's components.
+      // The data can be accessed in the component using the following syntax:
+      // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
+      // const { home: COMPONENT_DATA } = staticData.pages.components;
+      hero: {
+        background: {
+          images: {
+            coinFLip: {
+              src: coinFLip,
+              alt: "Flipped Coin element",
+            },
+            coinFLipV2: {
+              src: coinFLipV2,
+              alt: "Flipped Coin element",
+            },
+            polygon: {
+              src: polygon,
+              alt: "Polygon element",
+            },
+          },
+        },
       },
     },
   },
