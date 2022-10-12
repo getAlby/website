@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  max-width: 35rem;
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 26.9rem;
+  text-align: center;
+}
