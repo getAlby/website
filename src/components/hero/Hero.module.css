@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   width: 100%;
   min-height: calc(100vh - var(--default-nav-height));
   display: flex;
