@@ -25,12 +25,13 @@ const Hero = ({
   return (
     <div className={styles.container}>
       {/* Background will be a component that renders 
-      various elements depending on page and screen size */}
+      various elements depending on page and screen size 
+      It should have a default className of "heroBackground" */}
       {Background && <Background />}
-      <Title order={1} className={styles.title}>
+      <Title order={1} color="white" className={styles.title}>
         {title}
       </Title>
-      <Title order={4} className={styles.subtitle}>
+      <Title order={4} color="cyan.0" className={styles.subtitle}>
         {subtitle}
       </Title>
       {buttonText && buttonLink && (
