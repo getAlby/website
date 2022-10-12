@@ -1,6 +1,5 @@
 .container {
   background-color: var(--dark-bg);
-  padding: 7rem 1rem;
 }
 
 .coinFlip,
@@ -14,14 +13,38 @@
 .coinFlip {
   right: 38%;
   bottom: 23%;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .coinFlipV2 {
   bottom: 33%;
   right: 3.5%;
+  width: 4.3rem;
+  height: 3.5rem;
 }
 
 .polygon {
   right: 0;
-  top: 17%;
+  bottom: 40%;
+  width: 8.5rem;
+  height: 17rem;
+}
+
+/* Media Query for Tablet screens */
+@media only screen and (max-width: 768px) {
+  .coinFlip {
+    right: 30%;
+    bottom: 18%;
+  }
+
+  .coinFlipV2 {
+    top: 43%;
+    right: 3.5%;
+  }
+
+  .polygon {
+    right: 0;
+    top: 10%;
+  }
 }

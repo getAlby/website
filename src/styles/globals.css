@@ -76,3 +76,17 @@ a {
   overflow: hidden;
   z-index: -1;
 }
+
+/* Media Query for Tablet screens */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Query for Mobile screens */
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
