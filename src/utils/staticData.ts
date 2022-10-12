@@ -25,6 +25,11 @@ export const staticData = {
           link: "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
         },
       },
+      titleBanner: {
+        title: "Bitcoin transactions made simple",
+        subtitle:
+          "Use the Alby browser extension to pay and receive payments natively on the web.",
+      },
     },
   },
   components: {

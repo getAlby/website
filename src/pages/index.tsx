@@ -5,6 +5,7 @@ import Head from "next/head";
 /* component imports */
 import Hero from "./../components/hero";
 import { Background } from "../components/home";
+import { TitleBanner } from "../components/banners";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -29,6 +30,10 @@ const HomePage: NextPage = () => {
           buttonText={PAGE_DATA.hero.button.text}
           buttonLink={PAGE_DATA.hero.button.link}
           background={Background}
+        />
+        <TitleBanner
+          title={PAGE_DATA.titleBanner.title}
+          subtitle={PAGE_DATA.titleBanner.subtitle}
         />
       </main>
     </div>
