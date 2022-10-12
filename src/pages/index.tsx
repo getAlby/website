@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 /* component imports */
-import Home from "./../components/home";
+import Hero from "./../components/hero";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -22,7 +22,12 @@ const HomePage: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Home />
+        <Hero
+          title={PAGE_DATA.hero.title}
+          subtitle={PAGE_DATA.hero.subtitle}
+          buttonText={PAGE_DATA.hero.button.text}
+          buttonLink={PAGE_DATA.hero.button.link}
+        />
       </main>
     </div>
   );

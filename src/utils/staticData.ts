@@ -28,7 +28,6 @@ export const staticData = {
         // The data can be accessed in the component using the following syntax:
         // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
         // const { home: COMPONENT_DATA } = staticData.pages.components;
-        title: "Welcome to Alby",
       },
     },
   },
