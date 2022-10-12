@@ -12,6 +12,15 @@ export const staticData = {
         description:
           "Alby brings Bitcoin to the web with in-browser payments and identity.",
       },
+      hero: {
+        title: "Your Bitcoin Lightning wallet",
+        subtitle:
+          "Pay seamlessly as consumer, Receive payments directly as creator Integrate wallets as developer",
+        button: {
+          text: "Install it Now",
+          link: "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+        },
+      },
     },
     components: {
       home: {
