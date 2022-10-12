@@ -1,0 +1,27 @@
+.container {
+  background-color: var(--dark-bg);
+  padding: 7rem 1rem;
+}
+
+.coinFlip,
+.coinFlipV2,
+.polygon {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+}
+
+.coinFlip {
+  right: 38%;
+  bottom: 23%;
+}
+
+.coinFlipV2 {
+  bottom: 33%;
+  right: 3.5%;
+}
+
+.polygon {
+  right: 0;
+  top: 17%;
+}
