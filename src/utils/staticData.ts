@@ -3,6 +3,8 @@
 import coinFLip from "../assets/home/coin-flip.svg";
 import coinFLipV2 from "../assets/home/coin-flip-v2.svg";
 import polygon from "../assets/home/polygon.svg";
+import benefitsEasy from "../assets/home/benefits-easy.png";
+import benefitsSecurity from "../assets/home/benefits-security.png";
 
 export const staticData = {
   pages: {
@@ -30,6 +32,26 @@ export const staticData = {
         subtitle:
           "Use the Alby browser extension to pay and receive payments natively on the web.",
       },
+      benefitCards: [
+        {
+          title: "Quick & Easy Setup",
+          description:
+            "Just connect your existing Bitcoin Lightning wallet or create a new wallet in a few clicks.",
+          image: {
+            src: benefitsEasy,
+            alt: "Quick & Easy Setup",
+          },
+        },
+        {
+          title: "Convenient & Secure",
+          description:
+            "When a website requests a payment you will be prompted for confirmation. No need searching for your credit card, no QR-Code scanning or app-switching.",
+          image: {
+            src: benefitsSecurity,
+            alt: "Convenient & Secure",
+          },
+        },
+      ],
     },
   },
   components: {
