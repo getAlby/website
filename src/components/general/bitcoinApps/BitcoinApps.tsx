@@ -12,7 +12,7 @@ const BitcoinApps = () => {
     <div className={styles.container}>
       <div className={styles.header}>
         <Title order={2}>{COMPONENT_DATA.title}</Title>
-        <Text>{COMPONENT_DATA.description}</Text>
+        <Text size="lg">{COMPONENT_DATA.description}</Text>
       </div>
       <div className={styles.apps}>
         <div className={styles.appListWrapper}>
@@ -23,7 +23,7 @@ const BitcoinApps = () => {
               openDelay={400}
               closeDelay={100}
             >
-              <NextLink href={app.url}>
+              <NextLink href={app.url} className={styles.appImage}>
                 <Image
                   src={app.image.src}
                   alt={app.image.alt}
