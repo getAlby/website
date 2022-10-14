@@ -6,6 +6,14 @@ import polygon from "../assets/home/polygon.svg";
 import benefitsEasy from "../assets/home/benefits-easy.png";
 import benefitsSecurity from "../assets/home/benefits-security.png";
 
+import bitcoinApp1 from "../assets/general/bitcoinApps/1.png";
+import bitcoinApp2 from "../assets/general/bitcoinApps/2.png";
+import bitcoinApp3 from "../assets/general/bitcoinApps/3.png";
+import bitcoinApp4 from "../assets/general/bitcoinApps/4.png";
+import bitcoinApp5 from "../assets/general/bitcoinApps/5.png";
+import bitcoinApp6 from "../assets/general/bitcoinApps/6.png";
+import bitcoinApp7 from "../assets/general/bitcoinApps/7.png";
+
 export const staticData = {
   pages: {
     index: {
@@ -59,7 +67,7 @@ export const staticData = {
       // This is an example of data that is used in the home's components.
       // The data can be accessed in the component using the following syntax:
       // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
-      // const { home: COMPONENT_DATA } = staticData.pages.components;
+      // const { home: COMPONENT_DATA } = staticData.components;
       hero: {
         background: {
           images: {
@@ -77,6 +85,73 @@ export const staticData = {
             },
           },
         },
+      },
+    },
+    bitcoinApps: {
+      title: "Login to Bitcoin apps",
+      description:
+        "With an Alby Chrome Extension you can efortlessly login to a number of  lightning apps and make transactions with one click. No password needed.",
+      apps: [
+        {
+          name: "Lightning App 1",
+          image: {
+            src: bitcoinApp1,
+            alt: "Lightning App 1",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 2",
+          image: {
+            src: bitcoinApp2,
+            alt: "Lightning App 2",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 3",
+          image: {
+            src: bitcoinApp3,
+            alt: "Lightning App 3",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 4",
+          image: {
+            src: bitcoinApp4,
+            alt: "Lightning App 4",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 5",
+          image: {
+            src: bitcoinApp5,
+            alt: "Lightning App 5",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 6",
+          image: {
+            src: bitcoinApp6,
+            alt: "Lightning App 6",
+          },
+          url: "/#",
+        },
+        {
+          name: "Lightning App 7",
+          image: {
+            src: bitcoinApp7,
+            alt: "Lightning App 7",
+          },
+          url: "/#",
+        },
+      ],
+      moreApps: {
+        text: "Browse more Apps",
+        link: "/#",
       },
     },
   },

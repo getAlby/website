@@ -6,6 +6,7 @@ import Head from "next/head";
 import Hero from "./../components/hero";
 import { Background } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
+import { BitcoinApps } from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -42,6 +43,7 @@ const HomePage: NextPage = () => {
             isReversed={index % 2 === 1}
           />
         ))}
+        <BitcoinApps />
       </main>
     </div>
   );
