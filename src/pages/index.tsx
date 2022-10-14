@@ -44,6 +44,10 @@ const HomePage: NextPage = () => {
           />
         ))}
         <BitcoinApps />
+        <TitleBanner
+          title={PAGE_DATA.monetization.title}
+          subtitle={PAGE_DATA.monetization.subtitle}
+        />
       </main>
     </div>
   );

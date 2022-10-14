@@ -14,6 +14,10 @@ import bitcoinApp5 from "../assets/general/bitcoinApps/5.png";
 import bitcoinApp6 from "../assets/general/bitcoinApps/6.png";
 import bitcoinApp7 from "../assets/general/bitcoinApps/7.png";
 
+import monetizationAsPodcaster from "../assets/general/monetization/cards/as-podcaster.png";
+import monetizationOnWebsite from "../assets/general/monetization/cards/on-website.png";
+import monetizationOnContentPlatforms from "../assets/general/monetization/cards/on-content-platforms.png";
+
 export const staticData = {
   pages: {
     index: {
@@ -59,6 +63,10 @@ export const staticData = {
             },
           },
         ],
+      },
+      monetization: {
+        title: "Monetize your content in a new way",
+        subtitle: "Accept payments directly from your fans",
       },
     },
   },
@@ -154,5 +162,36 @@ export const staticData = {
         link: "/#",
       },
     },
+    monetizationCards: [
+      {
+        image: {
+          src: monetizationAsPodcaster,
+          alt: "Podcaste",
+        },
+        title: "As a podcaster",
+        description: "Build up a direct revenue stream from your listener",
+        url: "/#",
+      },
+      {
+        image: {
+          src: monetizationOnWebsite,
+          alt: "Website",
+        },
+        title: "On your website",
+        description:
+          "Benefit from multiple tools to receive payments on your website.",
+        url: "/#",
+      },
+      {
+        image: {
+          src: monetizationOnContentPlatforms,
+          alt: "Content platforms",
+        },
+        title: "On content platforms",
+        description:
+          "Keep your existing distribution channels but avoid hefty fees.",
+        url: "/#",
+      },
+    ],
   },
 };
