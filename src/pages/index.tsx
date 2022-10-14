@@ -33,10 +33,10 @@ const HomePage: NextPage = () => {
           background={Background}
         />
         <TitleBanner
-          title={PAGE_DATA.titleBanner.title}
-          subtitle={PAGE_DATA.titleBanner.subtitle}
+          title={PAGE_DATA.benefits.title}
+          subtitle={PAGE_DATA.benefits.subtitle}
         />
-        {PAGE_DATA.benefitCards.map((card, index) => (
+        {PAGE_DATA.benefits.cards.map((card, index) => (
           <PrimaryContentCard
             key={index}
             {...card}

@@ -35,31 +35,31 @@ export const staticData = {
           link: "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
         },
       },
-      titleBanner: {
+      benefits: {
         title: "Bitcoin transactions made simple",
         subtitle:
           "Use the Alby browser extension to pay and receive payments natively on the web.",
+        cards: [
+          {
+            title: "Quick & Easy Setup",
+            description:
+              "Just connect your existing Bitcoin Lightning wallet or create a new wallet in a few clicks.",
+            image: {
+              src: benefitsEasy,
+              alt: "Quick & Easy Setup",
+            },
+          },
+          {
+            title: "Convenient & Secure",
+            description:
+              "When a website requests a payment you will be prompted for confirmation. No need searching for your credit card, no QR-Code scanning or app-switching.",
+            image: {
+              src: benefitsSecurity,
+              alt: "Convenient & Secure",
+            },
+          },
+        ],
       },
-      benefitCards: [
-        {
-          title: "Quick & Easy Setup",
-          description:
-            "Just connect your existing Bitcoin Lightning wallet or create a new wallet in a few clicks.",
-          image: {
-            src: benefitsEasy,
-            alt: "Quick & Easy Setup",
-          },
-        },
-        {
-          title: "Convenient & Secure",
-          description:
-            "When a website requests a payment you will be prompted for confirmation. No need searching for your credit card, no QR-Code scanning or app-switching.",
-          image: {
-            src: benefitsSecurity,
-            alt: "Convenient & Secure",
-          },
-        },
-      ],
     },
   },
   components: {
