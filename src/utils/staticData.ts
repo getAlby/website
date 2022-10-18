@@ -194,4 +194,13 @@ export const staticData = {
       },
     ],
   },
+  general: {
+    // This is an example of data that is used in multiple components and pages.
+    // The data can be accessed in the component using the following syntax:
+    // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
+    // const { general: GENERAL_DATA } = staticData;
+    content: {
+      learnMore: "Learn more",
+    },
+  },
 };
