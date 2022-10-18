@@ -7,6 +7,7 @@ import Hero from "./../components/hero";
 import { Background } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
 import { BitcoinApps } from "../components/general";
+import MonetizationCards from "../components/general/monetizationCards/MonetizationCards";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -48,6 +49,7 @@ const HomePage: NextPage = () => {
           title={PAGE_DATA.monetization.title}
           subtitle={PAGE_DATA.monetization.subtitle}
         />
+        <MonetizationCards />
       </main>
     </div>
   );
