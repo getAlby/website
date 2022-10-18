@@ -23,7 +23,11 @@ const BitcoinApps = () => {
               openDelay={400}
               closeDelay={100}
             >
-              <NextLink href={app.url} className={styles.appImage}>
+              <NextLink
+                href={app.url}
+                className={styles.appImage}
+                target="_blank"
+              >
                 <Image
                   src={app.image.src}
                   alt={app.image.alt}
