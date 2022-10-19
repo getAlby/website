@@ -14,7 +14,7 @@
 .container::after,
 .container::before {
   content: "";
-  background-image: url("../../../assets/general/apisExampleCard/wedge-shape.png");
+  background-image: url("../../../assets/home/wedge-shape.png");
   background-size: 100% 100%;
   background-repeat: space;
   height: 6rem;

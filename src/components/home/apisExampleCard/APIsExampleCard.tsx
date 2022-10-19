@@ -4,7 +4,7 @@ import { Text, Title, List, Button } from "@mantine/core";
 import styles from "./APIsExampleCard.module.css";
 
 import { staticData } from "../../../utils/staticData";
-const { apisExampleCard: COMPONENT_DATA } = staticData.components;
+const { apisExampleCard: COMPONENT_DATA } = staticData.components.index;
 const { general: GENERAL_DATA } = staticData;
 
 const APIsExampleCard = () => {

@@ -5,6 +5,7 @@ import coinFLipV2 from "../assets/home/coin-flip-v2.svg";
 import polygon from "../assets/home/polygon.svg";
 import benefitsEasy from "../assets/home/benefits-easy.png";
 import benefitsSecurity from "../assets/home/benefits-security.png";
+import easyToUseAPIExample from "../assets/home/easy-to-use-api-example.png";
 
 import bitcoinApp1 from "../assets/general/bitcoinApps/1.png";
 import bitcoinApp2 from "../assets/general/bitcoinApps/2.png";
@@ -17,8 +18,6 @@ import bitcoinApp7 from "../assets/general/bitcoinApps/7.png";
 import monetizationAsPodcaster from "../assets/general/monetization/cards/as-podcaster.png";
 import monetizationOnWebsite from "../assets/general/monetization/cards/on-website.png";
 import monetizationOnContentPlatforms from "../assets/general/monetization/cards/on-content-platforms.png";
-
-import easyToUseAPIExample from "../assets/general/apisExampleCard/easy-to-use-api-example.png";
 
 export const staticData = {
   pages: {
@@ -103,7 +102,22 @@ export const staticData = {
           },
         },
       },
+      apisExampleCard: {
+        title: "Easy-to-use APIs",
+        subtitle: "Designed for Developers",
+        benefits: [
+          "Power your app with bitcoin",
+          "Embed wallets",
+          "Enable instant payments within your app",
+        ],
+        coverImage: {
+          src: easyToUseAPIExample,
+          alt: "Easy-to-use APIs Demonstration",
+        },
+        buttonRedirectTo: "/#",
+      },
     },
+
     bitcoinApps: {
       title: "Login to Bitcoin apps",
       description:
@@ -202,20 +216,6 @@ export const staticData = {
         url: "/#",
       },
     ],
-    apisExampleCard: {
-      title: "Easy-to-use APIs",
-      subtitle: "Designed for Developers",
-      benefits: [
-        "Power your app with bitcoin",
-        "Embed wallets",
-        "Enable instant payments within your app",
-      ],
-      coverImage: {
-        src: easyToUseAPIExample,
-        alt: "Easy-to-use APIs Demonstration",
-      },
-      buttonRedirectTo: "/#",
-    },
   },
   general: {
     // This is an example of data that is used in multiple components and pages.

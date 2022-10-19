@@ -5,13 +5,9 @@ import { Title, Button } from "@mantine/core";
 
 /* component imports */
 import Hero from "./../components/hero";
-import { Background } from "../components/home";
+import { Background, APIsExampleCard } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
-import {
-  APIsExampleCard,
-  BitcoinApps,
-  MonetizationCards,
-} from "../components/general";
+import { BitcoinApps, MonetizationCards } from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
