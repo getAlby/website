@@ -1,6 +1,7 @@
 /* module imports */
 import type { NextPage } from "next";
 import Head from "next/head";
+import { Title, Button } from "@mantine/core";
 
 /* component imports */
 import Hero from "./../components/hero";
@@ -50,6 +51,24 @@ const HomePage: NextPage = () => {
           subtitle={PAGE_DATA.monetization.subtitle}
         />
         <MonetizationCards />
+        <div className={styles.additionalIncomeWrapper}>
+          <Title order={3} align="center">
+            {PAGE_DATA.additionalIncome.title}
+          </Title>
+          <Button
+            component="a"
+            href={PAGE_DATA.additionalIncome.button.redirectTo}
+            size="md"
+            uppercase
+            color={"dark"}
+            style={{
+              fontWeight: "500",
+              textDecoration: "underline",
+            }}
+          >
+            {PAGE_DATA.additionalIncome.button.text}
+          </Button>
+        </div>
       </main>
     </div>
   );

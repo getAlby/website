@@ -6,3 +6,12 @@
   display: flex;
   flex-direction: column;
 }
+
+.additionalIncomeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem max(2rem, calc(50vw - 26.25rem));
+  gap: 2rem;
+}

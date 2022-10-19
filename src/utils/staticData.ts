@@ -68,6 +68,13 @@ export const staticData = {
         title: "Monetize your content in a new way",
         subtitle: "Accept payments directly from your fans",
       },
+      additionalIncome: {
+        title: "How can you create additional income?",
+        button: {
+          text: "Get inspired",
+          redirectTo: "/#",
+        },
+      },
     },
   },
   components: {
