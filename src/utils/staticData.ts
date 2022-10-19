@@ -18,6 +18,8 @@ import monetizationAsPodcaster from "../assets/general/monetization/cards/as-pod
 import monetizationOnWebsite from "../assets/general/monetization/cards/on-website.png";
 import monetizationOnContentPlatforms from "../assets/general/monetization/cards/on-content-platforms.png";
 
+import easyToUseAPIExample from "../assets/general/apisExampleCard/easy-to-use-api-example.png";
+
 export const staticData = {
   pages: {
     index: {
@@ -200,6 +202,20 @@ export const staticData = {
         url: "/#",
       },
     ],
+    apisExampleCard: {
+      title: "Easy-to-use APIs",
+      subtitle: "Designed for Developers",
+      benefits: [
+        "Power your app with bitcoin",
+        "Embed wallets",
+        "Enable instant payments within your app",
+      ],
+      coverImage: {
+        src: easyToUseAPIExample,
+        alt: "Easy-to-use APIs Demonstration",
+      },
+      buttonRedirectTo: "/#",
+    },
   },
   general: {
     // This is an example of data that is used in multiple components and pages.

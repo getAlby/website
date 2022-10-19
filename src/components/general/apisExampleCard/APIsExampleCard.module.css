@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5rem max(2rem, calc(50vw - 60rem));
+  position: relative;
+  margin: 6rem 0;
+  background-color: var(--dark-bg);
+  gap: 2.5rem;
+  flex-wrap: wrap-reverse;
+}
+
+.container::after,
+.container::before {
+  content: "";
+  background-image: url("../../../assets/general/apisExampleCard/wedge-shape.png");
+  background-size: 100% 100%;
+  background-repeat: space;
+  height: 6rem;
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
+.container::after {
+  top: 100%;
+  transform: rotate(180deg);
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 24rem;
+}
+
+.rightSection {
+  width: 100%;
+  max-width: 35rem;
+}

@@ -7,8 +7,11 @@ import { Title, Button } from "@mantine/core";
 import Hero from "./../components/hero";
 import { Background } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
-import { BitcoinApps } from "../components/general";
-import { MonetizationCards } from "../components/general";
+import {
+  APIsExampleCard,
+  BitcoinApps,
+  MonetizationCards,
+} from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -69,6 +72,7 @@ const HomePage: NextPage = () => {
             {PAGE_DATA.additionalIncome.button.text}
           </Button>
         </div>
+        <APIsExampleCard />
       </main>
     </div>
   );
