@@ -7,7 +7,7 @@ import Hero from "./../components/hero";
 import { Background } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
 import { BitcoinApps } from "../components/general";
-import MonetizationCards from "../components/general/monetizationCards/MonetizationCards";
+import { MonetizationCards } from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
