@@ -6,6 +6,7 @@ import polygon from "../assets/home/polygon.svg";
 import benefitsEasy from "../assets/home/benefits-easy.png";
 import benefitsSecurity from "../assets/home/benefits-security.png";
 import easyToUseAPIExample from "../assets/home/easy-to-use-api-example.png";
+import opensourceMeet from "../assets/home/opensource-meet.png";
 
 import bitcoinApp1 from "../assets/general/bitcoinApps/1.png";
 import bitcoinApp2 from "../assets/general/bitcoinApps/2.png";
@@ -116,8 +117,19 @@ export const staticData = {
         },
         buttonRedirectTo: "/#",
       },
+      opensourceMeetBanner: {
+        title: "Open source project",
+        description: "Byweekly sessions with the comunity and AMAs",
+        button: {
+          text: "Comunity calls every Thursday • Join next call >",
+          redirectTo: "/#",
+        },
+        coverImage: {
+          src: opensourceMeet,
+          alt: "Open source project",
+        },
+      },
     },
-
     bitcoinApps: {
       title: "Login to Bitcoin apps",
       description:

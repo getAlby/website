@@ -5,7 +5,11 @@ import { Title, Button } from "@mantine/core";
 
 /* component imports */
 import Hero from "./../components/hero";
-import { Background, APIsExampleCard } from "../components/home";
+import {
+  Background,
+  APIsExampleCard,
+  OpensourceMeetBanner,
+} from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
 import { BitcoinApps, MonetizationCards } from "../components/general";
 
@@ -69,6 +73,7 @@ const HomePage: NextPage = () => {
           </Button>
         </div>
         <APIsExampleCard />
+        <OpensourceMeetBanner />
       </main>
     </div>
   );

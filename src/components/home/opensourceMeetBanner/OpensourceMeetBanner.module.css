@@ -1,0 +1,19 @@
+.container {
+  background-color: var(--grey-bg);
+  padding: 10rem max(2rem, calc(50vw - 32rem)) 5rem;
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rightSection {
+  width: 38rem;
+  height: 18rem;
+}
