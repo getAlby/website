@@ -228,6 +228,14 @@ export const staticData = {
         url: "/#",
       },
     ],
+    twitterMentions: {
+      title: "What People Are Saying",
+      tweets: [
+        ["1461415321823330305", "1482698978957271041"],
+        ["1468991903349809152", "1485705677104369667", "1468036148844978181"],
+        ["1483615302285807617", "1477623383454011392", "1477010314587561989"],
+      ],
+    },
   },
   general: {
     // This is an example of data that is used in multiple components and pages.

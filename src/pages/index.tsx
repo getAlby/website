@@ -11,7 +11,11 @@ import {
   OpensourceMeetBanner,
 } from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
-import { BitcoinApps, MonetizationCards } from "../components/general";
+import {
+  BitcoinApps,
+  MonetizationCards,
+  TwitterMentions,
+} from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -74,6 +78,7 @@ const HomePage: NextPage = () => {
         </div>
         <APIsExampleCard />
         <OpensourceMeetBanner />
+        <TwitterMentions />
       </main>
     </div>
   );

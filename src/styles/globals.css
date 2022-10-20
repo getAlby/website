@@ -28,6 +28,7 @@ body {
   --dark-bg: #111827;
   --cyan---default: #c0e8f6;
   --grey-bg: #f3f3f3;
+  --dark-bg---secondary: #000000cc;
 
   /* Text-size styles */
   /* base size: body (16px) */
