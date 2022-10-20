@@ -1,19 +1,28 @@
 .container {
   background-color: var(--grey-bg);
-  padding: 10rem max(2rem, calc(50vw - 32rem)) 5rem;
+  padding: 7rem max(2rem, calc(50vw - 32rem)) 3rem;
   display: flex;
-  gap: 0.625rem;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
 .leftSection {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  width: 100%;
+  max-width: 24rem;
+}
+
+.button {
+  color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .rightSection {
-  width: 38rem;
-  height: 18rem;
+  width: 36rem;
+  margin-top: 5rem;
 }

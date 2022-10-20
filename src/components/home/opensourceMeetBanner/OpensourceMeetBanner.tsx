@@ -10,18 +10,14 @@ const OpensourceMeetBanner = () => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
-        <div>
-          <Button
-            variant="outline"
-            component="a"
-            href={COMPONENT_DATA.button.redirectTo}
-            style={{
-              color: "black",
-            }}
-          >
-            {COMPONENT_DATA.button.text}
-          </Button>
-        </div>
+        <Button
+          variant="outline"
+          component="a"
+          href={COMPONENT_DATA.button.redirectTo}
+          className={styles.button}
+        >
+          {COMPONENT_DATA.button.text}
+        </Button>
         <Title order={1} weight={900}>
           {COMPONENT_DATA.title}
         </Title>
