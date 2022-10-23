@@ -20,6 +20,15 @@ import monetizationAsPodcaster from "../assets/general/monetization/cards/as-pod
 import monetizationOnWebsite from "../assets/general/monetization/cards/on-website.png";
 import monetizationOnContentPlatforms from "../assets/general/monetization/cards/on-content-platforms.png";
 
+import telegramIcon from "../assets/general/footer/telegram.svg";
+import twitterIcon from "../assets/general/footer/twitter.svg";
+import githubIcon from "../assets/general/footer/github.svg";
+import youtubeIcon from "../assets/general/footer/youtube.svg";
+import doItHint from "../assets/general/footer/do-it-hint.png";
+
+import chromeIcon from "../assets/general/browsers/chrome.png";
+import firefoxIcon from "../assets/general/browsers/firefox.png";
+
 export const staticData = {
   pages: {
     index: {
@@ -236,6 +245,46 @@ export const staticData = {
         ["1483615302285807617", "1477623383454011392", "1477010314587561989"],
       ],
     },
+    footer: {
+      icons: [
+        {
+          name: "Twitter",
+          url: "https://twitter.com/getalby",
+          icon: {
+            src: twitterIcon,
+            alt: "Twitter",
+          },
+        },
+        {
+          name: "Telegram",
+          url: "https://t.me/getAlby",
+          icon: {
+            src: telegramIcon,
+            alt: "Telegram",
+          },
+        },
+        {
+          name: "Github",
+          url: "https://github.com/getAlby",
+          icon: {
+            src: githubIcon,
+            alt: "Github",
+          },
+        },
+        {
+          name: "Youtube",
+          url: "https://www.youtube.com/channel/UCIICdm6mox3VkCAv-yHMeMw",
+          icon: {
+            src: youtubeIcon,
+            alt: "Youtube",
+          },
+        },
+      ],
+      doItHint: {
+        src: doItHint,
+        alt: "Do it",
+      },
+    },
   },
   general: {
     // This is an example of data that is used in multiple components and pages.
@@ -244,6 +293,28 @@ export const staticData = {
     // const { general: GENERAL_DATA } = staticData;
     content: {
       learnMore: "Learn more",
+    },
+  },
+  hooks: {
+    useInstallExtension: {
+      // This is an example of data that is used in the useInstallExtension hook.
+      // The data can be accessed in the hook using the following syntax:
+      // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
+      // const { useInstallExtension: HOOK_DATA } = staticData.hooks;
+      icons: {
+        chrome: {
+          src: chromeIcon,
+          alt: "Chrome",
+        },
+        firefox: {
+          src: firefoxIcon,
+          alt: "Firefox",
+        },
+        chromium: {
+          src: chromeIcon,
+          alt: "Chromium",
+        },
+      },
     },
   },
 };
