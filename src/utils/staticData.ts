@@ -83,7 +83,7 @@ export const staticData = {
         title: "How can you create additional income?",
         button: {
           text: "Get inspired",
-          redirectTo: "/#",
+          redirectTo: "https://getalby.com/value4value",
         },
       },
     },
