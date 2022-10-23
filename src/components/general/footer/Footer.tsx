@@ -104,7 +104,12 @@ const Footer = () => {
             <div className={styles.socialLinksContainer}>
               {COMPONENT_DATA.references.stayInTouch.links.map(
                 (social, index) => (
-                  <Link href={social.href} target="_blank" rel="noreferrer">
+                  <Link
+                    key={index}
+                    href={social.href}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <Image src={social.icon.src} alt={social.icon.alt} />
                   </Link>
                 )
