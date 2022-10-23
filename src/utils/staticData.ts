@@ -302,19 +302,33 @@ export const staticData = {
       // import { staticData } from "[RELATIVE_PATH_TO_THIS_FILE]";
       // const { useInstallExtension: HOOK_DATA } = staticData.hooks;
       icons: {
-        chrome: {
+        Chrome: {
           src: chromeIcon,
           alt: "Chrome",
         },
-        firefox: {
+        Firefox: {
           src: firefoxIcon,
           alt: "Firefox",
         },
-        chromium: {
+        Chromium: {
           src: chromeIcon,
           alt: "Chromium",
         },
       },
+      installLinks: {
+        Firefox: "https://addons.mozilla.org/en-US/firefox/addon/alby/",
+        Chrome:
+          "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+        Chromium:
+          "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+        Vivaldi:
+          "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+        Brave:
+          "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+        Opera:
+          "https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe",
+      },
+      defaultLink: "https://github.com/getAlby/lightning-browser-extension",
     },
   },
 };
