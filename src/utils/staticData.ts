@@ -145,60 +145,60 @@ export const staticData = {
         "With an Alby Chrome Extension you can efortlessly login to a number of  lightning apps and make transactions with one click. No password needed.",
       apps: [
         {
-          name: "Lightning App 1",
+          name: "Bolt.fun",
           image: {
             src: bitcoinApp1,
-            alt: "Lightning App 1",
+            alt: "Bolt.fun",
           },
-          url: "/#",
+          url: "https://makers.bolt.fun/feed",
         },
         {
-          name: "Lightning App 2",
+          name: "LN Markets",
           image: {
             src: bitcoinApp2,
-            alt: "Lightning App 2",
+            alt: "LN Markets",
           },
-          url: "/#",
+          url: "https://lnmarkets.com/en",
         },
         {
-          name: "Lightning App 3",
+          name: "WebLN Experiments",
           image: {
             src: bitcoinApp3,
-            alt: "Lightning App 3",
+            alt: "WebLN Experiments",
           },
-          url: "/#",
+          url: "https://webln.twentyuno.net/",
         },
         {
-          name: "Lightning App 4",
+          name: "LOFT",
           image: {
             src: bitcoinApp4,
-            alt: "Lightning App 4",
+            alt: "LOFT",
           },
-          url: "/#",
+          url: "https://loft.trade/",
         },
         {
-          name: "Lightning App 5",
+          name: "Kollider",
           image: {
             src: bitcoinApp5,
-            alt: "Lightning App 5",
+            alt: "Kollider",
           },
-          url: "/#",
+          url: "https://kollider.xyz/",
         },
         {
-          name: "Lightning App 6",
+          name: "Podverse",
           image: {
             src: bitcoinApp6,
-            alt: "Lightning App 6",
+            alt: "Podverse",
           },
-          url: "/#",
+          url: "https://podverse.fm/",
         },
         {
-          name: "Lightning App 7",
+          name: "Stacker News",
           image: {
             src: bitcoinApp7,
-            alt: "Lightning App 7",
+            alt: "Stacker News",
           },
-          url: "/#",
+          url: "https://stacker.news/",
         },
       ],
       moreApps: {
