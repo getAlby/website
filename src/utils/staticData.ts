@@ -246,43 +246,117 @@ export const staticData = {
       ],
     },
     footer: {
-      icons: [
+      title: "Do you have feedback or need help?",
+      description: [
         {
-          name: "Twitter",
-          url: "https://twitter.com/getalby",
-          icon: {
-            src: twitterIcon,
-            alt: "Twitter",
-          },
+          text: "Alby is open-source and currently in alpha stage. Our goal is to create the best online experience to consume and reward content and services online. We love to hear from you. File a",
         },
         {
-          name: "Telegram",
-          url: "https://t.me/getAlby",
-          icon: {
-            src: telegramIcon,
-            alt: "Telegram",
-          },
+          text: "Github issue",
+          type: "link",
+          href: "https://github.com/getAlby/lightning-browser-extension/issues/new/choose",
         },
+        { text: "or join the" },
         {
-          name: "Github",
-          url: "https://github.com/getAlby",
-          icon: {
-            src: githubIcon,
-            alt: "Github",
-          },
-        },
-        {
-          name: "Youtube",
-          url: "https://www.youtube.com/channel/UCIICdm6mox3VkCAv-yHMeMw",
-          icon: {
-            src: youtubeIcon,
-            alt: "Youtube",
-          },
+          text: "Telegram channel.",
+          type: "link",
+          href: "https://t.me/getAlby",
         },
       ],
-      doItHint: {
-        src: doItHint,
-        alt: "Do it",
+      subtitle: "The Bitcoin Lightning App for your Browser",
+      stayInTouch: {
+        title: "Stay in touch",
+        description: "Subscribe to our newsletter to get the latest updates.",
+      },
+      references: {
+        alby: {
+          title: "Alby",
+          links: [
+            {
+              text: "Blog",
+              href: "https://blog.getalby.com/",
+            },
+            {
+              text: "Media",
+              href: "https://github.com/getAlby/media",
+            },
+            {
+              text: "Support",
+              href: "mailto:support@getalby.com",
+            },
+            {
+              text: "Terms of Service",
+              href: "/terms-of-service",
+            },
+            {
+              text: "Privacy Policy",
+              href: "/privacy-policy",
+            },
+          ],
+        },
+        developers: {
+          title: "Developers",
+          links: [
+            {
+              text: "Documentation",
+              href: "https://github.com/getAlby/lightning-browser-extension#lightning-web-extension",
+            },
+            {
+              text: "Open Issues",
+              href: "https://github.com/getAlby/lightning-browser-extension/issues",
+            },
+            {
+              text: "Open Bounties",
+              href: "https://github.com/getAlby/lightning-browser-extension/wiki/Bounties",
+            },
+          ],
+        },
+        stayInTouch: {
+          title: "Stay in touch",
+          links: [
+            {
+              name: "Twitter",
+              href: "https://twitter.com/getalby",
+              icon: {
+                src: twitterIcon,
+                alt: "Twitter",
+              },
+            },
+            {
+              name: "Telegram",
+              href: "https://t.me/getAlby",
+              icon: {
+                src: telegramIcon,
+                alt: "Telegram",
+              },
+            },
+            {
+              name: "Github",
+              href: "https://github.com/getAlby",
+              icon: {
+                src: githubIcon,
+                alt: "Github",
+              },
+            },
+            {
+              name: "Youtube",
+              href: "https://www.youtube.com/channel/UCIICdm6mox3VkCAv-yHMeMw",
+              icon: {
+                src: youtubeIcon,
+                alt: "Youtube",
+              },
+            },
+          ],
+        },
+      },
+      installContent: {
+        text: "Install Alby",
+        doItHint: {
+          src: doItHint,
+          alt: "Do it",
+        },
+        alert: (browser: string) =>
+          `We currently do not yet support ${browser}. But maybe you can install it from source.`,
       },
     },
   },

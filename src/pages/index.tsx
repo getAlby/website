@@ -15,6 +15,7 @@ import {
   BitcoinApps,
   MonetizationCards,
   TwitterMentions,
+  Footer,
 } from "../components/general";
 
 /* style imports */
@@ -79,6 +80,7 @@ const HomePage: NextPage = () => {
         <APIsExampleCard />
         <OpensourceMeetBanner />
         <TwitterMentions />
+        <Footer />
       </main>
     </div>
   );
