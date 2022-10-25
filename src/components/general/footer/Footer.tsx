@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { NextLink } from "@mantine/next";
 import { Divider, Text, Title, Button } from "@mantine/core";
 
 import useInstallExtension from "../../../hooks/useInstallExtension";
@@ -77,9 +77,9 @@ const Footer = () => {
             </Title>
             <div className={styles.referenceListContainer}>
               {COMPONENT_DATA.references.alby.links.map((link, index) => (
-                <Link key={index} href={link.href}>
-                  <Text>{link.text}</Text>
-                </Link>
+                <NextLink key={index} href={link.href}>
+                  {link.text}
+                </NextLink>
               ))}
             </div>
           </div>
@@ -90,9 +90,9 @@ const Footer = () => {
             </Title>
             <div className={styles.referenceListContainer}>
               {COMPONENT_DATA.references.developers.links.map((link, index) => (
-                <Link key={index} href={link.href}>
-                  <Text>{link.text}</Text>
-                </Link>
+                <NextLink key={index} href={link.href}>
+                  {link.text}
+                </NextLink>
               ))}
             </div>
           </div>
@@ -104,14 +104,14 @@ const Footer = () => {
             <div className={styles.socialLinksContainer}>
               {COMPONENT_DATA.references.stayInTouch.links.map(
                 (social, index) => (
-                  <Link
+                  <NextLink
                     key={index}
                     href={social.href}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image src={social.icon.src} alt={social.icon.alt} />
-                  </Link>
+                  </NextLink>
                 )
               )}
             </div>

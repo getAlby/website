@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
+import { NextLink } from "@mantine/next";
 import { Title, Text } from "@mantine/core";
 
 import styles from "./VerticalContentCards.module.css";
@@ -40,9 +40,9 @@ const VerticalContentCards = ({
               {card.title}
             </Title>
             <Text size="md">{card.description}</Text>
-            <Link href={card.url}>
-              <a className={styles.link}>{GENERAL_DATA.content.learnMore}</a>
-            </Link>
+            <NextLink href={card.url} className={styles.link}>
+              {GENERAL_DATA.content.learnMore}
+            </NextLink>
           </div>
         </div>
       ))}
