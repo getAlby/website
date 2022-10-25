@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  padding: 5rem max(2rem, calc(50vw - 32rem));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.card {
+  max-width: 18rem;
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.image {
+  width: 15rem;
+}
+
+.link {
+  margin-top: 1.5rem;
+  text-decoration: underline;
+}

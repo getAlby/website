@@ -1,0 +1,31 @@
+.container {
+  background-color: var(--dark-bg---secondary);
+  padding: 5rem max(2rem, calc(50vw - 35rem));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tweetsWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.tweets {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.tweetsColumn {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .tweets {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

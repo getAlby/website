@@ -18,7 +18,9 @@
     "@mantine/next": "^5.5.5",
     "next": "^12.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-twitter-widgets": "^1.11.0",
+    "ua-parser-js": "^1.0.32"
   },
   "devDependencies": {
     "@types/node": "18.7.23",

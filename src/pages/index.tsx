@@ -1,11 +1,22 @@
 /* module imports */
 import type { NextPage } from "next";
 import Head from "next/head";
+import { Title, Button } from "@mantine/core";
 
 /* component imports */
 import Hero from "./../components/hero";
-import { Background } from "../components/home";
+import {
+  Background,
+  APIsExampleCard,
+  OpensourceMeetBanner,
+} from "../components/home";
 import { TitleBanner, PrimaryContentCard } from "../components/banners";
+import {
+  BitcoinApps,
+  MonetizationCards,
+  TwitterMentions,
+  Footer,
+} from "../components/general";
 
 /* style imports */
 import styles from "./index.module.css";
@@ -32,16 +43,44 @@ const HomePage: NextPage = () => {
           background={Background}
         />
         <TitleBanner
-          title={PAGE_DATA.titleBanner.title}
-          subtitle={PAGE_DATA.titleBanner.subtitle}
+          title={PAGE_DATA.benefits.title}
+          subtitle={PAGE_DATA.benefits.subtitle}
         />
-        {PAGE_DATA.benefitCards.map((card, index) => (
+        {PAGE_DATA.benefits.cards.map((card, index) => (
           <PrimaryContentCard
             key={index}
             {...card}
             isReversed={index % 2 === 1}
           />
         ))}
+        <BitcoinApps />
+        <TitleBanner
+          title={PAGE_DATA.monetization.title}
+          subtitle={PAGE_DATA.monetization.subtitle}
+        />
+        <MonetizationCards />
+        <div className={styles.additionalIncomeWrapper}>
+          <Title order={3} align="center">
+            {PAGE_DATA.additionalIncome.title}
+          </Title>
+          <Button
+            component="a"
+            href={PAGE_DATA.additionalIncome.button.redirectTo}
+            size="md"
+            uppercase
+            color={"dark"}
+            style={{
+              fontWeight: "500",
+              textDecoration: "underline",
+            }}
+          >
+            {PAGE_DATA.additionalIncome.button.text}
+          </Button>
+        </div>
+        <APIsExampleCard />
+        <OpensourceMeetBanner />
+        <TwitterMentions />
+        <Footer />
       </main>
     </div>
   );

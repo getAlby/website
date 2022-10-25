@@ -1,0 +1,84 @@
+.container {
+  background-color: var(--yellow---default);
+  padding: 0 max(1rem, calc(50vw - 37rem));
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 8.25rem 0.5rem;
+  max-width: 54rem;
+  margin: 0 auto;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 1rem;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  max-width: 24rem;
+}
+
+.button {
+  font-weight: 400;
+}
+
+.doItHint {
+  width: 14rem;
+  margin-left: 3.5rem;
+}
+
+.rightSection {
+  display: flex;
+  gap: 4.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.referenceContainer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.referenceListContainer,
+.socialLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.socialLinksContainer {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 650px) {
+  .bottomSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .referenceContainer {
+    align-items: center;
+  }
+
+  .referenceListContainer {
+    align-items: center;
+  }
+}
