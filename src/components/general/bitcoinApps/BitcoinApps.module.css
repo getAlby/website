@@ -17,7 +17,7 @@
 .apps {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .appImage {
@@ -31,9 +31,4 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: flex-start;
-}
-
-.moreApps {
-  padding: 0.5rem 0;
-  cursor: pointer !important;
 }

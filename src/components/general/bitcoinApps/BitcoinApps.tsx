@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { NextLink } from "@mantine/next";
-import { Title, Text, Tooltip } from "@mantine/core";
+import { Title, Text, Tooltip, UnstyledButton } from "@mantine/core";
 
 import styles from "./BitcoinApps.module.css";
 
@@ -37,14 +37,13 @@ const BitcoinApps = () => {
             </Tooltip>
           ))}
         </div>
-        <NextLink
-          href={COMPONENT_DATA.moreApps.link}
-          className={styles.moreApps}
-        >
-          <Text weight={600} transform="uppercase" color={"dark"}>
-            {COMPONENT_DATA.moreApps.text}
-          </Text>
-        </NextLink>
+        <div>
+          <UnstyledButton component={"a"} href={COMPONENT_DATA.moreApps.link}>
+            <Text transform="uppercase" weight={600}>
+              {COMPONENT_DATA.moreApps.text}
+            </Text>
+          </UnstyledButton>
+        </div>
       </div>
     </div>
   );
