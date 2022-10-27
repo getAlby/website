@@ -16,6 +16,7 @@ import {
   MonetizationCards,
   TwitterMentions,
   Footer,
+  Header,
 } from "../components/general";
 
 /* style imports */
@@ -35,6 +36,7 @@ const HomePage: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <Header />
         <Hero
           title={PAGE_DATA.hero.title}
           subtitle={PAGE_DATA.hero.subtitle}
