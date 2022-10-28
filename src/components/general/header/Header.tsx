@@ -30,7 +30,7 @@ const HeaderAction = () => {
           />
         </div>
       </div>
-      <div className={styles.links + (opened ? " " + styles.visible : "")}>
+      <div className={`${styles.links} ${opened && styles.visible}`}>
         {COMPONENT_DATA.links.map((link, index) => (
           <NextLink href={link.href} key={index}>
             <Text color="white">{link.text}</Text>
