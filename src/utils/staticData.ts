@@ -1,4 +1,5 @@
 /* This file contains all static data that is used in the application. */
+import logo from "../assets/general/logo.svg";
 
 import coinFLip from "../assets/home/coin-flip.svg";
 import coinFLipV2 from "../assets/home/coin-flip-v2.svg";
@@ -357,6 +358,34 @@ export const staticData = {
         },
         alert: (browser: string) =>
           `We currently do not yet support ${browser}. But maybe you can install it from source.`,
+      },
+    },
+    header: {
+      logo: {
+        src: logo,
+        alt: "Alby",
+      },
+      links: [
+        {
+          text: "Products",
+          href: "/#",
+        },
+        {
+          text: "Developers",
+          href: "/#",
+        },
+        {
+          text: "Solutions",
+          href: "/#",
+        },
+        {
+          text: "Community",
+          href: "/#",
+        },
+      ],
+      headerAction: {
+        label: "Sign In",
+        href: "/#",
       },
     },
   },
