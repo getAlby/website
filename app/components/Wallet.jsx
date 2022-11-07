@@ -8,7 +8,7 @@ function Wallet() {
       <div className="  py-[8rem] relative bg-diamondLayer bg-repeat bg-albyColdGray-800 grid place-items-center text-center">
         <div className=" w-[91.46%] text-center md:w-[55.625%] max-w-[50.063rem] mx-auto font-primary">
           <h1 className="md:text-5xl text-3xl font-black text-albyColdGray-25">
-            This new way of monetization is brought to you by Alby
+            Alby - the new way to monetize!
           </h1>
           <p className="md:text-2xl text-base font-normal text-albyColdGray-25 pt-4">
             Alby is a browser extension for the Bitcoin Lightning Network. You
