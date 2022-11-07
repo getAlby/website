@@ -152,8 +152,14 @@ function Footer() {
                   <img src={YouTubeLogo} alt="YouTube" className="w-10 h-10" />
                 </a>
               </div>
-              <p className="mt-5 text-xl font-bold">
-                {!success ? "Subscribe to newsletter" : "You're signed up!"}
+              <p className="mt-5 text-lg md:text-xl font-bold">
+                {!success ? (
+                  <span>
+                    Subscribe to our newsletter <i>Alby Buzz</i>
+                  </span>
+                ) : (
+                  "You're signed up!"
+                )}
               </p>
               {!success ? (
                 <form
