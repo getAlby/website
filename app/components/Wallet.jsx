@@ -8,7 +8,7 @@ function Wallet() {
       <div className="  py-[8rem] relative bg-diamondLayer bg-repeat bg-albyColdGray-800 grid place-items-center text-center">
         <div className=" w-[91.46%] text-center md:w-[55.625%] max-w-[50.063rem] mx-auto font-primary">
           <h1 className="md:text-5xl text-3xl font-black text-albyColdGray-25">
-            This new way of monetization is brought to you by Alby
+            Alby - the new way to monetize!
           </h1>
           <p className="md:text-2xl text-base font-normal text-albyColdGray-25 pt-4">
             Alby is a browser extension for the Bitcoin Lightning Network. You
@@ -34,7 +34,7 @@ function Wallet() {
           </h2>
           <a href="/lightning-address">
             <button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
-              Learn more
+              Get your Lightning Address
             </button>
           </a>
           <img

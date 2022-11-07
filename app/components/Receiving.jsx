@@ -34,7 +34,7 @@ export default function Receiving() {
       <div className="xl:grid xl:grid-cols-2 pt-10 px-5 place-items-center">
         <div className="2xl:ml-32 xl:ml-17 space-y-3 xl:space-y-3">
           <h3 className="2xl:text-4xl xl:leading-10 font-black text-2xl">Youtube and BitcoinTV</h3>
-          <p className="2xl:text-2xl font-normal text-lg text-albyColdGray-20">Receive contributions on video platforms such as YouTube or Bitcoin TV </p>
+          <p className="2xl:text-2xl font-normal text-lg text-albyColdGray-20">Receive contributions on video platforms such as YouTube or BitcoinTV </p>
           <button className="text-albyColdGray-800 2xl:text-2xl font-bold rounded-full">Try it now ›
           </button>
         </div>

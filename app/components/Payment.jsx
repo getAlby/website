@@ -41,7 +41,7 @@ export default function Payment() {
               <div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
                 <p className="flex justify-center mt-2 xl:mt-0">3</p>
               </div>
-              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Verify if you enhanced your website successfully with the Alby browser extension</p>
+              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Use the Alby browser extension to check that you enhanced your website successfully</p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Payment() {
               <div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
                 <p className="flex justify-center mt-2 xl:mt-0">2</p>
               </div>
-              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Verify if you enhanced your Twitter profile successfully with the Alby browser extension</p>
+              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Use the Alby browser extension to verify that you enhanced your Twitter profile successfully</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Payment() {
               <div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
                 <p className="flex justify-center mt-2 xl:mt-0">2</p>
               </div>
-              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Verify if you enhanced your YouTube video successfully with the Alby browser extension</p>
+              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Use the Alby browser extension to verify that you enhanced your YouTube video successfully</p>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Payment() {
 
       <div className=" xl:grid xl:grid-cols-2 place-items-center pt-10 pb-10">
         <div className="2xl:space-y-6 space-y-2 xl:ml-17 order-last">
-          <h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Bitcoin TV</h3>
+          <h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">BitcoinTV</h3>
           <p className="xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on BitcoinTV</p>
           <div className="flex flex-col space-y-9">
             <div className="flex gap-6 items-center">
@@ -127,7 +127,7 @@ export default function Payment() {
               <div className="2xl:text-3xl xl:text-2xl xl:leading-9 font-black bg-albyYellow-300 rounded-full xl:w-16 xl:h-16 xl:px-6 xl:py-3.5 w-12 h-10 px-3.5">
                 <p className="flex justify-center mt-2 xl:mt-0">2</p>
               </div>
-              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Verify if you enhanced your BitcoinTV video successfully with the Alby browser extension</p>
+              <p className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">Use the Alby browser extension to verify that you enhanced your BitcoinTV video successfully</p>
             </div>
           </div>
         </div>
