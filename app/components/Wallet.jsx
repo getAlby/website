@@ -34,7 +34,7 @@ function Wallet() {
           </h2>
           <a href="/lightning-address">
             <button className="bg-albyYellow-300 relative text-albyColdGray-800 text-lg font-medium py-3 lg:py-4 px-4 lg:px-16 rounded-[1.875rem] mt-4">
-              Learn more
+              Get your Lightning Address
             </button>
           </a>
           <img
