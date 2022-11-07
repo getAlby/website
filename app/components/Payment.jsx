@@ -110,7 +110,7 @@ export default function Payment() {
 
       <div className=" xl:grid xl:grid-cols-2 place-items-center pt-10 pb-10">
         <div className="2xl:space-y-6 space-y-2 xl:ml-17 order-last">
-          <h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">Bitcoin TV</h3>
+          <h3 className="xl:text-4xl xl:leading-10 font-black lg:text-2xl text-xl">BitcoinTV</h3>
           <p className="xl:text-3xl font-bold lg:text-xl text-lg">How to receive contributions on BitcoinTV</p>
           <div className="flex flex-col space-y-9">
             <div className="flex gap-6 items-center">
