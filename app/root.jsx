@@ -44,7 +44,7 @@ export default function App() {
         <meta property="twitter:image" content={`https://getalby.com${OGImage}`}/>
 
         <script defer src="https://unpkg.com/@tryghost/portal@~2.2.0/umd/portal.min.js" data-ghost="https://blog.getalby.com/" data-key="607246d96432a05b400006a475" data-api="https://alby.ghost.io/ghost/api/content/" crossOrigin="anonymous"></script>
-        <script defer data-domain="getalby.com" src="https://squirrel.getalby.com/js/plausible.js"></script>
+        <script defer data-domain="getalby.com" src="https://plausible.io/js/script.js"></script>
 
         <Meta />
         <Links />
