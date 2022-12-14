@@ -28,7 +28,6 @@ export const meta = () => {
     "og:image": HeadLogo,
     "twitter:site": "@getalby",
     "twitter:creator": "@getalby",
-    lightning: "lnurlp:hello@getalby.com",
   };
 };
 
