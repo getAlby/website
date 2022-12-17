@@ -13,7 +13,6 @@ import Arrows from "../../public/images/arrows.svg";
 import Bolt from "../../public/images/bolt.svg";
 import Shield from "../../public/images/shield.svg";
 import Navigation from "../components/Navigation";
-import { Tweet } from "react-twitter-widgets";
 import Footer from "~/components/Footer";
 import useInstallExtension from "~/hooks/useInstallExtension";
 
@@ -32,7 +31,6 @@ export const meta = () => {
 };
 
 export default function index() {
-  const [renderError, setRenderError] = useState(false);
   const installExtension = useInstallExtension();
   const getStartedNode =
     installExtension.loading || installExtension.link ? (
@@ -251,55 +249,6 @@ export default function index() {
           </div>
         </div>
       </div>
-      {!renderError && (
-        <div className="bg-albyColdGray-800 py-32">
-          <h2 className="text-4xl font-extrabold text-white text-center mb-4">
-            What People Are Saying
-          </h2>
-
-          <div className="block lg:grid grid-cols-3 gap-4 px-4 md:px-10 w-full">
-            <div>
-              <Tweet
-                tweetId="1461415321823330305"
-                options={{ theme: "dark" }}
-                renderError={() => setRenderError(true)}
-              />
-              <Tweet
-                tweetId="1482698978957271041"
-                options={{ theme: "dark" }}
-              />
-            </div>
-            <div>
-              <Tweet
-                tweetId="1468991903349809152"
-                options={{ theme: "dark" }}
-              />
-              <Tweet
-                tweetId="1485705677104369667"
-                options={{ theme: "dark" }}
-              />
-              <Tweet
-                tweetId="1468036148844978181"
-                options={{ theme: "dark" }}
-              />
-            </div>
-            <div>
-              <Tweet
-                tweetId="1483615302285807617"
-                options={{ theme: "dark" }}
-              />
-              <Tweet
-                tweetId="1477623383454011392"
-                options={{ theme: "dark" }}
-              />
-              <Tweet
-                tweetId="1477010314587561989"
-                options={{ theme: "dark" }}
-              />
-            </div>
-          </div>
-        </div>
-      )}
 
       <Footer />
     </>
