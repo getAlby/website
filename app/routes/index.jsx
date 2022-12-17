@@ -1,4 +1,3 @@
-import { useState } from "react";
 import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
 import BannerIllustration from "../../public/images/banner-illustration.webp";
 import DoItHint from "../../public/images/do-it-hint.png";
