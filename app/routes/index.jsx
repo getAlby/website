@@ -57,7 +57,7 @@ export default function index() {
     <>
       <div
         id="top"
-        className="bg-albyYellow-300 min-h-screen grid place-items-center relative"
+        className="bg-albyYellow-300 2xl:min-h-[70vh] place-items-start grid relative"
       >
         <div className="w-full mx-auto ">
           <Navigation />
@@ -111,8 +111,8 @@ export default function index() {
         </div>
       </div>
 
-      <div className="px-4 xl:px-56 py-20 block md:flex justify-center items-center md:space-x-10">
-        <div className="w-full md:w-1/3 space-y-4">
+      <div className="px-4 py-20 block md:flex justify-center items-center md:space-x-5">
+        <div className="w-full md:w-1/2 space-y-4">
           <h2 className="text-3xl font-extrabold text-center">
             Quick & Easy Setup
           </h2>
@@ -122,16 +122,16 @@ export default function index() {
           </p>
           {getStartedNode}
         </div>
-        <div className="mt-4 md:mt-0 w-full md:w-2/3 flex justify-end">
+        <div className="mt-4 md:mt-0 w-full md:w-1/2 flex justify-center">
           <img src={Landing1} alt="" />
         </div>
       </div>
 
-      <div className="px-4 xl:px-56 py-20 block md:flex justify-center items-center md:space-x-10">
-        <div className="hidden md:block w-2/3">
+      <div className="px-4 xl:px-[10vw] py-20 block md:flex justify-center items-center md:space-x-10">
+        <div className="hidden md:block w-1/2 mx-auto">
           <img src={Landing2} alt="" />
         </div>
-        <div className="w-full md:w-1/3 space-y-4">
+        <div className="w-full md:w-1/2 mr-auto space-y-4">
           <h2 className="text-center text-3xl font-extrabold">
             Convenient & Secure
           </h2>
@@ -148,7 +148,7 @@ export default function index() {
       </div>
 
       <div className="px-4 xl:px-56 py-20 block md:flex justify-center items-center md:space-x-10">
-        <div className="w-full md:w-1/3 space-y-4">
+        <div className="w-full md:w-1/2 space-y-4">
           <h2 className="text-center text-3xl font-extrabold">
             Control your Budget
           </h2>
@@ -158,16 +158,16 @@ export default function index() {
           </p>
           {getStartedNode}
         </div>
-        <div className="w-full md:w-2/3 flex justify-center md:justify-end">
+        <div className="w-full md:w-2/3 flex justify-center md:justify-center">
           <img src={Landing3} alt="" />
         </div>
       </div>
 
-      <div className="px-4 xl:px-56 py-20 block md:flex justify-center items-center md:space-x-10">
-        <div className="hidden md:block w-2/3">
-          <img src={Landing4} alt="" />
+      <div className="px-4 xl:px-96 py-20 block md:flex justify-center items-center md:space-x-10">
+        <div className="hidden md:block md:w-1/2">
+          <img src={Landing4} alt="" className="mx-auto" />
         </div>
-        <div className="w-full md:w-1/3 space-y-10">
+        <div className="w-full md:w-1/2 xl:mx-auto space-y-10">
           <h2 className="text-center text-3xl font-extrabold">Use Cases</h2>
           <div className="space-y-4">
             <h3 className="text-2xl font-extrabold">Content Monetization</h3>
@@ -218,8 +218,8 @@ export default function index() {
         <h2 className="text-4xl font-extrabold text-white text-center mb-4">
           Other Features
         </h2>
-        <div className="block md:flex justify-center items-center space-y-4 md:space-y-0 md:space-x-4 px-4 md:px-20">
-          <div className="w-full md:w-1/3 bg-black/20 space-y-4 p-4 rounded-lg">
+        <div className="block md:flex justify-evenly items-center space-y-4 md:space-y-0 md:space-x-20 px-4 md:px-20">
+          <div className="w-full md:w-1/3 bg-black/20 space-y-4 xl:m-10 p-4 rounded-lg">
             <img src={Shield} alt="" />
             <h3 className="text-white text-2xl font-extrabold">
               No Tracking Software

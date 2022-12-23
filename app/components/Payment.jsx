@@ -33,7 +33,7 @@ export default function Payment() {
                 <p className="flex justify-center -mt-3 xl:mt-0">2</p>
               </div>
               <div className="xl:text-2xl 2xl:leading-8 font-normal xl:text-md mt-3">
-                <p>Make sure to have an og:image meta tag: <br/><b className="break-all">&lt;meta property=&quot;og:image&quot; content=&quot;https://www.your.blog/YOUR_IMAGE&quot; /&gt;</b>
+                <p>Make sure to have an alby:image meta tag: <br/><b className="break-all">&lt;meta property=&quot;alby:image&quot; content=&quot;https://www.your.blog/YOUR_IMAGE&quot; /&gt;</b>
                 </p>
               </div>
             </div>
