@@ -214,7 +214,7 @@ export default function index() {
 
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
-            <img src={Keys} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <img src={Keys} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" loading="lazy" />
             <h3 className="text-2xl font-extrabold mb-6">Manage your keys</h3>
             <p className="mb-4">
               Generate and manage multiple Nostr keys in the Alby extension.
@@ -229,7 +229,7 @@ export default function index() {
           </div>
 
           <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
-            <img src={Payments} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <img src={Payments} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" loading="lazy" />
             <h3 className="text-2xl font-extrabold mb-6">Tips & payments</h3>
             <p className="mb-4">
               Create and receive lightning payments in Nostr clients.
@@ -244,7 +244,7 @@ export default function index() {
           </div>
 
           <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
-            <img src={Nip05} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <img src={Nip05} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" loading="lazy" />
             <h3 className="text-2xl font-extrabold mb-6">
               Get a unique identifier
             </h3>
