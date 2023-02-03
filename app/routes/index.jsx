@@ -1,18 +1,21 @@
-import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
+import Arrows from "../../public/images/arrows.svg";
 import BannerIllustration from "../../public/images/banner-illustration.webp";
+import Bee1 from "../../public/images/bee1.svg";
+import Bee2 from "../../public/images/bee2.svg";
+import Bolt from "../../public/images/bolt.svg";
+import ChevronRight from "../../public/images/chevron-right.svg";
 import DoItHint from "../../public/images/do-it-hint.png";
+import Footer from "~/components/Footer";
+import HeadLogo from "../../public/images/alby_icon_head_icon.svg";
+import Keys from "../../public/images/keys.png";
 import Landing1 from "../../public/images/landing1.webp";
 import Landing2 from "../../public/images/landing2.webp";
 import Landing3 from "../../public/images/landing3.webp";
 import Landing4 from "../../public/images/landing4.webp";
-import ChevronRight from "../../public/images/chevron-right.svg";
-import Bee1 from "../../public/images/bee1.svg";
-import Bee2 from "../../public/images/bee2.svg";
-import Arrows from "../../public/images/arrows.svg";
-import Bolt from "../../public/images/bolt.svg";
-import Shield from "../../public/images/shield.svg";
 import Navigation from "../components/Navigation";
-import Footer from "~/components/Footer";
+import Nip05 from "../../public/images/nip05.png";
+import Payments from "../../public/images/payments.png";
+import Shield from "../../public/images/shield.svg";
 import useInstallExtension from "~/hooks/useInstallExtension";
 
 export const meta = () => {
@@ -191,6 +194,70 @@ export default function index() {
           </div>
           <div className="flex justify-center md:hidden w-full">
             <img src={Landing4} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="nostr"
+        className="px-4 xl:px-56 py-20 block md:flex flex-col justify-center items-center md:space-x-10 pb-32"
+      >
+        <h2 className="text-center text-3xl font-extrabold mb-6">
+          <a href="#nostr" className="hover:underline">Explore Nostr with Alby</a>
+        </h2>
+
+        <p className="mb-6 text-xl">
+          Alby lets your dive into the new, emerging world of Nostr - a simple
+          and open protocol that aims to create censorship-resistant social
+          networks.
+        </p>
+
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
+            <img src={Keys} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <h3 className="text-2xl font-extrabold mb-6">Manage your keys</h3>
+            <p className="mb-4">
+              Generate and manage multiple Nostr keys in the Alby extension.
+              <br className="mb-4" />
+              <a
+                href="https://blog.getalby.com/how-to-use-nostr-with-the-alby-extension"
+                className="underline self-start"
+              >
+                Learn more
+              </a>
+            </p>
+          </div>
+
+          <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
+            <img src={Payments} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <h3 className="text-2xl font-extrabold mb-6">Tips & payments</h3>
+            <p className="mb-4">
+              Create and receive lightning payments in Nostr clients.
+              <br className="mb-4" />
+              <a
+                href="https://blog.getalby.com/how-to-use-nostr-with-the-alby-extension"
+                className="underline self-start"
+              >
+                Learn more
+              </a>
+            </p>
+          </div>
+
+          <div className="w-full lg:w-1/3 flex flex-col items-center px-4 text-lg mb-10 lg:mb-0">
+            <img src={Nip05} className="mb-4 w-2/3 md:w-1/2 lg:w-auto" />
+            <h3 className="text-2xl font-extrabold mb-6">
+              Get a unique identifier
+            </h3>
+            <p className="text-lg">
+              Verify your Nostr profile with your Alby account.
+              <br className="mb-4" />
+              <a
+                href="https://blog.getalby.com/how-to-use-nostr-with-the-alby-extension"
+                className="underline self-start"
+              >
+                Learn more
+              </a>
+            </p>
           </div>
         </div>
       </div>
