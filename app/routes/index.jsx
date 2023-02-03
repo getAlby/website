@@ -207,7 +207,7 @@ export default function index() {
         </h2>
 
         <p className="mb-6 text-xl">
-          Alby lets your dive into the new, emerging world of Nostr - a simple
+          Alby lets you dive into the new, emerging world of Nostr - a simple
           and open protocol that aims to create censorship-resistant social
           networks.
         </p>
