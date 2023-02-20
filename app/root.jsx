@@ -356,14 +356,31 @@ export default function App() {
           data-key="607246d96432a05b400006a475"
           data-api="https://alby.ghost.io/ghost/api/content/"
           crossOrigin="anonymous"
-        ></script>
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: ` (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'pV5xHCk6pjSNRtpdGai57NKx',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");`,
+          }}
+        />
         <script
           defer
           data-domain="getalby.com"
           src="https://plausible.io/js/script.js"
-        ></script>
-        <style dangerouslySetInnerHTML={{__html: fontfaces}} />
-
+        />
+        <style dangerouslySetInnerHTML={{ __html: fontfaces }} />
         <Meta />
         <Links />
       </head>
